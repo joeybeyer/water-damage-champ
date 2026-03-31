@@ -1,0 +1,194 @@
+export const batch2Content: Record<string, { neighborhoods: string[]; landmarks: string; climate: string; faqs: { question: string; answer: string }[] }> = {
+  'redondo-beach': {
+    neighborhoods: ['North Redondo Beach', 'South Redondo Beach', 'King Harbor', 'The Esplanade', 'Aviation District', 'Powderhouse Canyon', 'Riviera Village', 'Hill Section'],
+    landmarks: 'Redondo Beach Pier, King Harbor, Torrance Beach, Hopkins Wilderness Park, Seaside Lagoon',
+    climate: 'Redondo Beach experiences a Mediterranean climate with mild temperatures year-round. Its coastal location along Santa Monica Bay exposes properties to coastal flooding, storm surge during winter storms, and increasing sea level rise risks. The nearby Pacific Ocean can cause wave overtopping during high tides and strong surf events, particularly affecting ground-floor condos and beach-adjacent homes.',
+    faqs: [
+      { question: 'How does coastal erosion affect water damage in Redondo Beach?', answer: 'Coastal erosion along Redondo Beach\'s shoreline accelerates during winter storms, undermining foundations of beachfront properties and causing structural damage. The King Harbor area is particularly vulnerable to wave action that can flood lower floors and damage docks and boat-related infrastructure.' },
+      { question: 'What flood risks exist near King Harbor?', answer: 'King Harbor experiences flooding during storm events when wave action combines with high tides. Marina structures and adjacent commercial properties face significant water damage risks, with floodwaters commonly reaching parking areas and ground-floor commercial spaces.' },
+      { question: 'Are Redondo Beach homes required to have flood insurance?', answer: 'Properties in FEMA flood zones AE and VE near the coastline are required to carry flood insurance. Many homeowners in King Harbor and beachfront areas maintain coverage due to the high risk of storm surge and coastal flooding events.' },
+      { question: 'How does the proximity to the Pacific Ocean affect basements in Redondo Beach?', answer: 'Redondo Beach has very few basements due to the high water table and proximity to the ocean. Ground-level flooding from storm surge and rain events can enter homes through foundations and doorways rather than basement windows.' },
+      { question: 'What water damage risks exist from the nearby AES power plant site?', answer: 'The former AES power plant site near the harbor is a remediated wetland area that can experience localized flooding during heavy rains, potentially affecting adjacent properties with water accumulation and moisture issues.' }
+    ]
+  },
+  'walnut': {
+    neighborhoods: ['Walnut Village', 'Countrywood', 'Sunset Ridge', 'Maplewood', 'Quail Ridge', 'Valley View', 'Sycamore Heights', 'Walnut Canyon'],
+    landmarks: 'Mt. San Antonio College, San Jose Hills, Walnut Creek, Snow Creek, Lemon Creek',
+    climate: 'Walnut is located in the San Gabriel Valley at the southern base of the San Jose Hills. The area experiences hot, dry summers and mild winters with occasional heavy rainfall. The city faces significant water damage risks from flash flooding in canyon areas, debris flows from recent burn scars in the hills, and stormwater runoff overwhelming drainage systems in lower-lying neighborhoods.',
+    faqs: [
+      { question: 'What flood risks exist in Walnut Canyon?', answer: 'Walnut Canyon below the San Jose Hills experiences rapid water flow during heavy rain events. Recent wildfire burn scars in the hills above have increased debris flow risks, with mud and water potentially flooding homes at the canyon mouth.' },
+      { question: 'How does stormwater affect Walnut neighborhoods?', answer: 'The city\'s location between the San Jose Hills to the north and Puente Hills to the south creates natural drainage paths through neighborhoods. Snow Creek and Lemon Creek tributaries can overflow during intense storms, affecting streets and homes in their paths.' },
+      { question: 'Are Walnut homes in FEMA flood zones?', answer: 'While most of Walnut is not in a high-risk flood zone, properties near creek corridors and canyon areas may fall into FEMA flood zones AE or X. Homeowners in these areas should verify flood insurance requirements with the city building department.' },
+      { question: 'What role do the San Jose Hills play in water damage?', answer: 'The steep terrain of the San Jose Hills above Walnut accelerates stormwater runoff during rain events. Properties at the base of the hills face risks from both flash flooding and debris flows, particularly after any vegetation fires expose bare soil.' },
+      { question: 'How effective are Walnut\'s drainage systems?', answer: 'The city maintains storm drains and retention basins throughout residential areas. However, during extreme rainfall events, drainage systems can become overwhelmed, particularly in older neighborhoods with smaller culverts and limited capacity.' }
+    ]
+  },
+  'hawthorne': {
+    neighborhoods: ['Central Hawthorne', 'Holly Park', 'East Hawthorne', 'Hawthorne Plaza', 'Domain', 'Beach Cities District', 'Northrop Area', 'Jack Benner'],
+    landmarks: 'Hawthorne Plaza Shopping Center, The Beach Boys Childhood Home, SpaceX Headquarters, Hollywood Park Casino, Los Angeles Air Force Base',
+    climate: 'Hawthorne experiences a semi-arid Mediterranean climate with coastal influences from the nearby Pacific Ocean. While generally mild, the area receives concentrated rainfall during winter storms that can overwhelm local drainage systems. The flat terrain means poor drainage can lead to standing water and flooding in low-lying areas for extended periods after heavy rains.',
+    faqs: [
+      { question: 'Why does Hawthorne experience flooding during heavy rains?', answer: 'Hawthorne\'s extremely flat terrain with minimal elevation change prevents efficient water runoff. Combined with an aging storm drain system, heavy rainfall quickly overwhelms drainage capacity, causing street flooding that can enter ground-level homes and commercial buildings.' },
+      { question: 'How close is Hawthorne to the ocean and what risks does this create?', answer: 'Hawthorne lies about 3 miles inland from the Pacific coast. While not directly on the coast, the area can experience tidal influences and coastal fog that create persistent moisture issues, particularly in older homes with inadequate ventilation that lead to mold growth.' },
+      { question: 'What water damage risks exist near the 405 freeway area?', answer: 'The area near the 405 freeway and surrounding commercial zones has extensive paved surfaces that create significant runoff during storms. The Hollywood Park area redevelopment has changed drainage patterns, with some residential areas experiencing new flooding concerns.' },
+      { question: 'Are there flood zones in Hawthorne?', answer: 'Most of Hawthorne is outside high-risk FEMA flood zones. However, properties near the Dominguez Channel and low-lying areas may fall into Zone X (moderate flood risk). Lenders may still require flood insurance in these areas.' },
+      { question: 'How does industrial development affect water quality and damage?', answer: 'The industrial areas in Hawthorne contain various commercial properties. During flooding events, stormwater can pick up contaminants from these sites, creating additional cleanup challenges for affected properties.' }
+    ]
+  },
+  'el-segundo': {
+    neighborhoods: ['El Segundo Downtown', 'Hillcrest', 'El Porto', 'Corporate District', 'Industrial Corridor', 'Richfield', 'Mueller Neighborhood', 'Sepulveda Corridor'],
+    landmarks: 'Chevron Refinery, El Segundo Beach, Douglas Aircraft Plant Historic Site, Downtown Main Street, El Segundo Museum of Art',
+    climate: 'El Segundo experiences a coastal Mediterranean climate with cool ocean breezes and mild temperatures year-round. The city faces unique water damage risks from its industrial infrastructure, including pipeline leaks, contaminated groundwater, and flooding from the Chevron refinery area. Coastal fog and high humidity create ongoing moisture and mold risks in older buildings.',
+    faqs: [
+      { question: 'What unique water damage risks exist near the Chevron refinery?', answer: 'The Chevron refinery occupies a significant portion of El Segundo and has had historical pipeline leaks and storage facility incidents. Properties near the refinery face risks from both industrial accidents and contaminated water intrusion that requires specialized cleanup.' },
+      { question: 'How does El Segundo\'s coastal location affect water damage?', answer: 'Coastal fog and high humidity are constant in El Segundo, particularly near the beach areas. This persistent moisture creates chronic dampness issues in buildings without proper ventilation, leading to mold growth and deterioration of building materials over time.' },
+      { question: 'Are there flood risks from the El Segundo coastline?', answer: 'The beach area and El Porto neighborhood face risks from high tides and winter storm waves. However, the main flood risk comes from inland drainage issues in the industrial area rather than coastal storm surge due to the protection provided by the Santa Monica Bay geography.' },
+      { question: 'What should homeowners know about groundwater contamination?', answer: 'Historical industrial activities in El Segundo have caused groundwater contamination in some areas. During flooding or construction, contaminated groundwater can enter basements or foundation systems, requiring environmental remediation professionals.' },
+      { question: 'How do El Segundo\'s older industrial buildings handle water damage?', answer: 'Many industrial and commercial buildings in El Segundo are decades old and may have compromised waterproofing systems. Rain events can leak through roof systems and damage equipment and inventory, particularly in buildings with flat roofs common in the area.' }
+    ]
+  },
+  'corona': {
+    neighborhoods: ['Downtown Corona', 'South Corona', 'North Corona', 'Eagle Glen', 'The Encanto', 'Garfield District', 'Temescal Canyon', 'Foothill Area'],
+    landmarks: 'Grand Boulevard, Corona Historic Civic Center, The Circle, Cleveland National Forest, Corona购物中心',
+    climate: 'Corona experiences a semi-arid climate with hot summers and mild winters. The city is located at the western edge of the Inland Empire near the Santa Ana Mountains. Significant water damage risks include flash flooding from canyon washes during monsoonal storms, debris flows from recent burn areas in the nearby Cleveland National Forest, and urban flooding from overwhelmed storm drains in dense neighborhoods.',
+    faqs: [
+      { question: 'What makes Corona vulnerable to flash flooding?', answer: 'Corona sits at the mouth of several canyon systems including Temescal Canyon and others leading from the Santa Ana Mountains. These natural drainage paths become raging torrents during heavy monsoonal storms, sending water and debris through neighborhoods at the canyon mouths.' },
+      { question: 'How do recent wildfires affect water damage in Corona?', answer: 'The Cleveland National Forest burn scars above Corona have significantly increased debris flow risks. Post-fire landscapes cannot absorb rainfall, causing mud and rock slides to cascade into canyon-mouth neighborhoods during rain events.' },
+      { question: 'What are the flood risks along the Santa Ana River?', answer: 'The Santa Ana River flows along Corona\'s eastern boundary. Major storm events can cause river flooding that affects riverside properties and parks. The river channel provides flood protection but can be overwhelmed during extreme events.' },
+      { question: 'Are older Corona homes more susceptible to water damage?', answer: 'Many homes in older neighborhoods like Downtown Corona and the Garfield District were built before modern flood building codes. These homes may have foundations that are vulnerable to water intrusion and may not have proper drainage systems.' },
+      { question: 'How does Corona\'s rapid development affect flooding?', answer: 'Corona has experienced rapid residential and commercial growth. Newer developments often increase impervious surfaces, changing local drainage patterns and potentially causing flooding in previously unaffected areas downstream.' }
+    ]
+  },
+  'elk-grove': {
+    neighborhoods: ['East Elk Grove', 'West Elk Grove', 'Laguna', 'Elk Grove Village', 'Franklin', 'South Laguna', 'Somerset', 'Sheldon'],
+    landmarks: 'Elk Grove Historic District, Old Town Elk Grove, Cosumnes River, Lagena Creek, Strawberry Creek',
+    climate: 'Elk Grove experiences a Mediterranean climate with hot, dry summers and cool, wet winters. The city is located in Sacramento County near the Cosumnes River watershed. Water damage risks include flooding from the Cosumnes River and its tributaries, poor drainage in low-lying areas, and stormwater runoff overwhelming newer development drainage systems.',
+    faqs: [
+      { question: 'What flood risks exist along the Cosumnes River?', answer: 'The Cosumnes River flows through Elk Grove and can flood during winter storms. Properties near the river, particularly in East Elk Grove and along the floodplain, face significant flood risks. The river\'s relatively natural channel means it can overflow its banks during major storm events.' },
+      { question: 'How does wetland areas affect water damage in Elk Grove?', answer: 'Elk Grove contains several wetland and preserve areas that naturally hold water during wet seasons. Nearby properties may experience extended saturation and water table issues, particularly in the Franklin and Sheldon areas where drainage is slower.' },
+      { question: 'What causes flooding in the Laguna area?', answer: 'The Laguna area contains several creeks and drainage channels that can overwhelm during heavy rain. Storm drain systems in newer developments may not handle the volume from upstream runoff, causing localized street and intersection flooding.' },
+      { question: 'Are Elk Grove homes required to have flood insurance?', answer: 'Most of Elk Grove is not in a high-risk flood zone, but properties near the Cosumnes River and major drainageways may be in FEMA flood zones. The city participates in the National Flood Insurance Program, and mortgage lenders may require coverage in moderate-risk areas.' },
+      { question: 'How has development changed flooding patterns in Elk Grove?', answer: 'Rapid development has added extensive impervious surfaces to previously agricultural land. This changes natural drainage patterns and can increase flood risks in downstream areas, particularly during the first storms after construction when landscaping is not yet established.' }
+    ]
+  },
+  'sausalito': {
+    neighborhoods: ['Marinship District', 'Old Town', 'Bridgeway Corridor', 'Hurricane Point', 'Strawberry', 'Reed Ranch', 'Upper Town', 'Sausalito Waterfront'],
+    landmarks: 'Sausalito Marina, Golden Gate Bridge (northern terminus), Bay Model, Sausalito Boardwalk, U.S. Army Corps of Engineers Bay Model Visitor Center',
+    climate: 'Sausalito experiences a mild maritime climate with cool summers and mild winters due to its location on the northern shore of San Francisco Bay. The city faces unique water damage risks from tidal flooding, sea level rise affecting the waterfront, groundwater seeping through hillside properties, and damage to floating home structures during storms.',
+    faqs: [
+      { question: 'What flood risks exist for Sausalito\'s waterfront properties?', answer: 'Sausalito\'s waterfront and houseboat communities face significant tidal flooding risks, particularly during extreme high tides combined with storm conditions. The Marina Plaza and ferry terminal areas experience regular tidal fluctuations that can flood low-lying sections.' },
+      { question: 'How does sea level rise affect Sausalito?', answer: 'Sea level rise poses an existential threat to Sausalito\'s waterfront infrastructure. Current projections indicate that significant portions of the waterfront, Bridgeway area, and houseboat communities could face regular flooding by mid-century, requiring significant infrastructure adaptations.' },
+      { question: 'What water damage risks affect Sausalito houseboats?', answer: 'Houseboats in Sausalito face unique risks including structural damage from wave action during storms, flooding from failed floatation devices, and damage from debris hitting floating structures. Many houseboats have been damaged or destroyed in winter storms over the years.' },
+      { question: 'How do hillside properties in Sausalito handle water damage?', answer: 'Sausalito\'s steep hillside homes face risks from groundwater seeping through foundations and retaining walls. Proper drainage systems are critical, and many older homes have experienced foundation damage from inadequate waterproofing and drainage.' },
+      { question: 'What role does the San Francisco Bay play in Sausalito flooding?', answer: 'The bay\'s tidal patterns directly affect Sausalito\'s waterfront. King tides and storm surge events can push water levels significantly higher than normal, flooding boardwalks, parking areas, and ground-floor commercial spaces along the waterfront.' }
+    ]
+  },
+  'san-bernardino': {
+    neighborhoods: ['Downtown San Bernardino', 'Twin Towers', 'Arrowhead Springs', 'North Park', 'West Side', 'Devore', 'Kendall', 'University District'],
+    landmarks: 'San Bernardino Santa Fe Depot, San Bernardino County Courthouse, California Theatre, Mount San Bernardino, San Manuel Stadium',
+    climate: 'San Bernardino experiences a semi-arid climate with hot summers and mild winters. Located in the San Bernardino Valley at the base of the San Bernardino Mountains, the city faces significant water damage risks from flash flooding coming down mountain canyons, debris flows from recent burn scars, and urban flooding in densely developed areas with poor drainage.',
+    faqs: [
+      { question: 'What makes San Bernardino vulnerable to flash flooding?', answer: 'The city sits at the mouth of multiple canyon systems descending from the San Bernardino Mountains. During monsoonal summer thunderstorms and winter storms, these canyons funnel massive amounts of water and debris through the city, particularly affecting the Twin Towers and Arrowhead Springs areas.' },
+      { question: 'How do wildfire burn areas affect water damage?', answer: 'Recent wildfires in the San Bernardino Mountains above the city have created massive burn scars. These areas cannot absorb rainfall, causing debris flows and flash floods that can devastate neighborhoods at the canyon mouths, particularly along flood channels.' },
+      { question: 'What are the flood risks in the Santa Ana River area?', answer: 'The Santa Ana River flows through the southern portion of San Bernardino. Major storm events can cause river flooding that affects adjacent neighborhoods. The river channel provides some protection but has historically overtopped its banks during extreme events.' },
+      { question: 'How does urban development affect flooding in San Bernardino?', answer: 'The city\'s extensive paved surfaces from commercial and residential development prevent natural water absorption. During heavy rain events, stormwater overwhelms drainage systems, causing street flooding that can enter homes and businesses, particularly in older downtown areas.' },
+      { question: 'Are there dam failure risks affecting San Bernardino?', answer: 'Several dams in the mountains above San Bernardino, including the Seven Oaks Dam and others, create potential flood risks if they were to fail. Emergency response plans exist, and downstream residents should understand evacuation routes and flood plain locations.' }
+    ]
+  },
+  'ventura': {
+    neighborhoods: ['Downtown Ventura', 'Westside', 'Eastside', 'Hill Road Corridor', 'Fairy Tale Canyon', 'Wells', 'Montalvo', 'San Jon'],
+    landmarks: 'Mission San Buenaventura, Ventura County Courthouse, Ventura Pier, Serra Cross, San Buenaventura State Beach',
+    climate: 'Ventura experiences a Mediterranean climate with mild temperatures year-round. The city is located along the Ventura coast where the Ventura River meets the Pacific Ocean. Significant water damage risks include flooding from the Ventura River watershed, coastal storm surge, tsunami risks, and debris flows from the Santa Ynez Mountains burn areas.',
+    faqs: [
+      { question: 'What flood risks exist from the Ventura River?', answer: 'The Ventura River flows through Ventura and can flood significantly during winter storms. The natural channel can overflow, particularly in the eastside and downstream areas near the ocean. Properties in the river floodplain face regular flooding risks during major storm events.' },
+      { question: 'How does the topography affect water damage in Ventura?', answer: 'Ventura is bordered by the Santa Ynez Mountains to the north, with several canyons that channel water through the city. During heavy rains, these canyons create flash flood conditions that race through neighborhoods, particularly in the Fairy Tale Canyon and Hill Road areas.' },
+      { question: 'What coastal flooding risks exist in Ventura?', answer: 'Ventura\'s beachfront areas including the pier and boardwalk face risks from high tides and storm waves during winter. Coastal storm surge can damage beachfront businesses and homes, while tsunami risks from distant earthquakes could also cause significant flooding in low-lying waterfront areas.' },
+      { question: 'How do recent fires affect water damage in Ventura?', answer: 'The Thomas Fire and other recent wildfires have burned large areas in the mountains above Ventura. Post-fire landscapes create significant debris flow risks during rains, with mud and rock potentially flooding canyon-mouth neighborhoods with little warning.' },
+      { question: 'Are Ventura properties in tsunami evacuation zones?', answer: 'The downtown waterfront, harbor area, and beachfront properties are in tsunami evacuation zones. While major tsunamis are rare, a significant undersea earthquake could create dangerous wave conditions requiring immediate evacuation of low-lying areas.' }
+    ]
+  },
+  'stockton': {
+    neighborhoods: ['Downtown Stockton', 'Weberstown', 'Parkwood', 'Brookside', 'Lincoln Village', 'West Park', 'Victory Park', 'San Joaquin River Delta Adjacent'],
+    landmarks: 'Stockton Arena, Fox Theatre, University of the Pacific, Hotel Stockton, San Joaquin River',
+    climate: 'Stockton experiences a Mediterranean climate with hot, dry summers and mild, wet winters. Located in the San Joaquin Valley along the San Joaquin River, the city faces significant water damage risks from river flooding, levee system failures, poor drainage in low-lying areas, and agricultural water infrastructure issues.',
+    faqs: [
+      { question: 'What flood risks exist from the San Joaquin River?', answer: 'Stockton is located along the San Joaquin River and faces significant flood risks. The river has flooded multiple times in history, with major flooding events potentially affecting thousands of properties. Levee systems protect the city but face ongoing maintenance challenges.' },
+      { question: 'How do levee systems affect flood risks in Stockton?', answer: 'Stockton is protected by a levee system along the river and surrounding waterways. However, levee failures during major storms could cause catastrophic flooding. Properties behind levees are in FEMA flood zones due to the protected status, but risks remain from system failures.' },
+      { question: 'What causes urban flooding in Stockton?', answer: 'Stockton\'s flat terrain and aging storm drain system cannot handle heavy rainfall efficiently. During significant storms, street flooding is common, with water often ponding in low-lying areas for extended periods, affecting homes and businesses.' },
+      { question: 'Are there risks from the California Delta?', answer: 'Stockton sits at the edge of the Sacramento-San Joaquin Delta. Extremely high tides (king tides) can push water backward through the river system, causing tidal flooding in low-lying waterfront areas and marshes surrounding the city.' },
+      { question: 'How does groundwater affect basements in Stockton?', answer: 'Stockton has high groundwater levels in many areas, particularly near the river and Delta. This limits basement construction and can cause water seepage into below-grade spaces even during relatively minor rain events.' }
+    ]
+  },
+  'palo-alto': {
+    neighborhoods: ['Old Palo Alto', 'Palo Alto Hills', 'Greenmeadow', 'College Terrace', 'Professorville', 'Southgate', 'Waden', 'Midtown'],
+    landmarks: 'Stanford University, Palo Alto Baylands, El Palo Alto Tree, Stanford Shopping Center, Hoover Tower',
+    climate: 'Palo Alto experiences a Mediterranean climate with mild, wet winters and warm, dry summers. Located at the north end of Silicon Valley near the San Francisco Bay, water damage risks include flooding from San Francisquito Creek, poor drainage in the Baylands area, and groundwater rising in low-lying neighborhoods.',
+    faqs: [
+      { question: 'What flood risks exist from San Francisquito Creek?', answer: 'San Francisquito Creek runs through Palo Alto and has caused significant flooding, particularly in the Professorville and downtown areas. Major storms have overtopped the creek banks, flooding homes and businesses. Ongoing creek maintenance and improvements continue but risks remain.' },
+      { question: 'How does the Baylands area affect water damage?', answer: 'The Palo Alto Baylands are naturally low-lying wetlands that hold water during wet seasons. Adjacent properties can experience groundwater seepage and flooding from the high water table, particularly in the Charleston Road and Embarcadero areas.' },
+      { question: 'What role does Stanford University play in local flooding?', answer: 'Stanford\'s extensive campus creates significant impervious surfaces that direct stormwater through local creeks. During heavy storms, creek systems downstream of Stanford can overflow, affecting Palo Alto neighborhoods.' },
+      { question: 'Are there flood zones in Palo Alto neighborhoods?', answer: 'Properties near San Francisquito Creek and in the Baylands area are in FEMA flood zones. Old Palo Alto and Professorville neighborhoods have experienced flooding historically, and mortgage lenders often require flood insurance.' },
+      { question: 'How does future development affect flood risks?', answer: 'Ongoing development in Palo Alto increases impervious surfaces. While modern developments include stormwater detention systems, the cumulative effect of continued development adds to drainage system burdens during major storm events.' }
+    ]
+  },
+  'national-city': {
+    neighborhoods: ['Downtown National City', 'El Toyon', 'Lincoln Acres', 'Mount Hope', 'Paradise Valley', 'Southwest San Diego', 'Las Palomas', 'Palomar'],
+    landmarks: 'Sweetwater Reservoir, Mount San Miguel, National City Mile of Cars, Spreckels Park, Paradise Valley Hospital',
+    climate: 'National City experiences a semi-arid Mediterranean climate with mild temperatures year-round. Located in the South Bay of San Diego County near the Sweetwater River, the city faces flood risks from the river during heavy rains, poor drainage in flatland areas, and coastal influences creating moisture issues.',
+    faqs: [
+      { question: 'What flood risks exist from the Sweetwater River?', answer: 'The Sweetwater River flows through National City and can flood significantly during heavy rain events. The river channel has historically overflowed, particularly affecting the eastern portions of the city near the reservoir. Flood control projects help but cannot eliminate risks.' },
+      { question: 'How does the Sweetwater Reservoir affect local water damage?', answer: 'The Sweetwater Reservoir and dam above National City create potential flood risks if the dam were to fail. Emergency planning exists, and downstream residents should understand evacuation routes. Normal operations also affect downstream water levels during storms.' },
+      { question: 'What causes flooding in downtown National City?', answer: 'The downtown area has aging storm drains that can be overwhelmed during heavy rains. The flat terrain means water pools in low-lying areas, particularly around the Mile of Cars commercial district and along major streets that serve as drainage corridors.' },
+      { question: 'Are there coastal flooding risks in National City?', answer: 'National City is located on San Diego Bay and has waterfront areas near the marine terminal. While not directly on the ocean, bay flooding from high tides and storm surge can affect low-lying waterfront properties, particularly during extreme weather events.' },
+      { question: 'How does development density affect flooding?', answer: 'High-density development in parts of National City creates significant stormwater runoff. Older neighborhoods with smaller drainage infrastructure face flooding during heavy rains, while newer developments generally include improved stormwater management systems.' }
+    ]
+  },
+  'west-hollywood': {
+    neighborhoods: ['West Hollywood', 'Melrose District', 'Sunset Strip', 'West Hollywood Design District', 'WeHo Corridor', 'Normandy', 'Fountain Heights', 'Doerr'],
+    landmarks: 'Sunset Strip, Santa Monica Boulevard, The Abbey, Pacific Design Center, West Hollywood Park',
+    climate: 'West Hollywood experiences a Mediterranean climate with mild temperatures and low rainfall. Located in Los Angeles County between Beverly Hills and Los Angeles, the city faces water damage risks from aging infrastructure, hillside runoff during rare heavy rains, and drainage issues in densely built commercial areas.',
+    faqs: [
+      { question: 'What unique water damage risks exist in West Hollywood?', answer: 'West Hollywood\'s hilly terrain creates rapid runoff during heavy rains. The Sunset Strip and hillside neighborhoods can experience flash flooding that overwhelms drainage systems, sending water cascading through commercial areas and into lower-elevation neighborhoods.' },
+      { question: 'How do older buildings in West Hollywood handle water damage?', answer: 'Many buildings in West Hollywood are older apartments and commercial structures from the 1920s-1960s era. These buildings often have aging roofs, inadequate drainage systems, and lack modern waterproofing, making them susceptible to water damage during heavy rains.' },
+      { question: 'What flood risks exist in the Sunset Strip area?', answer: 'The Sunset Strip\'s location on hillsides above the valley floor means stormwater runs downhill through the commercial district. During heavy rains, water can overwhelm street drains and enter ground-floor businesses and restaurants.' },
+      { question: 'Are there municipal separate storm sewer system (MS4) issues?', answer: 'West Hollywood operates under strict MS4 permits requiring separation of storm and sanitary sewer systems. During heavy rains, infiltration can cause backups in older sewer lines, potentially causing water damage in low-lying areas.' },
+      { question: 'How does the design district handle water damage?', answer: 'The West Hollywood Design District contains many commercial buildings and warehouses. These properties face risks from roof leaks during heavy rains and from the extensive pavement in the area that creates significant stormwater runoff.' }
+    ]
+  },
+  'downey': {
+    neighborhoods: ['Downtown Downey', 'Southeast Downey', 'Southgate', 'Old Town', 'Lakewood Mall Area', 'Paramount Ranch', 'Fitzsimmons', 'Silva'],
+    landmarks: ' Downey City Hall, Columbia Memorial Space Center, Downey Theatre, Oldest McDonald\'s Restaurant, Rio Hondo River',
+    climate: 'Downey experiences a semi-arid Mediterranean climate with hot, dry summers and mild winters. Located in southeastern Los Angeles County, the city faces water damage risks from the Rio Hondo River, aging storm drain systems, and urban flooding in densely developed areas.',
+    faqs: [
+      { question: 'What flood risks exist from the Rio Hondo River?', answer: 'The Rio Hondo River flows through Downey and can flood during heavy rains in the San Gabriel Mountains upstream. The river has overflowed historically, particularly affecting areas near the river channel and in low-lying portions of the city.' },
+      { question: 'How does Downey\'s history as an agricultural area affect current flooding?', answer: 'Downey was historically agricultural land with absorbent soil. Urban development has created extensive impervious surfaces that prevent natural water absorption, dramatically increasing stormwater runoff and flooding in residential and commercial areas.' },
+      { question: 'What causes street flooding in Downey?', answer: 'Downey\'s aging storm drain system cannot handle modern volumes of stormwater from extensive development. During heavy rains, streets frequently flood at intersections and in low-lying areas, with water often entering garages and ground-level homes.' },
+      { question: 'Are there flood zones in Downey neighborhoods?', answer: 'Properties along the Rio Hondo are in FEMA flood zones AE or X. Most other areas of Downey are in Zone X (moderate risk), where lenders may not require flood insurance but homeowners should consider coverage.' },
+      { question: 'How does proximity to the Los Angeles River affect Downey?', answer: 'The Los Angeles River flows nearby and can affect Downey during extreme storm events when the regional flood control system is overwhelmed. The river\'s concrete channel provides significant capacity but cannot prevent all flooding during major events.' }
+    ]
+  },
+  'rancho-cucamonga': {
+    neighborhoods: ['Victoria Heights', 'Cucamonga', 'Banyan', 'Day Creek', 'Etiwanda', 'Northgate', 'Alta Loma', 'Amethyst'],
+    landmarks: 'Cucamonga Peak, Victoria Gardens, Chaffee College, Red Hill Country Club, Pacific Trail',
+    climate: 'Rancho Cucamonga experiences a semi-arid climate with hot summers and mild winters at the base of the San Gabriel Mountains. The city faces significant water damage risks from flash flooding in canyon areas, debris flows from recent burn scars in the foothills, and drainage issues in the relatively flat valley areas.',
+    faqs: [
+      { question: 'What flood risks exist from the San Gabriel Mountains?', answer: 'Rancho Cucamonga sits below the San Gabriel Mountains at the mouth of several canyon systems. During heavy monsoonal storms and winter rain events, these canyons funnel water and debris through the city, particularly affecting neighborhoods at canyon mouths.' },
+      { question: 'How do recent wildfires affect water damage in Rancho Cucamonga?', answer: 'The San Gabriel Mountains above Rancho Cucamonga have experienced significant wildfires in recent years. Burned areas cannot absorb rainfall, creating dangerous debris flow conditions during rain events that can send mud and rocks through canyon-mouth neighborhoods.' },
+      { question: 'What are the flood risks in the Day Creek area?', answer: 'Day Creek flows through Rancho Cucamonga and can flood during significant storm events. The creek has overflowed its banks in the past, affecting properties in the Day Creek and nearby residential areas.' },
+      { question: 'How does the old Cucamonga area affect modern water damage?', answer: 'The historic Cucamonga area was originally agricultural with different drainage patterns. Modern development has altered these patterns, sometimes creating flooding in areas that previously handled water differently. Newer developments include drainage improvements but legacy issues remain.' },
+      { question: 'Are there dam failure risks affecting Rancho Cucamonga?', answer: 'The San Antonio Dam and other water storage facilities in the mountains above the city create potential flood risks. While these structures are maintained and monitored, residents in downstream flood plains should understand evacuation routes and emergency procedures.' }
+    ]
+  },
+  'oxnard': {
+    neighborhoods: ['Oxnard Downtown', 'South Oxnard', 'North Oxnard', 'Pleasant Valley', 'Montalvo', 'Rio Mesa', 'El Rio', 'Camarillo'],
+    landmarks: 'Channel Islands Harbor, Carnegie Art Museum, Oxnard Beach, Heritage Square, Oxnard State Beach',
+    climate: 'Oxnard experiences a Mediterranean climate with mild temperatures year-round due to coastal influences. Located on the Oxnard Plain along the Pacific coast, the city faces significant water damage risks from coastal flooding and storm surge, river flooding from the Santa Clara River, and stormwater drainage issues in flat terrain.',
+    faqs: [
+      { question: 'What coastal flooding risks exist in Oxnard?', answer: 'Oxnard\'s beach areas and Channel Islands Harbor face significant flooding risks from high tides, storm waves, and potential tsunami impacts. The flat coastal terrain means water can push far inland during extreme events, affecting harbor facilities and beachfront communities.' },
+      { question: 'How does the Santa Clara River affect Oxnard?', answer: 'The Santa Clara River flows along Oxnard\'s southern boundary and can flood significantly during winter storms. The river\'s wide floodplain can affect agricultural areas and properties near the channel during major storm events.' },
+      { question: 'What causes flooding in the Channel Islands Harbor area?', answer: 'Channel Islands Harbor experiences flooding during extreme high tides combined with storm conditions. The harbor\'s design has experienced sediment buildup that reduces drainage capacity, causing water to pool in low-lying areas around the harbor.' },
+      { question: 'Are there agricultural water issues affecting Oxnard properties?', answer: 'Oxnard\'s agricultural heritage has created land with varying drainage characteristics. Some former agricultural areas have drainage issues that affect newer residential development, with water table and soil conditions requiring careful site preparation.' },
+      { question: 'How does sea level rise affect Oxnard?', answer: 'As a low-lying coastal city, Oxnard faces significant risks from sea level rise. Projections indicate that coastal flooding could affect significant portions of the city, particularly the harbor area and beachfront communities, within the coming decades.' }
+    ]
+  }
+};
