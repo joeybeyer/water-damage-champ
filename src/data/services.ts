@@ -259,7 +259,7 @@ Flood damage repair addresses property damage caused by external water intrusion
     slug: 'mold-remediation',
     name: 'Mold Remediation',
     title: 'Mold Remediation & Removal Services | Certified Specialists',
-    description: 'Mold in your home or business? Our certified mold remediation team inspects, removes, and prevents mold growth. Safe, thorough, insurance-coordinated. Serving CA & FL. Call (888) 510-9436.'s health.',
+    description: 'Mold in your home or business? Our certified mold remediation team inspects, removes, and prevents mold growth. Safe, thorough, insurance-coordinated. Serving CA & FL. Call (888) 510-9436.',
     fullContent: `
 ## How We Eliminate Mold
 
