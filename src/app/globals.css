@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --navy-900: #0a1628;
+  --navy-800: #111d35;
+  --navy-700: #1a2942;
+  --blue-500: #3b82f6;
+  --blue-600: #2563eb;
+}
+
+body {
+  background-color: var(--navy-900);
+  color: white;
+}
+
+@layer utilities {
+  .text-navy-900 { color: var(--navy-900); }
+  .text-navy-800 { color: var(--navy-800); }
+  .text-navy-700 { color: var(--navy-700); }
+  .bg-navy-900 { background-color: var(--navy-900); }
+  .bg-navy-800 { background-color: var(--navy-800); }
+  .bg-navy-700 { background-color: var(--navy-700); }
+}
