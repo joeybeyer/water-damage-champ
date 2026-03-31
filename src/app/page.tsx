@@ -2,6 +2,7 @@ import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
+import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
   title: 'Water Damage Champ | 24/7 Emergency Water Damage Restoration',
@@ -69,52 +70,9 @@ export default function HomePage() {
               </div>
             </div>
 
-            {/* Lead Capture Form — matching WP original */}
-            <div className="bg-white rounded-xl shadow-2xl p-6 md:p-8 max-w-md mx-auto lg:mr-0">
-              <h3 className="text-[#1a237e] text-2xl font-bold text-center mb-1">Lets Get Started</h3>
-              <p className="text-gray-500 text-center text-sm mb-6">Ready to speak with an expert?</p>
-              <form className="space-y-4">
-                <div>
-                  <label htmlFor="fullName" className="block text-gray-700 font-medium mb-1 text-sm">Full Name</label>
-                  <input type="text" id="fullName" name="fullName" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900" required />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-gray-700 font-medium mb-1 text-sm">Email</label>
-                  <input type="email" id="email" name="email" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900" required />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-gray-700 font-medium mb-1 text-sm">Phone Number</label>
-                  <input type="tel" id="phone" name="phone" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900" required />
-                </div>
-                <div>
-                  <label htmlFor="serviceType" className="block text-gray-700 font-medium mb-1 text-sm">Service</label>
-                  <select id="serviceType" name="serviceType" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900">
-                    <option value="">Select a service...</option>
-                    <option value="water-damage">Water Damage</option>
-                    <option value="sewage">Sewage Cleanup</option>
-                    <option value="storm">Storm Recovery</option>
-                    <option value="mold">Mold Remediation</option>
-                    <option value="fire">Fire Damage</option>
-                    <option value="other">Other</option>
-                  </select>
-                </div>
-                <div>
-                  <label className="block text-gray-700 font-medium mb-2 text-sm">Property Type</label>
-                  <div className="flex space-x-6">
-                    <label className="flex items-center cursor-pointer">
-                      <input type="radio" name="propertyType" value="residential" className="w-4 h-4 text-[#1a237e]" defaultChecked />
-                      <span className="ml-2 text-gray-700 text-sm">Residential</span>
-                    </label>
-                    <label className="flex items-center cursor-pointer">
-                      <input type="radio" name="propertyType" value="commercial" className="w-4 h-4 text-[#1a237e]" />
-                      <span className="ml-2 text-gray-700 text-sm">Commercial</span>
-                    </label>
-                  </div>
-                </div>
-                <button type="submit" className="w-full bg-[#ff6600] hover:bg-[#e65100] text-white font-bold py-4 rounded-lg transition-colors text-lg">
-                  Schedule Free Inspection
-                </button>
-              </form>
+            {/* Lead Capture Form — 3-step progressive QuoteForm */}
+            <div className="lg:mr-0">
+              <QuoteForm />
             </div>
           </div>
         </div>

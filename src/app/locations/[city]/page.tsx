@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { cities } from '@/data/cities';
 import { services } from '@/data/services';
 import { getCityContent } from '@/data/cityContent';
+import { getNeighborhoodsByCity } from '@/data/neighborhoods';
 import FAQSection from '@/components/FAQSection';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateFAQPageSchema } from '@/lib/schema';
 
@@ -40,6 +41,7 @@ export default async function CityPage({ params }: Props) {
   }
 
   const cityContent = getCityContent(citySlug);
+  const cityNeighborhoods = getNeighborhoodsByCity(citySlug);
   const localBusinessSchema = generateLocalBusinessSchema(city);
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', url: 'https://waterdamagechamp.com' },
@@ -141,6 +143,22 @@ export default async function CityPage({ params }: Props) {
           </div>
         </div>
       </section>
+
+      {/* Neighborhood Spoke Pages */}
+      {cityNeighborhoods.length > 0 && (
+        <section className="py-12 bg-white">
+          <div className="max-w-7xl mx-auto px-4">
+            <h2 className="text-2xl font-bold text-[#1a237e] mb-6">Neighborhoods in {city.name}</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3">
+              {cityNeighborhoods.map((n) => (
+                <Link key={n.slug} href={`/locations/${citySlug}/${n.slug}`} className="bg-gray-50 border border-gray-200 px-4 py-3 rounded-lg hover:border-[#1a237e] hover:bg-white transition-colors text-sm text-gray-700 font-medium">
+                  {n.name}
+                </Link>
+              ))}
+            </div>
+          </div>
+        </section>
+      )}
 
       {/* Nearby Cities */}
       {nearbyCities.length > 0 && (

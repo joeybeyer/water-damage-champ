@@ -62,6 +62,23 @@ export default function ServicePage() {
         </div>
       </section>
 
+      {/* Key Takeaways */}
+      {service.keyTakeaways && service.keyTakeaways.length > 0 && (
+        <section className="py-8 bg-blue-50 border-b border-blue-100">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-lg font-bold text-[#1a237e] mb-3">Key Takeaways</h2>
+            <ul className="grid grid-cols-1 sm:grid-cols-2 gap-2">
+              {service.keyTakeaways.map((point, i) => (
+                <li key={i} className="flex items-start gap-2 text-gray-700 text-sm">
+                  <span className="text-[#ff6600] mt-0.5 shrink-0 font-bold">✓</span>
+                  <span>{point}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        </section>
+      )}
+
       {/* Content */}
       <section className="py-16 md:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">

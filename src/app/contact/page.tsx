@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
+import QuoteForm from '@/components/QuoteForm';
 
 export const metadata: Metadata = {
   title: 'Contact Us | Water Damage Champ',
@@ -26,74 +27,8 @@ export default function ContactPage() {
 
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {/* Contact Form */}
-            <div className="bg-[#111d35] border border-[#1a2942] rounded-xl p-8">
-              <h2 className="text-2xl font-bold mb-6">Get a Free Quote</h2>
-              <form className="space-y-6">
-                <div>
-                  <label htmlFor="name" className="block text-sm font-medium mb-2">Name</label>
-                  <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    required
-                    className="w-full px-4 py-3 bg-[#0a1628] border border-[#1a2942] rounded-lg focus:border-[#2196f3] focus:outline-none"
-                    placeholder="Your name"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="email" className="block text-sm font-medium mb-2">Email</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    required
-                    className="w-full px-4 py-3 bg-[#0a1628] border border-[#1a2942] rounded-lg focus:border-[#2196f3] focus:outline-none"
-                    placeholder="your@email.com"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="phone" className="block text-sm font-medium mb-2">Phone</label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-4 py-3 bg-[#0a1628] border border-[#1a2942] rounded-lg focus:border-[#2196f3] focus:outline-none"
-                    placeholder="(888) 510-9436"
-                  />
-                </div>
-                <div>
-                  <label htmlFor="service" className="block text-sm font-medium mb-2">Service Needed</label>
-                  <select
-                    id="service"
-                    name="service"
-                    className="w-full px-4 py-3 bg-[#0a1628] border border-[#1a2942] rounded-lg focus:border-[#2196f3] focus:outline-none"
-                  >
-                    <option value="">Select a service</option>
-                    <option value="water-damage-restoration">Water Damage Restoration</option>
-                    <option value="water-extraction">Water Extraction</option>
-                    <option value="flood-damage-repair">Flood Damage Repair</option>
-                    <option value="mold-remediation">Mold Remediation</option>
-                    <option value="storm-damage-restoration">Storm Damage</option>
-                    <option value="emergency">Emergency Service</option>
-                  </select>
-                </div>
-                <div>
-                  <label htmlFor="message" className="block text-sm font-medium mb-2">Message</label>
-                  <textarea
-                    id="message"
-                    name="message"
-                    rows={4}
-                    className="w-full px-4 py-3 bg-[#0a1628] border border-[#1a2942] rounded-lg focus:border-[#2196f3] focus:outline-none"
-                    placeholder="Describe your situation..."
-                  />
-                </div>
-                <button
-                  type="submit"
-                  className="w-full bg-[#2196f3] hover:bg-[#1976d2] py-4 rounded-lg font-semibold transition-colors"
-                >
-                  Submit Request
-                </button>
-              </form>
+            <div>
+              <QuoteForm />
             </div>
 
             {/* Contact Info */}

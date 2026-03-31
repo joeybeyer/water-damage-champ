@@ -3,6 +3,7 @@ export interface Service {
   name: string;
   title: string;
   description: string;
+  keyTakeaways?: string[];
   fullContent: string;
   faqs: { question: string; answer: string }[];
 }
@@ -13,6 +14,13 @@ export const services: Service[] = [
     name: 'Water Damage Restoration',
     title: '24/7 Water Damage Restoration in California & Florida | Water Damage Champ',
     description: 'Water damage threatening your property? Water Damage Champ provides emergency water damage restoration across CA & FL — IICRC-certified technicians, insurance coordination, free inspections. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 emergency water damage restoration across California & Florida',
+      'IICRC-certified technicians arrive within 2-4 hours of your call',
+      'Industrial extraction equipment, commercial dehumidifiers, and antimicrobial treatment',
+      'Direct insurance coordination — we document and bill your carrier',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## How We Restore Your Property
 
@@ -102,6 +110,13 @@ For residential and commercial properties experiencing water intrusion from burs
     name: 'Water Extraction',
     title: 'Emergency Water Extraction & Removal Services | Water Damage Champ',
     description: 'Standing water in your home or business? Our crews extract water fast with truck-mounted equipment and industrial pumps. 24/7 response across California & Florida. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 emergency water extraction across California & Florida',
+      'Truck-mounted pumps remove thousands of gallons per hour',
+      'IICRC-certified technicians with industrial-grade extraction on every truck',
+      'Direct insurance coordination — we bill your carrier',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## How We Remove Standing Water
 
@@ -181,6 +196,13 @@ Emergency water extraction removes standing water from flooded properties using 
     name: 'Flood Damage Repair',
     title: 'Flood Damage Cleanup & Repair | 24/7 Emergency Response',
     description: 'Flood damage to your property? Water Damage Champ handles complete flood cleanup — water extraction, structural drying, mold prevention, and full restoration. Serving CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 emergency flood damage response across California & Florida',
+      'Category 1, 2, and 3 water damage handled — including sewage and saltwater',
+      'IICRC-certified technicians with thermal imaging for hidden moisture mapping',
+      'Direct insurance and FEMA flood claim coordination',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## Recovering After a Flood
 
@@ -260,6 +282,13 @@ Flood damage repair addresses property damage caused by external water intrusion
     name: 'Mold Remediation',
     title: 'Mold Remediation & Removal Services | Certified Specialists',
     description: 'Mold in your home or business? Our certified mold remediation team inspects, removes, and prevents mold growth. Safe, thorough, insurance-coordinated. Serving CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 mold remediation across California & Florida',
+      'Certified inspectors use air testing and thermal imaging to find hidden mold',
+      'Containment, HEPA filtration, and EPA-registered antimicrobials — all mold strains',
+      'Direct insurance coordination — we handle all documentation',
+      'Free mold inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## How We Eliminate Mold
 
@@ -342,6 +371,13 @@ Professional mold remediation combines containment with negative air pressure, H
     name: 'Storm Damage Restoration',
     title: 'Storm Damage Restoration | Emergency Cleanup & Repair',
     description: 'Storm damage to your property? Water Damage Champ provides emergency storm cleanup — water removal, structural repairs, and full restoration. 24/7 across CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 emergency storm damage restoration across California & Florida',
+      'Board-up, tarping, and water extraction available same-day',
+      'IICRC-certified technicians handle wind, rain, and flood damage simultaneously',
+      'Direct insurance coordination for storm and hurricane claims',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## Recovering After a Storm
 
@@ -427,6 +463,13 @@ Storm damage restoration addresses the combined effects of wind, rain, and flood
     name: 'Sump Pump Cleanup',
     title: 'Sump Pump Failure Cleanup | Fast Water Removal & Drying',
     description: 'Sump pump failed and basement flooding? We extract water, dry the structure, and prevent mold — fast. Available 24/7 across California & Florida. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 sump pump failure response across California & Florida',
+      'Fast water extraction to stop ongoing basement flooding damage',
+      'IICRC-certified technicians dry structure and prevent mold within 48 hours',
+      'Direct insurance coordination — sump pump failures often covered',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## When Your Sump Pump Fails
 
@@ -515,6 +558,13 @@ Sump pump failure during heavy rain allows groundwater to rise through drain til
     name: 'Ceiling and Wall Water Damage',
     title: 'Ceiling & Wall Water Damage Repair | Expert Restoration',
     description: 'Water stains, bubbling paint, or sagging ceilings? Our technicians locate hidden leaks, dry the structure, and restore your walls and ceilings. Serving CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 ceiling and wall water damage response across California & Florida',
+      'Thermal imaging locates hidden leaks without unnecessary demolition',
+      'IICRC-certified technicians dry wall cavities and prevent mold colonization',
+      'Direct insurance coordination for hidden leak claims',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## Repairing Hidden Damage
 
@@ -608,6 +658,13 @@ Ceiling and wall water damage from pipe leaks, roof intrusion, or condensation o
     name: 'Crawlspace Encapsulation',
     title: 'Crawlspace Encapsulation & Moisture Control | Water Damage Champ',
     description: 'Damp crawlspace threatening your foundation? We encapsulate, dehumidify, and waterproof crawlspaces to prevent moisture damage and mold. Serving CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      'Crawlspace encapsulation and moisture control across California & Florida',
+      'Vapor barriers, drainage systems, and commercial dehumidifiers installed by certified techs',
+      'Eliminates moisture that causes mold growth, wood rot, and foundation damage',
+      'Improves indoor air quality and energy efficiency',
+      'Free crawlspace inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## Protecting Your Foundation
 
@@ -693,6 +750,13 @@ Crawlspace encapsulation seals the space beneath your home with a heavy-duty vap
     name: 'Commercial Water Damage',
     title: 'Commercial Water Damage Restoration | Minimize Downtime',
     description: 'Water damage at your commercial property? Water Damage Champ restores offices, retail, and industrial spaces fast — minimizing revenue loss and downtime. 24/7 in CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 commercial water damage restoration across California & Florida',
+      'Rapid response minimizes business interruption and revenue loss',
+      'IICRC-certified technicians handle offices, retail, restaurants, and industrial facilities',
+      'Direct insurance coordination with commercial policy and business interruption expertise',
+      'Free commercial inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## Restoring Commercial Properties
 
@@ -786,6 +850,13 @@ Commercial water damage restoration minimizes business interruption by deploying
     name: 'Emergency Water Damage',
     title: '24/7 Emergency Water Damage Services | Immediate Response',
     description: 'Water emergency right now? Our crews arrive within hours with extraction equipment, dehumidifiers, and drying systems. Available 24/7 across California & Florida. Call (888) 510-9436.',
+    keyTakeaways: [
+      'True 24/7 emergency water damage response — nights, weekends, and holidays',
+      'Crews arrive within 2-4 hours across California & Florida',
+      'IICRC-certified technicians with full extraction and drying equipment on every truck',
+      'Direct insurance coordination begins on first visit',
+      'Free emergency inspection — call (888) 510-9436 now',
+    ],
     fullContent: `
 ## Immediate Response When It Matters
 
@@ -884,6 +955,13 @@ Emergency water damage response within the first 24 hours is critical to prevent
     name: 'Fire Damage Restoration',
     title: 'Fire & Smoke Damage Restoration | Board-Up to Rebuild',
     description: 'Fire damage to your home or business? We handle everything from emergency board-up to soot removal, odor elimination, and full reconstruction. 24/7 in CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 fire damage restoration across California & Florida',
+      'Emergency board-up and tarping on first visit to prevent further damage',
+      'IICRC-certified technicians handle soot removal, smoke odor, and water from suppression',
+      'Direct insurance coordination for fire and smoke damage claims',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## Recovering After a Fire
 
@@ -988,6 +1066,13 @@ Fire damage restoration addresses the combined destruction from flames, smoke, s
     name: 'Odor Removal',
     title: 'Odor Removal & Deodorization | Eliminate Odors Permanently',
     description: 'Persistent odors from smoke, mold, pets, or sewage? Our thermal fogging, ozone, and hydroxyl treatments destroy odors at the source. Serving CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      'Professional odor elimination across California & Florida',
+      'Thermal fogging, ozone, and hydroxyl treatments destroy odors at the molecular level',
+      'Certified technicians treat smoke, mold, sewage, fire, and pet odors',
+      'Source identification and elimination — not masking with fragrances',
+      'Free odor inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## How We Eliminate Persistent Odors
 
@@ -1077,6 +1162,13 @@ Professional odor elimination uses industrial-grade thermal fogging, ozone gener
     name: 'Sewage Cleanup',
     title: 'Emergency Sewage Cleanup & Sanitization | Category 3 Specialists',
     description: 'Sewage backup? Our IICRC-certified crews handle Category 3 water extraction, antimicrobial treatment, and full decontamination. 24/7 in CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 emergency sewage cleanup across California & Florida',
+      'Category 3 biohazard extraction and full structural decontamination',
+      'IICRC-certified technicians in full PPE — safe removal of all contaminated materials',
+      'Direct insurance coordination for sewage backup claims',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## Handling Category 3 Contamination
 
@@ -1166,6 +1258,13 @@ Category 3 sewage cleanup requires IICRC-certified technicians with full PPE, sp
     name: 'Flooded Basement Restoration',
     title: 'Flooded Basement Cleanup & Restoration | Fast Pump-Out',
     description: 'Basement flooding? We pump out water, dry the structure, prevent mold, and restore your basement to pre-flood condition. 24/7 across CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 flooded basement response across California & Florida',
+      'Submersible pumps and truck-mounted extraction remove water fast',
+      'IICRC-certified technicians dry foundation walls and slab to stop mold within 48 hours',
+      'Direct insurance coordination for basement flood claims',
+      'Free basement inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## When Your Basement Floods
 
@@ -1251,6 +1350,13 @@ Flooded basement restoration combines emergency water extraction with submersibl
     name: 'Frozen & Burst Pipe Repair',
     title: 'Burst Pipe Water Damage Restoration | Emergency Extraction',
     description: 'Burst pipe flooding your home? We shut off the source, extract water, dry the structure, and coordinate with insurance. 24/7 in CA & FL. Call (888) 510-9436.',
+    keyTakeaways: [
+      '24/7 burst pipe emergency response across California & Florida',
+      'Water shutoff assistance, extraction, and drying on the same visit',
+      'IICRC-certified technicians identify and dry all affected areas with moisture mapping',
+      'Direct insurance coordination — sudden pipe bursts typically covered',
+      'Free inspection — call (888) 510-9436',
+    ],
     fullContent: `
 ## When a Pipe Bursts
 

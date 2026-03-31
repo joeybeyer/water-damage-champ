@@ -30,7 +30,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
 
   // Neighborhood pages
   const neighborhoodPages = neighborhoods.map((n) => ({
-    url: \`\${baseUrl}/locations/\${n.citySlug}/\${n.slug}\`,
+    url: `${baseUrl}/locations/${n.citySlug}/${n.slug}`,
     lastModified: new Date(),
     priority: 0.6,
   }));
