@@ -553,8 +553,350 @@ Ybor City is a neighborhood worth preserving — it is one of the most authentic
   },
 
   // ═══════════════════════════════════════
-  // ST PETERSBURG, FL — NEIGHBORHOODS
+  // ST PETERSBURG NEIGHBORHOODS
   // ═══════════════════════════════════════
+  {
+    slug: "downtown-st-pete",
+    name: "Downtown St Pete",
+    citySlug: "st-petersburg",
+    cityName: "St Petersburg",
+    state: "FL",
+    zipCodes: "33701, 33705",
+    landmarks: [
+      "Salvador Dali Museum",
+      "St Pete Pier",
+      "Tropicana Field",
+      "Mahaffey Theater",
+      "Albert Whitted Airport"
+    ],
+    neighborSlugs: ["old-northeast", "kenwood", "shore-acres"],
+    climate: "Downtown peninsula on Tampa Bay with water exposure on multiple sides and low overall elevation. Storm surge is a major threat during hurricane season from storms tracking across the bay. Active urban development area with aging infrastructure from different eras mixed with modern high-rise construction. Subtropical humidity is year-round.",
+    housingStock: "Historic 1920s-1950s commercial buildings converted to loft apartments and condominiums, modern luxury high-rise towers, older downtown hotels repurposed as residential condos, and mixed-use developments throughout the Central Arts and EDGE districts. Building ages and construction systems vary dramatically within a few city blocks.",
+    commonIssues: [
+      "Storm surge flooding from Tampa Bay during tropical weather",
+      "Aging converted-building plumbing in historic commercial structures",
+      "High-rise mechanical system failures affecting multiple residential units",
+      "Waterfront-adjacent tidal water table influence on ground-floor spaces",
+      "Rooftop terrace and amenity deck drainage failures in converted historic buildings"
+    ],
+    content: `Downtown St Petersburg has undergone one of the most successful urban transformations in Florida over the past two decades. The Central Arts District, the EDGE District along Central Avenue, the redeveloped St Pete Pier, and the concentration of cultural institutions including the Salvador Dali Museum have made downtown St Pete a destination community attracting residents, visitors, and investment from across the country. With that transformation has come extraordinary diversity of building types — from 1920s commercial brick warehouses now housing loft apartments to soaring glass residential towers that define the modern skyline.
+
+That diversity is exactly what makes water damage restoration in downtown St Pete interesting and technically demanding. A building constructed in 1926 as a hardware warehouse and converted to residential lofts in 2005 has a completely different set of water vulnerabilities than a luxury high-rise completed in 2018. Both are within blocks of each other on Beach Drive and Central Avenue. Both can experience significant water damage events. But the source, the damage pattern, and the restoration approach are fundamentally different for each.
+
+The storm surge threat to downtown St Petersburg is real and well-documented. The city occupies a peninsula between Tampa Bay to the north and east and Boca Ciega Bay to the west. The downtown core, centered around Beach Drive and the St Pete Pier, sits at elevations that are directly exposed to surge water from Tampa Bay during a major storm. FEMA flood maps for the downtown ZIP codes show large areas in AE flood zones with meaningful base flood elevations. Hurricane Irma's passage in 2017 provided a preview of what a more direct hit could mean — storm surge affected portions of the waterfront area even with the storm making landfall on the opposite coast of Florida.
+
+The St Pete Pier and the Albert Whitted Airport along the bayfront create a working waterfront environment that keeps salt air and tidal influences present throughout the downtown district. Buildings along Beach Drive experience greater moisture exposure than inland buildings — exterior sealants, window glazing compounds, and roofing membrane lap seams deteriorate faster due to the combination of UV exposure and salt-laden humidity. When these exterior systems begin to fail, water intrusion follows — typically showing up first as staining on interior ceiling surfaces near windows or at wall-to-ceiling junctions.
+
+The converted historic buildings of the EDGE District and the Central Arts District deserve particular attention. These early 20th century commercial structures were built with flat or low-slope roofs designed for light industrial use. When they are converted to residential occupancy — which typically adds rooftop terraces, mechanical equipment, and elevator penthouses to the roof — the original drainage design is often inadequate for the new use and loading. Tampa Bay's thunderstorm season regularly produces rainfall intensities of two to four inches per hour, and a rooftop terrace drain that clogs with debris can allow water to pond rapidly and find its way through aging roof assembly penetrations into the occupied spaces below.
+
+The plumbing infrastructure in historic commercial-to-residential conversions in downtown St Pete is another ongoing source of water damage events. These buildings were not designed with the density of plumbing fixtures that residential occupancy requires. Conversions route new supply and drain lines through existing masonry walls and floor assemblies, often in configurations that complicate future maintenance access. When supply lines inside masonry walls develop pinhole leaks — a common failure mode for copper lines in buildings with aggressive water chemistry — water migrates through the masonry long before it appears on an interior surface. By the time a resident notices a stain on a wall, the masonry cavity behind it may have been wet for weeks.
+
+Modern luxury high-rises in downtown St Pete — the glass towers that have reshaped the skyline along Beach Drive and near the Dali Museum — present the same vertical-scale water damage dynamics we see in Tampa's Channelside district. A plumbing riser failure or an appliance overflow in a high-floor unit sends water through the floor assembly and potentially through multiple units below. These buildings typically have sophisticated building management systems and maintenance staff, but after-hours events can still run for extended periods before shutdown. Our commercial-scale high-rise restoration teams can deploy multiple simultaneous crews for multi-floor events in downtown St Pete towers.
+
+Tropicana Field and its surrounding area — scheduled for redevelopment in the coming years as the Historic Gas Plant District project takes shape — represent a significant ongoing construction zone in the heart of downtown St Petersburg. New large-scale construction projects adjacent to existing buildings can create water infiltration issues for neighboring properties through vibration affecting existing masonry, dewatering operations changing local groundwater levels, and construction runoff during the site preparation phase. Existing building owners adjacent to major construction activity should monitor their properties carefully during the construction period.
+
+The full scope of St Petersburg water damage restoration services — for downtown residents, business owners, and building managers — is available through our St Petersburg location hub at /locations/st-petersburg. We serve all of the downtown district's ZIP codes and building types, from historic warehouse conversions to modern luxury towers, with the specific expertise each property type requires.
+
+The energy and investment that has transformed downtown St Pete is a community asset worth protecting. Water damage left unaddressed — whether from storm surge, plumbing failure, or building envelope leakage — can cause permanent damage to the architectural character and structural integrity of the historic buildings that anchor the district's unique character.`,
+    faqs: [
+      {
+        question: "Is downtown St Pete at serious risk of storm surge flooding?",
+        answer: "Yes. Downtown St Petersburg occupies a low-lying peninsula between Tampa Bay and Boca Ciega Bay, with the downtown core sitting at elevations directly exposed to surge from storms crossing the bay. FEMA flood maps show large portions of the downtown ZIP codes in AE flood zones. Any significant tropical system tracking across Tampa Bay should be taken seriously by downtown residents. We recommend knowing your building's flood plan, your flood insurance status, and having our contact information ready before storm season."
+      },
+      {
+        question: "My loft is in a converted 1920s warehouse in the EDGE District. What water damage risks should I know about?",
+        answer: "Converted historic commercial buildings have several specific vulnerabilities. Flat roof drainage systems designed for light industrial use may be inadequate for residential occupancy and rooftop terraces. Plumbing lines routed through masonry walls in non-standard configurations are hard to inspect and difficult to repair when they leak. Original masonry exterior walls allow water infiltration through mortar joint deterioration and aged window seals. We perform moisture assessments for EDGE District loft owners and have extensive experience with historic masonry building restoration."
+      },
+      {
+        question: "How does water damage in a high-rise near Beach Drive get handled when multiple floors are affected?",
+        answer: "We deploy commercial-scale restoration teams with the capacity to work on multiple floors simultaneously. The priority is locating and stopping the source, then deploying extraction and drying equipment on every affected floor at the same time. We coordinate with building management, affected unit owners, and multiple insurance carriers simultaneously. High-rise water damage is a time-sensitive, multi-party situation and we have the systems and staffing to manage it effectively."
+      },
+      {
+        question: "Does the proximity to Tampa Bay affect water damage in downtown St Pete buildings even without a storm?",
+        answer: "Yes, in two ways. First, the tidal water table adjacent to the bay sits close to the surface in low-lying areas, creating chronic moisture pressure on ground-floor slab edges and below-grade spaces. Second, salt air from the bay accelerates the deterioration of exterior sealants, roofing membranes, and window glazing, shortening the interval between maintenance cycles and increasing the frequency of building envelope failures. Buildings within a few blocks of the waterfront experience these effects most strongly."
+      },
+      {
+        question: "I have a business in a historic building in the Central Arts District — do you handle commercial restoration?",
+        answer: "Yes. We work with commercial building owners, business operators, and property managers throughout downtown St Pete. For businesses in historic buildings, we understand the preservation-sensitive nature of the work and approach material removal conservatively — drying in place where possible, removing materials only where necessary. We provide documentation for commercial insurance claims and coordinate with adjusters to minimize business interruption time."
+      },
+      {
+        question: "What should I do immediately after discovering water damage in my downtown St Pete condo?",
+        answer: "First, shut off the water source if you can identify it and safely access the shutoff. If you cannot identify the source, contact building management immediately to shut off the relevant water supply riser. Then call us. Do not run fans or HVAC across water-damaged areas before professional assessment, as this can spread mold spores if mold is already present. Document everything with photos before any cleanup begins. We respond 24/7 and will begin extraction and drying assessment the same day you call."
+      }
+    ]
+  },
+  {
+    slug: "old-northeast",
+    name: "Old Northeast",
+    citySlug: "st-petersburg",
+    cityName: "St Petersburg",
+    state: "FL",
+    zipCodes: "33704",
+    landmarks: [
+      "Coffee Pot Bayou",
+      "Crisp Park",
+      "North Shore Park",
+      "North Shore Aquatic Complex",
+      "Beach Drive promenade"
+    ],
+    neighborSlugs: ["downtown-st-pete", "snell-isle", "kenwood"],
+    climate: "Bayou-adjacent neighborhood with direct tidal water table influence from Coffee Pot Bayou along the northern and eastern edges. Low-lying areas flood during king tides without any storm system. Among St Pete's most flood-prone residential neighborhoods despite its desirability and historic prestige. Subtropical humidity presses against every wall and crawlspace year-round.",
+    housingStock: "St Petersburg's most intact and prestigious historic residential neighborhood — 1910s through 1930s Mediterranean Revival homes, Craftsman bungalows, Spanish Eclectic cottages, and Mission Revival estates. Original plumbing in many unrenovated properties. Original pier-and-beam foundations, plaster and lath interior walls, original clay tile roofs on premium homes. Extremely high architectural value makes careful restoration essential.",
+    commonIssues: [
+      "Coffee Pot Bayou tidal flooding of lowest-elevation properties",
+      "Original 1910s-1930s galvanized and cast iron plumbing system failures",
+      "Pier-and-beam foundation crawlspace moisture accumulation",
+      "Historic clay tile roof failures allowing water intrusion into plaster walls",
+      "Bayou-adjacent high water table making effective drainage difficult"
+    ],
+    content: `Old Northeast is the crown jewel of St Petersburg's residential heritage — a neighborhood of tree-shaded brick streets, distinctive Mediterranean Revival homes, and bayou-front properties that has maintained its architectural character through nearly a century of Florida's boom and bust real estate cycles. The neighborhood association maintains active oversight of architectural standards, and the homes here represent some of the most carefully preserved residential stock in all of Pinellas County. This is also a neighborhood where water damage restoration requires a particularly thoughtful approach, because the properties involved are architecturally irreplaceable and often occupied by owners who are deeply invested in their homes' historic character.
+
+The defining geographic feature of Old Northeast is Coffee Pot Bayou, which forms the neighborhood's northern and eastern boundary. This tidal bayou connects to Tampa Bay, which means its water level rises and falls with tidal cycles — not just with rainfall events. During king tide periods, which occur several times each year when astronomical and meteorological factors align to produce above-normal tidal heights, the lowest streets adjacent to Coffee Pot Bayou can flood without any rain at all. The streets along the bayou's edge — North Shore Drive NE and the blocks immediately adjacent to Crisp Park and the North Shore Aquatic Complex — see this periodic tidal inundation as a regular feature of life rather than an exceptional event.
+
+For homeowners on these lowest streets, tidal flooding is a cumulative damage concern as much as an acute one. Each inundation event adds moisture to soil that may still be elevated from the previous event. Ground moisture wicking through pier-and-beam crawlspaces, slab edges, and foundation masonry occurs not just during acute flooding but during the extended period of elevated soil moisture that follows. We perform assessments for Old Northeast homeowners who are concerned about cumulative tidal flooding impact on their homes' structural assemblies — particularly in older properties where the original construction may have been designed with different flood frequency assumptions than today's reality.
+
+The housing stock of Old Northeast is truly special, and it presents specific restoration challenges that differ from virtually any other neighborhood in the Tampa Bay area. The Mediterranean Revival homes built in the 1920s — the period of maximum development activity in the neighborhood — feature barrel tile roofs over wood decking, plaster interior walls applied to wood lath, original clay tile or hardwood floors, ornate tilework in bathrooms and kitchens, and construction techniques from an era when craftsman skill substituted for modern waterproofing materials. When water intrudes into these buildings, the priority is preservation of irreplaceable materials alongside effective moisture removal.
+
+Clay tile roofs are both a defining aesthetic element of the neighborhood's Mediterranean Revival homes and a potential water intrusion source when they age. Individual tiles crack under impact from fallen branches or debris during storms. The mortar bedding that secures ridge and hip tiles deteriorates over decades. The underlayment beneath the tile layer — the actual waterproofing membrane of a tile roof — has a finite service life, typically 20-25 years for modern materials, that may be significantly shorter than the tile itself. When the underlayment fails while the tiles appear intact, water intrusion occurs in a pattern that is not obvious from street level. It manifests inside the building as staining at ceiling-wall junctions, peeling plaster near the tops of walls, or persistent musty odor in upper-story rooms. We use thermal imaging to locate active tile roof leaks in historic homes before beginning any restoration work.
+
+Plaster walls on wood lath — standard construction in Old Northeast homes — respond very differently to water damage than modern paper-faced gypsum drywall. Wet plaster does not disintegrate the way wet drywall does, which is a relative advantage. However, plaster walls retain moisture inside the lath cavity and behind the plaster face for far longer than drywall systems dry, which means mold growth risk is elevated if drying is not adequately aggressive. We use cavity monitoring — drilling small test holes behind baseboards and in inconspicuous locations — to confirm drying progress inside wall assemblies rather than relying on surface readings alone.
+
+Original plumbing in Old Northeast's unrenovated homes is a time-bomb condition that many owners manage by hoping for the best until the inevitable occurs. We understand that fully replacing original plumbing in a historic home is a significant investment and a disruptive project, and we do not make the decision for homeowners. But we do see regularly what happens when 90-year-old galvanized steel supply lines finally fail: they often do so in concealed locations, inside walls or under floors, and the leak runs for hours or days before detection. The resulting damage scope in a historic home — plaster removal, floor material replacement, structural drying of original wood framing — is invariably greater than it would have been with modern plumbing materials and early detection.
+
+The North Shore Park and Beach Drive promenade areas are gathering points for the community, and the properties along Beach Drive NE — some of the most prestigious addresses in St Petersburg — have Tampa Bay on one side and Coffee Pot Bayou access points nearby. These waterfront estates have the maximum storm surge exposure of any residential properties in Old Northeast, combined with the maximum historic architectural value. Post-storm response for these properties requires both technical restoration capability and the sensitivity to work in exceptional historic environments.
+
+All of St Petersburg's water damage restoration needs — for Old Northeast and the surrounding neighborhoods — are served through our St Petersburg team at /locations/st-petersburg. We bring specific experience with historic building restoration to every project in Old Northeast, understanding that the goal is not simply to dry a building but to preserve it.`,
+    faqs: [
+      {
+        question: "How does Coffee Pot Bayou tidal flooding affect Old Northeast homes?",
+        answer: "Coffee Pot Bayou is a tidal waterway connected to Tampa Bay, so its level rises with tidal cycles independent of rainfall. During king tide periods, the lowest streets adjacent to the bayou — particularly near Crisp Park and North Shore Drive NE — flood from tidal water backing up through storm drains and rising through low-lying ground. For homes on these streets, the flooding is periodic rather than exceptional. We assess cumulative tidal moisture damage in addition to acute flooding events, since repeated exposure causes progressive deterioration of foundation materials and subfloor assemblies."
+      },
+      {
+        question: "Can you restore a plaster wall instead of replacing it after water damage?",
+        answer: "In many cases, yes. Plaster has different restoration characteristics than drywall — it is more robust when wet and does not disintegrate the way paper-faced gypsum does. If a plaster wall is thoroughly dried to appropriate moisture content without mold colonization, it can often be preserved. We use cavity drying techniques and precise monitoring to dry plaster wall assemblies in place where possible. When mold is present or structural damage has occurred, replacement becomes necessary, but we work conservatively in historic Old Northeast homes to preserve original plaster wherever the restoration science permits."
+      },
+      {
+        question: "My 1920s Mediterranean Revival home has the original clay tile roof. When should I worry about water damage from the roof?",
+        answer: "Clay tiles themselves can last 50-100 years or more if intact. The underlayment beneath them has a much shorter lifespan. If your home has not had a documented underlayment replacement in the past 20-25 years, the underlayment may be at or near the end of its service life regardless of how the tiles look from the street. Signs of underlayment failure include ceiling staining near upper walls, peeling plaster at wall-ceiling junctions after rain, or persistent musty odor in upper rooms. We use thermal imaging to detect active tile roof leaks. When leaks are active, we trace the water path from entry point to visible damage and restore affected materials."
+      },
+      {
+        question: "What does water damage in an original pier-and-beam Old Northeast home look like before it becomes obvious?",
+        answer: "Early signs include floors that feel slightly soft or springy in localized areas, a persistent musty or earthy odor that does not resolve with ventilation, baseboard paint that bubbles or peels at floor level, or slight cupping or warping in wood flooring near exterior walls. These indicate crawlspace moisture accumulation that is beginning to affect the floor assembly above. A crawlspace inspection with moisture readings on joists and subfloor material tells the story definitively. We find it is better to investigate early signs than to wait until visible structural deterioration requires more extensive remediation."
+      },
+      {
+        question: "Is it harder to get insurance coverage for historic Old Northeast homes after repeated tidal flooding?",
+        answer: "Repeated insurance claims on a property can make coverage more difficult and expensive to obtain, yes. FEMA has provisions under the NFIP for 'repetitive loss properties' that can affect coverage terms and premiums. We document our restoration work thoroughly and encourage Old Northeast homeowners to work with an insurance agent experienced in historic coastal properties to understand their exposure and options. Some homeowners explore flood mitigation measures — elevated mechanical equipment, flood vents in foundation walls, landscaping grading — to reduce the frequency and severity of future events."
+      },
+      {
+        question: "How do you handle the irreplaceable tilework and architectural details in historic Old Northeast homes during water damage restoration?",
+        answer: "With great care and a conservative approach. Original tile floors, decorative bathroom tilework, fireplace surrounds, and architectural millwork in Old Northeast's historic homes are irreplaceable. We document everything thoroughly with photographs before beginning work, protect in-place materials during any demolition, and plan material removal paths that avoid damaging adjacent historic elements wherever possible. When original materials must be removed because they have been contaminated or structurally compromised, we discuss replacement options with homeowners including salvage tile sources and restoration specialists who work with period materials."
+      }
+    ]
+  },
+  {
+    slug: "kenwood",
+    name: "Kenwood",
+    citySlug: "st-petersburg",
+    cityName: "St Petersburg",
+    state: "FL",
+    zipCodes: "33705",
+    landmarks: [
+      "Kenwood Arts District murals",
+      "Mirror Lake",
+      "Mirror Lake Lyceum",
+      "22nd Street South corridor",
+      "Kenwood Community Garden"
+    ],
+    neighborSlugs: ["downtown-st-pete", "old-northeast", "shore-acres"],
+    climate: "Central St Petersburg neighborhood at slightly higher elevation than immediate waterfront areas, but still fully subtropical with the same hurricane and tropical weather vulnerability as all of Pinellas County. Mirror Lake creates localized humidity pockets in adjacent blocks. Summer thunderstorm season runs June through September with intense rainfall events capable of producing localized street flooding.",
+    housingStock: "1920s-1940s craftsman bungalows, minimal traditional homes, and small shotgun houses — the neighborhood has preserved substantial historic bungalow stock through its identity as an arts district. An active urban renovation community means many homes are in partial renovation at any given time. Owner-occupied and rental properties coexist throughout the neighborhood's compact grid.",
+    commonIssues: [
+      "Original craftsman bungalow plumbing failures in unrenovated homes",
+      "Renovation-exposed hidden water damage in walls, floors, and crawlspaces",
+      "Mirror Lake area drainage challenges during heavy summer storms",
+      "Subtropical humidity and mold growth following any water event in historic homes",
+      "Shotgun house and minimal traditional home crawlspace moisture accumulation"
+    ],
+    content: `Kenwood has reinvented itself. A neighborhood that spent several decades in demographic and physical decline has found new identity through the arts — the neighborhood murals that make Kenwood one of St Pete's most visually distinctive communities, the galleries along Central Avenue, the creative community that settled here attracted by affordable historic homes and proximity to downtown. Today, Kenwood is one of St Petersburg's most interesting neighborhoods to live in, with a mix of longtime residents, artists, young professionals, and investors all working alongside each other on homes that were built a century ago and have the charm and the challenges that come with that age.
+
+Mirror Lake is Kenwood's central geographic feature — a freshwater lake in the heart of the neighborhood that creates both an amenity and a localized moisture environment for surrounding properties. The lake's presence keeps relative humidity elevated in adjacent blocks even between rain events. Properties immediately surrounding the lake experience higher ambient moisture levels than blocks further away, which accelerates the growth of mold and mildew on exterior wood surfaces, roof materials, and in crawlspaces. For water damage restoration in Mirror Lake-adjacent homes, this elevated baseline moisture condition means aggressive drying is even more important than usual — you are not drying to ambient outdoor conditions, you are drying to a controlled indoor target that may be significantly lower than the ambient outdoor humidity in this specific microclimate.
+
+The craftsman bungalows that define Kenwood's housing stock are, architecturally speaking, beautiful examples of early 20th century residential design. The wide front porches, exposed rafter tails, tapered columns, and decorative wood details speak to a craftsmanship tradition that simply does not exist in modern production housing. They are also buildings with the specific water damage vulnerabilities that come with wood frame construction, pier-and-beam foundations, original plaster walls, and plumbing systems that in many unrenovated homes have been providing service for 80-100 years.
+
+The renovation activity in Kenwood creates a water damage scenario that is unique to neighborhoods in active revitalization: renovation-discovered hidden damage. We receive multiple calls per month from Kenwood homeowners and contractors who have opened a wall to update electrical or plumbing and found evidence — or active presence — of a water problem that was completely invisible from the room's surface. This might be a decades-old leak stain on framing lumber from a long-since-repaired roof, or it might be an active slow leak from a corroded supply line that has been wetting the same section of wall framing for months. It might be mold colonization on the back side of the drywall installed over original plaster in a previous renovation, where moisture was trapped between layers without adequate drying.
+
+When renovation-discovered damage involves active mold, the work must stop immediately and proper assessment and containment must precede any further renovation activity. Disturbing mold-contaminated materials without containment can spread spores throughout the home and into the HVAC system, creating a contamination problem far larger than the original affected area. We are available for same-day emergency assessment of renovation-discovered mold and water damage in Kenwood, and we work with contractors to sequence the restoration work so renovation can resume as quickly as possible.
+
+The 22nd Street South corridor and the streets adjacent to the Central Avenue arts district have seen significant commercial renovation activity alongside the residential work. Older commercial buildings being adapted to gallery, restaurant, and retail use have many of the same conversion-related water damage vulnerabilities described in the context of Ybor City and downtown St Pete — flat roofs with inadequate drainage capacity for heavy rain events, plumbing systems being routed in non-standard configurations through historic masonry walls, and window and door replacement projects that sometimes leave temporary or inadequate weathersealing.
+
+Kenwood's shotgun houses — the simplest building type in the neighborhood — are particularly vulnerable to moisture accumulation in ways that can be invisible for years. These single-story, narrow homes typically have minimal clearance between the floor assembly and the ground below. In Florida's subtropical climate, ground moisture evaporation into this limited crawlspace creates persistently elevated humidity beneath the floor. Over years or decades, this chronic moisture exposure causes wood joists and subfloor materials to develop progressive rot and deterioration that is only detected when floors begin to feel soft or when a renovation opens the floor assembly. We perform crawlspace inspections specifically for Kenwood shotgun house owners, using moisture meters and visual inspection to assess joist and subfloor conditions.
+
+The summer thunderstorm season in St Petersburg — June through September — produces rainfall events of stunning intensity. Kenwood's streets can accumulate standing water during peak storm events, particularly where storm drain capacity is limited by aging infrastructure. Standing water at foundation level, even for a few hours, can push moisture through crawlspace vents into the foundation air space and through aged door thresholds into garage and ground-floor living spaces. We see a cluster of these minor flooding calls in Kenwood after every significant summer storm event, and the restoration scope for a properly addressed event — extraction, drying, assessment — is modest and manageable when handled promptly.
+
+For all water damage restoration needs in Kenwood and the broader St Petersburg area, our team at /locations/st-petersburg serves the full range of property types and situations found throughout this dynamic neighborhood. We understand historic bungalow restoration, renovation-discovered damage assessment, and the specific moisture dynamics of St Pete's subtropical environment.`,
+    faqs: [
+      {
+        question: "I just started renovating my Kenwood bungalow and found mold inside a wall. What do I do?",
+        answer: "Stop work in that area immediately and do not disturb the affected material further. Mold in wall cavities can spread rapidly when disrupted without proper containment. Call us for a same-day assessment — we will determine the extent of contamination, establish containment, and remediate properly before renovation resumes. We work efficiently so your project timeline is affected as little as possible. Trying to continue renovation work around active mold without remediation risks spreading contamination throughout the home."
+      },
+      {
+        question: "Why does my Kenwood bungalow near Mirror Lake always seem damp compared to homes I lived in elsewhere?",
+        answer: "Mirror Lake creates a localized high-humidity microclimate in adjacent blocks. Freshwater evaporation from the lake keeps ambient relative humidity elevated in the immediate vicinity, which means surfaces in your home experience more persistent moisture exposure than they would in a drier climate or even in other St Pete neighborhoods further from a water body. This accelerates mold growth on exterior wood, interior plaster, and in crawlspaces. Regular monitoring of crawlspace moisture and interior relative humidity is important for Mirror Lake-area homeowners."
+      },
+      {
+        question: "How do I know if my Kenwood craftsman bungalow has crawlspace moisture problems?",
+        answer: "Common signs include soft or slightly springy floor areas, persistent musty odor that does not clear with ventilation, paint peeling at baseboard level, or wood floors that cup or show moisture-related movement near exterior walls. The definitive assessment requires a crawlspace inspection with moisture meter readings on joists, subfloor, and soil. We perform these inspections regularly for Kenwood homeowners and provide written reports with findings and recommendations."
+      },
+      {
+        question: "What is the biggest water damage risk in Kenwood that homeowners tend to overlook?",
+        answer: "The condition of pier-and-beam crawlspaces, particularly in homes that appear fine from the interior. Crawlspace moisture damage progresses silently over years, causing wood deterioration that is only discovered when floors begin to fail or renovation opens the floor assembly. Many Kenwood bungalow owners have not had their crawlspaces inspected since purchasing their homes. An annual or biennial inspection is inexpensive compared to the cost of dealing with advanced wood rot in a floor assembly."
+      },
+      {
+        question: "Does the arts district Kenwood renovation activity affect water damage risks for adjacent homes?",
+        answer: "Construction activity can affect neighboring properties in a few ways: excavation or dewatering on adjacent lots can temporarily alter groundwater levels; demolition activity on neighboring buildings can dislodge debris that damages your roof or penetrates your building envelope; and renovation work on shared-wall structures requires attention to weatherproofing during the construction period. If you experience water intrusion coinciding with neighboring construction activity, document it immediately and contact both the contractor and your insurance carrier. We can perform assessments to document construction-related water damage for claim and legal purposes."
+      },
+      {
+        question: "Can a summer thunderstorm really cause flooding in Kenwood if there is no hurricane?",
+        answer: "Yes. St Petersburg's summer thunderstorm season produces intense rainfall events that can exceed storm drain capacity on streets with aging infrastructure. Kenwood's relatively flat terrain means standing water accumulates in low spots rather than draining quickly. Two to three inches of rain in 45 minutes can produce ankle-deep street flooding that pushes water through garage doors and low thresholds into ground-floor spaces. This is localized, temporary flooding — typically clearing within a few hours — but the moisture it introduces requires prompt extraction and drying to prevent mold growth in the subtropical summer heat."
+      }
+    ]
+  },
+  {
+    slug: "shore-acres",
+    name: "Shore Acres",
+    citySlug: "st-petersburg",
+    cityName: "St Petersburg",
+    state: "FL",
+    zipCodes: "33703",
+    landmarks: [
+      "Shore Acres Recreation Center",
+      "Smacks Bayou",
+      "Crisp Park boat launch",
+      "Weedon Island Preserve",
+      "Northeast Bay Drive"
+    ],
+    neighborSlugs: ["old-northeast", "snell-isle", "downtown-st-pete"],
+    climate: "Extremely low-lying peninsula neighborhood that ranks among the most flood-prone residential communities in the entire Tampa Bay region. Bounded by Smacks Bayou, Coffee Pot Bayou, and Tampa Bay, with multiple water bodies on three sides. During Hurricane Irma in 2017, much of Shore Acres flooded with 3-5 feet of water despite Irma making landfall on the opposite side of the state. King tide flooding affects the lowest streets multiple times per year without any storm.",
+    housingStock: "1940s-1970s Florida ranch homes built on slab-on-grade foundations using CBS (concrete block structure) construction. Many homes have been elevated post-flooding or following FEMA flood insurance premium increases under successive reauthorizations. Both elevated and non-elevated mid-century homes exist throughout the neighborhood, along with some newer elevated replacement construction on lots where older structures were demolished after flood damage.",
+    commonIssues: [
+      "Storm surge flooding — some of the highest residential risk in Tampa Bay metro",
+      "Chronic king tide flooding on lowest-elevation streets near bayou edges",
+      "CBS slab-on-grade moisture wicking from Florida's high water table",
+      "FEMA flood zone compliance requirements after insurance claims",
+      "Bayou-adjacent water intrusion into ground-floor living spaces during tidal and storm events"
+    ],
+    content: `Shore Acres is one of the most honest conversations about flood risk in all of Tampa Bay. The neighborhood does not hide what it is — a low-lying peninsula community bounded by Smacks Bayou to the east, Coffee Pot Bayou to the north, and Tampa Bay exposure to the west along Northeast Bay Drive. It is a neighborhood of modest mid-century ranch homes and newer elevated construction, occupied by residents who, by and large, understand what they have signed up for: a bayou-front community with extraordinary water access, genuine neighborhood character, strong community association engagement, and flood risk that is among the highest in Pinellas County.
+
+Hurricane Irma in September 2017 gave the neighborhood and the broader Tampa Bay region a sobering data point. Irma made landfall on Florida's southwest coast as a Category 3 storm and tracked up the spine of the state — a path that created surge conditions on the west coast of Florida including Tampa Bay even though the storm did not make a direct bay hit. Shore Acres flooded. Many homes took on 3-5 feet of water. The Shore Acres Recreation Center served as a focal point for the community's recovery. The restoration work in Shore Acres after Irma occupied multiple restoration companies for months, and the experience fundamentally changed how many Shore Acres homeowners approach storm preparation and insurance.
+
+The technical reality of flood restoration in Shore Acres involves a level of scope that surprises homeowners experiencing it for the first time. Storm surge water — bay water pushed onto land by storm winds and pressure gradients — is classified as Category 3 contaminated water. It contains marine organisms, petroleum products, sewage overflow, agricultural runoff, and everything else carried in the water column of Tampa Bay. All porous materials it contacts must be removed, not dried: drywall, insulation, flooring, and in many cases lower framing members that absorbed water. The standard flood restoration protocol in Shore Acres leaves a house that has taken significant surge water as a shell — studs exposed, concrete slab bare — from which rebuilding begins. This is not over-remediation; it is the appropriate response to the contamination classification of storm surge water.
+
+The CBS construction that characterizes most Shore Acres mid-century ranch homes has characteristics relevant to water damage restoration. Concrete block is highly durable and does not deteriorate from water contact the way wood framing does. However, slab-on-grade foundations in CBS homes face persistent moisture pressure from below in Florida's subtropical water table environment, particularly in a neighborhood where the water table is as close to the surface as it is in Shore Acres. Moisture wicking through slabs into flooring materials is a common maintenance issue for CBS slab homes throughout the neighborhood, separate from acute flooding events.
+
+The FEMA elevation requirement issue is central to Shore Acres homeownership. FEMA flood maps identify the neighborhood's base flood elevations, and homes that are not elevated to or above these levels face mandatory flood insurance purchase requirements with premiums that reflect the actuarial risk. Following Irma and the broader national discussion about NFIP reform and risk-based pricing, Shore Acres homeowners have faced increasing pressure to either elevate their homes — a major construction project involving house lifting or demolition and elevated reconstruction — or accept the financial reality of high-risk-priced flood insurance. We work regularly with Shore Acres homeowners navigating post-flood restoration in the context of elevation decision-making, and we can provide documentation that supports elevation certificate updates and insurance negotiations.
+
+King tide flooding is Shore Acres' recurring non-storm water challenge. The streets with the lowest elevation — particularly those closest to Smacks Bayou and the Coffee Pot Bayou edge near the neighborhood's north end — flood predictably during king tide events in September, October, and November when astronomical tidal amplitudes are highest. Northeast Bay Drive properties face tidal influence from Tampa Bay as well. This flooding is typically ankle-deep rather than catastrophic — but it is salt water or brackish water entering ground-floor garage spaces, through door thresholds, and into low-lying landscape areas. Repeated salt water exposure damages concrete, metal components, wood threshold materials, and garage floor coatings in ways that accumulate over time.
+
+The Weedon Island Preserve nearby and the natural waterway system surrounding the neighborhood create an ecologically significant environment that affects Shore Acres' character. The bayous are living waterways with tidal dynamics, seasonal water quality variations, and storm-driven behavior that goes well beyond simple water level rise. During heavy rain events, bayou water quality deteriorates as runoff enters the system — relevant to restoration professionals because floodwater from Storm events in Shore Acres may carry bacteria, algae, and other biological material from the bayou system in addition to the marine and urban contaminants typical of storm surge.
+
+Our restoration teams serve Shore Acres as part of our comprehensive St Petersburg coverage from our base at /locations/st-petersburg. We are experienced with post-storm surge restoration in Shore Acres specifically — the logistics of Category 3 remediation in mid-century CBS homes, the documentation requirements for FEMA claims, and the community coordination that large-scale neighborhood flooding events require. We maintain the equipment inventory and crew capacity to respond to multiple Shore Acres properties simultaneously after a significant storm event, which is the reality of neighborhood-scale flooding rather than isolated individual events.
+
+Shore Acres is a community that takes its flood risk seriously and maintains strong community organization around resilience planning. We are proud to be part of the network of professionals that Shore Acres homeowners rely on, and we bring the same seriousness to every restoration project in the neighborhood.`,
+    faqs: [
+      {
+        question: "After a major flood in Shore Acres, why does so much material need to be removed instead of just dried?",
+        answer: "Storm surge water from Tampa Bay is classified as Category 3 contaminated water — it contains marine organisms, sewage overflow, petroleum products, and other contaminants from the bay's water column. Industry standards and health regulations require that all porous materials in contact with Category 3 water be removed rather than dried in place, because drying contaminated porous materials does not eliminate biological and chemical contaminants that remain in the material. This is why flood restoration in Shore Acres after a significant surge event results in a stripped structure that then gets rebuilt — it is the correct approach to contaminated water damage, not an overly aggressive one."
+      },
+      {
+        question: "My Shore Acres home flooded during Irma and again during a more recent storm. Will insurance still cover me?",
+        answer: "NFIP flood insurance covers each qualifying flooding event regardless of claim history, though repeated claims can designate a property as a 'severe repetitive loss property' and trigger mandatory mitigation requirements as a condition of continued coverage. Private flood insurance carriers may respond differently to repeated claims. FEMA also has Increased Cost of Compliance coverage in NFIP policies that can help fund elevation work required after repeated significant flood losses. We recommend working with a flood insurance specialist to understand your specific situation. We provide complete documentation for each event we restore."
+      },
+      {
+        question: "What is king tide flooding and how often does it affect Shore Acres?",
+        answer: "King tides occur when the gravitational alignment of the sun, moon, and Earth produces the highest natural tidal amplitudes of the year — typically in September, October, and November. In Shore Acres, the lowest streets adjacent to Smacks Bayou and Coffee Pot Bayou flood during king tide periods without any storm present. The water is typically ankle to knee deep and drains as the tide falls. It is salt water or brackish water, which causes different material damage than freshwater — it corrodes metal components, degrades concrete over time, and leaves salt residue in porous materials. Properties on the lowest streets typically experience this 2-4 times per year."
+      },
+      {
+        question: "Should I elevate my Shore Acres home? How does that decision interact with water damage restoration?",
+        answer: "The elevation decision is a significant financial and practical choice that depends on your home's current elevation versus the base flood elevation, your insurance premium trajectory, your long-term ownership plans, and the current market for elevated versus non-elevated Shore Acres homes. It is a decision for you, your insurance agent, a licensed surveyor, and a structural engineer — not for us to make. What we can provide is documentation of damage history, current moisture conditions, and restoration scope that may be relevant to your evaluation. We work with homeowners throughout the elevation decision process and can restore homes both before and after elevation work."
+      },
+      {
+        question: "What immediate steps should Shore Acres residents take when a major storm is forecast?",
+        answer: "Follow Pinellas County evacuation orders — Shore Acres is typically in the mandatory evacuation zone for significant storms. Before evacuating: photograph or video your home's contents and condition from every room, move valuable and irreplaceable items to the highest accessible point in the home, shut off electricity at the breaker panel and gas at the meter, and leave your contact information with a neighbor or emergency contact who will be in a safe location. Contact us before the storm to register as a Shore Acres client in our priority response system so we can reach you as soon as we can safely access the neighborhood after the storm passes."
+      },
+      {
+        question: "How long does it take to fully restore a Shore Acres home after a significant flood event?",
+        answer: "For a home that took 2-4 feet of Category 3 storm surge water, the restoration process has several phases: emergency extraction and Category 3 demolition (removal of all affected porous materials) typically takes 3-7 days for a typical Shore Acres ranch home. Structural drying of the concrete slab and block walls to appropriate moisture content takes 7-14 days. Rebuild — new insulation, new drywall, flooring, trim, and paint — follows, which for a full-scale flood event typically takes 4-8 weeks depending on material availability and contractor scheduling. The total timeline from flood event to completed home is commonly 8-14 weeks for significant Shore Acres flood events."
+      }
+    ]
+  },
+  {
+    slug: "snell-isle",
+    name: "Snell Isle",
+    citySlug: "st-petersburg",
+    cityName: "St Petersburg",
+    state: "FL",
+    zipCodes: "33704",
+    landmarks: [
+      "Snell Isle Bridge",
+      "Coffee Pot Bayou waterfront",
+      "Brightwaters Boulevard",
+      "Snell Isle Park",
+      "St Petersburg Yacht Club"
+    ],
+    neighborSlugs: ["old-northeast", "shore-acres", "downtown-st-pete"],
+    climate: "Exclusive island community completely surrounded by Tampa Bay and Coffee Pot Bayou. The entire island is within FEMA flood zones. Tidal water table sits just below the surface across all of the island. Storm surge approaches from multiple angles. Salt air from the bay is constant and accelerates deterioration of all exterior building materials and exposed mechanical components.",
+    housingStock: "Luxury residential estates ranging from 1920s Mediterranean Revival mansions built during the island's original development by C. Perry Snell to mid-century ranch homes, 1960s-1980s CBS construction, and newer luxury replacements. High-value properties with complex plumbing systems, pools, irrigation, and extensive landscaping. All properties should be on foundations at or above FEMA required base flood elevations — though older homes may predate current requirements.",
+    commonIssues: [
+      "Tidal water table creating perpetual foundation moisture pressure across the entire island",
+      "Storm surge flooding during tropical weather events approaching from multiple directions",
+      "Luxury home appliance and irrigation system failures in complex plumbing networks",
+      "Mediterranean Revival estate aging plumbing in original or partially-updated systems",
+      "Salt air and tidal spray corrosion of exterior materials, mechanical equipment, and plumbing penetrations"
+    ],
+    content: `Snell Isle represents the pinnacle of St Petersburg residential living — and one of its most demanding water damage restoration environments. The island was developed starting in the 1920s by C. Perry Snell, a St Pete real estate entrepreneur who saw the potential of the small natural island in Coffee Pot Bayou and transformed it into an exclusive enclave of Mediterranean Revival estates and lush landscaping. Today, the island remains one of Pinellas County's most prestigious addresses, with Brightwaters Boulevard and the bay-front streets hosting homes that represent generational wealth and exceptional architectural investment.
+
+The physical reality of Snell Isle is this: the entire island sits in Tampa Bay and Coffee Pot Bayou. There is water on every side. The tidal water table across the island sits close to the surface at all times, rising and falling with daily and monthly tidal cycles. The only connection to the mainland is the Snell Isle Bridge over Coffee Pot Bayou. From a flood risk perspective, the island has no elevation buffer — storm surge can approach from multiple directions, and even moderate tidal events raise groundwater to the surface in the lowest sections. This is the environment that the island's luxury homes must coexist with, and it shapes water damage risk in ways that are fundamentally different from any inland neighborhood.
+
+The original Mediterranean Revival estates on Snell Isle, built in the 1920s through the 1940s, are among the most architecturally significant residences in all of Florida. The barrel tile roofs, arched loggias, ornate ironwork, and careful craftsmanship of these homes represent a level of construction quality and architectural intention that simply cannot be replicated in modern production building. When one of these homes experiences water damage — whether from a plumbing system failure, storm surge intrusion, or a roof that has finally outlasted its underlayment — the restoration must be approached with the highest level of care. Irreplaceable materials, irreplaceable craftsmanship, and irreplaceable architectural context are all at stake simultaneously.
+
+Plumbing in Snell Isle's oldest homes is a critical concern. Original 1920s-1930s galvanized steel supply lines in unrenovated properties have been providing service for nearly a century — far beyond their expected useful life. Even homes that have undergone partial renovations may have original supply lines behind walls or beneath floors where they were not conveniently accessible for the renovation's scope. Cast iron drain lines from this era develop cracks, root intrusion from mature landscaping, and scale that eventually causes blockages or failures. We regularly encounter Snell Isle restoration projects where a plumbing failure is the catalyst but the subsequent investigation reveals the full scope of aging infrastructure present in the home.
+
+The complex plumbing systems found in Snell Isle luxury homes — pool equipment, irrigation systems serving extensive landscaping, multiple full bathrooms, outdoor kitchen plumbing, guest house or pool house connections — create a significantly larger failure surface than a simple residential home. Pool supply and return lines run underground from equipment pads to the pool structure, and these buried lines develop pinhole leaks that saturate soil for weeks or months before detection. Salt-tolerant landscaping that thrives on Snell Isle's bayou-front lots is watered by irrigation systems with dozens of heads, zones, and fittings — each a potential failure point. When an irrigation mainline develops a leak under a driveway, it may run for an extended period before the elevated water bill triggers investigation.
+
+The salt air environment is a constant corrosive presence on Snell Isle. The combination of humidity, UV exposure, and salt-laden air that moves across the island from Tampa Bay and Coffee Pot Bayou shortens the service life of every exterior material: roof underlayment seals, window and door frame sealants, exterior stucco coatings, mechanical equipment on rooftops, and the sealant collars around every plumbing and electrical penetration through the building envelope. When these materials degrade, water intrusion follows — not dramatically, but persistently, through gaps that allow water in during every rain event. The cumulative effect of persistent small intrusions can cause significant hidden damage to wall assemblies, ceiling structures, and insulation in the affected areas.
+
+Storm surge risk on Snell Isle is approached from all points of the compass simultaneously. A storm pushing surge up Tampa Bay from the southwest threatens the island's bay-facing side. A storm with surge from the north threatens the Coffee Pot Bayou side. The island's low elevation means surge water that overtops the bayou seawall in any section spreads quickly across the entire island. The St Petersburg Yacht Club on the island's southern end, Coffee Pot Bayou Trail access points, and the residential streets of Brightwaters Boulevard all sit at essentially the same elevation — the entire island is in the same risk tier during a major storm event.
+
+Post-storm restoration on Snell Isle involves the same Category 3 protocols required throughout Tampa Bay's coastal neighborhoods when storm surge water enters homes. Bay water and bayou water are contaminated water sources, and affected porous materials must be removed. For the island's historic Mediterranean Revival homes, this creates a challenging balance: meeting the remediation standard required for public health while preserving the irreplaceable architectural fabric of structures that are part of St Petersburg's heritage. We approach these projects with the rigor that contamination requires and the sensitivity that the buildings deserve.
+
+St Petersburg area residents and property owners can access our full restoration services at /locations/st-petersburg. Our teams are experienced with luxury property restoration, historic home preservation considerations, and the specific flood dynamics of Tampa Bay island communities. We understand that homes on Snell Isle represent extraordinary value — architectural, financial, and personal — and we bring the expertise required to restore them to full condition after any water damage event.`,
+    faqs: [
+      {
+        question: "Is the entire Snell Isle island in a FEMA flood zone?",
+        answer: "Essentially yes — the entire island sits within FEMA-designated flood zones, with most properties in AE zones and portions closest to the bay in the highest-risk categories. All properties with federally-backed mortgages are required to carry flood insurance. Even properties owned free and clear should maintain flood coverage given the island's exposure. We recommend every Snell Isle homeowner have a current elevation certificate and know their base flood elevation relative to their finished floor elevation."
+      },
+      {
+        question: "My Snell Isle Mediterranean Revival home is from the 1930s. How concerned should I be about the plumbing?",
+        answer: "Very concerned if the plumbing has not been updated. Galvanized steel supply lines from the 1930s have exceeded their expected service life by decades and are subject to sudden failure without warning, typically inside walls or under floors where detection is delayed. Cast iron drain lines of this era corrode and crack, and the dense mature root systems from Snell Isle's mature landscaping actively infiltrate drain lines over time. We strongly recommend a full plumbing inspection by a licensed plumber, and if original lines are found, a replacement plan before they fail rather than after. The restoration scope from a major plumbing failure in a historic home is substantial."
+      },
+      {
+        question: "How does the tidal water table affect my Snell Isle home even when there is no storm?",
+        answer: "The tidal water table across Snell Isle rises and falls daily with tidal cycles. During high tide periods — and particularly during king tides in the fall — the water table can approach slab level, creating upward moisture pressure through the slab edge and into flooring materials. This manifests as moisture in floor coverings, elevated relative humidity in ground-floor spaces, and efflorescence (white mineral deposits) on concrete slab edges or masonry. It is a chronic condition that requires attention to waterproofing at slab perimeters, proper interior humidity management, and regular monitoring."
+      },
+      {
+        question: "If a hurricane causes storm surge flooding on Snell Isle, how do I start the restoration process?",
+        answer: "After a storm surge event, do not re-enter the property until Pinellas County emergency management authorizes re-entry and you have confirmed utilities are safely shut off. When you do return, document everything with photos and video before any cleanup begins — this documentation is essential for insurance claims. Call us immediately upon authorization for entry. We will assess the contamination category, scope the damage, and begin emergency demolition (removal of all Category 3-affected porous materials) as quickly as possible. The longer Category 3 materials remain in place, the greater the secondary contamination and mold risk."
+      },
+      {
+        question: "How does salt air affect the timeline for water damage and building maintenance on Snell Isle?",
+        answer: "Salt air accelerates deterioration of sealants, membranes, metal fasteners, and coatings at roughly 2-3 times the rate seen in inland locations. For water damage prevention, this means exterior sealants around windows, doors, and penetrations need inspection and renewal on a shorter cycle than manufacturer specifications designed for inland environments. Roofing membrane lap seams and flashing sealants on flat or low-slope sections are particularly vulnerable. We recommend Snell Isle homeowners have their building envelope inspected annually and budget for more frequent exterior maintenance than they might expect from product specifications."
+      },
+      {
+        question: "I have pool plumbing running underground across my Snell Isle property. Can it cause water damage to my home?",
+        answer: "Yes. Underground pool supply and return lines develop pinhole leaks from pipe joint movement, root intrusion from nearby mature trees, and simple material aging. These leaks saturate soil over time, and on Snell Isle's already moisture-loaded ground, the saturated soil can migrate water toward your home's foundation. In cases we have investigated, pool plumbing leaks caused slab edge moisture wicking that damaged interior flooring materials over an extended period before the source was identified. We use thermal imaging and moisture mapping to trace pool-related moisture migration paths to interior spaces and help identify the underground repair location."
+      }
+    ]
+  }
 ];
 
 // Helper to get neighborhoods by city
