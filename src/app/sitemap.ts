@@ -1,5 +1,6 @@
 import { MetadataRoute } from 'next';
 import { cities } from '@/data/cities';
+import { neighborhoods } from '@/data/neighborhoods';
 import { services } from '@/data/services';
 
 export default function sitemap(): MetadataRoute.Sitemap {
@@ -27,5 +28,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.7,
   }));
 
-  return [...staticPages, ...servicePages, ...cityPages];
+  // Neighborhood pages
+  const neighborhoodPages = neighborhoods.map((n) => ({
+    url: \`\${baseUrl}/locations/\${n.citySlug}/\${n.slug}\`,
+    lastModified: new Date(),
+    priority: 0.6,
+  }));
+
+  return [...staticPages, ...servicePages, ...cityPages, ...neighborhoodPages];
 }
