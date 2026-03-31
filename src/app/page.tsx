@@ -5,21 +5,35 @@ import { generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/sch
 
 export const metadata: Metadata = {
   title: 'Water Damage Champ | 24/7 Emergency Water Damage Restoration',
-  description: 'Professional water damage restoration services available 24/7. Fast response, licensed technicians, free inspections. Call (888) 510-9436 for emergency service.',
+  description: 'Need water damage restoration today? Water Damage Champ delivers 24/7 emergency response across California & Florida — licensed technicians, free inspections. Call (888) 510-9436.',
 };
 
-// Service categories for the "Company You Can Rely On" section
 const serviceCategories = [
   { name: 'Water Damage', image: '/images/Water-damage.jpg', slug: 'water-damage-restoration' },
-  { name: 'Mold Damage', image: '/images/Mold-damage.jpg', slug: 'mold-remediation' },
-  { name: 'Storm Damage', image: '/images/Water-Damage-Truck.jpeg', slug: 'storm-damage-restoration' },
+  { name: 'Mold Remediation', image: '/images/Mold-damage.jpg', slug: 'mold-remediation' },
+  { name: 'Odor Removal', image: '/images/Water-Damage-Truck.jpeg', slug: 'odor-removal' },
   { name: 'Fire Damage', image: '/images/contract.jpg', slug: 'fire-damage-restoration' },
 ];
 
 const steps = [
-  { number: 1, title: 'Help Is One Call Away', description: 'Contact us anytime, day or night. Our 24/7 emergency line is always staffed.' },
-  { number: 2, title: "We'll Assess and Advise", description: 'Our certified technicians arrive promptly to evaluate damage and explain your options.' },
-  { number: 3, title: 'Get Back To Normal', description: 'We handle every step of the restoration process, keeping you informed until your property is fully restored.' },
+  {
+    number: 1,
+    title: 'Help Is One Call Away',
+    description: "Call us right now, and we'll spring into action, getting you the help you need.",
+    image: '/images/contract.jpg',
+  },
+  {
+    number: 2,
+    title: "We'll Assess and Advise",
+    description: "We've created a clear process to guide our customers through their property restoration.",
+    image: '/images/inspection-damage.jpg',
+  },
+  {
+    number: 3,
+    title: 'Get Back To Normal',
+    description: 'We get to work handling all the details, resolving all issues until everything is back the way it was before.',
+    image: '/images/happy-family.jpg',
+  },
 ];
 
 export default function HomePage() {
@@ -30,132 +44,74 @@ export default function HomePage() {
 
   return (
     <>
-      {/* Hero Section with Lead Capture Form */}
+      {/* HERO — CRO SOP: Phone above fold, Primary CTA above fold, Trust signal */}
       <section className="relative min-h-[700px] flex items-stretch">
-        {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <Image
-            src="/images/Water-damage.jpg"
-            alt="Water damage emergency"
-            fill
-            className="object-cover"
-            priority
-          />
-          {/* Blue gradient overlay on left side */}
-          <div className="absolute inset-0 bg-gradient-to-r from-[#1a237e]/90 via-[#1a237e]/70 to-navy-primary/30" />
+          <Image src="/images/Water-damage.jpg" alt="Water damage emergency restoration" fill className="object-cover" priority />
+          <div className="absolute inset-0 bg-gradient-to-r from-[#1a237e]/90 via-[#1a237e]/70 to-transparent" />
         </div>
-        
-        {/* Hero Content */}
         <div className="relative z-10 max-w-7xl mx-auto px-4 py-16 md:py-20 w-full">
           <div className="grid lg:grid-cols-2 gap-12 items-center h-full">
-            {/* Left Side - Text Content */}
             <div className="text-white">
               <p className="text-[#ff6600] font-semibold text-lg mb-2">Your Property, Our Priority</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold italic mb-6 leading-tight">
                 Trust Us for Swift and Effective Water Damage Solutions
               </h1>
               <p className="text-gray-200 text-lg mb-8 max-w-xl">
-                Professional restoration services you can count on. Available 24/7 for emergencies.
+                We specialize in rapid water damage restoration, offering prompt and reliable solutions to bring your property back to its pre-damage condition.
               </p>
-              <a
-                href="tel:+18885109436"
-                className="inline-flex items-center space-x-2 bg-[#ff6600] hover:bg-[#e65100] text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors"
-              >
-                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-                </svg>
+              <a href="tel:+18885109436" className="inline-flex items-center space-x-2 bg-[#ff6600] hover:bg-[#e65100] text-white px-8 py-4 rounded-lg text-lg font-bold transition-colors">
+                <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
                 <span>(888) 510-9436</span>
               </a>
-              
-              {/* Elite Service Badge */}
               <div className="mt-8">
-                <Image
-                  src="/images/elite-solid-border-e1582749398141.png"
-                  alt="Elite Service"
-                  width={120}
-                  height={60}
-                  className="h-14 w-auto"
-                />
+                <Image src="/images/elite-solid-border-e1582749398141.png" alt="Elite Service Badge" width={120} height={60} className="h-14 w-auto" />
               </div>
             </div>
 
-            {/* Right Side - Lead Capture Form */}
+            {/* Lead Capture Form — matching WP original */}
             <div className="bg-white rounded-xl shadow-2xl p-6 md:p-8 max-w-md mx-auto lg:mr-0">
-              <h3 className="text-[#1a237e] text-2xl font-bold text-center mb-6">
-                Schedule Free Inspection
-              </h3>
+              <h3 className="text-[#1a237e] text-2xl font-bold text-center mb-1">Lets Get Started</h3>
+              <p className="text-gray-500 text-center text-sm mb-6">Ready to speak with an expert?</p>
               <form className="space-y-4">
                 <div>
-                  <label htmlFor="fullName" className="block text-gray-700 font-medium mb-1">Full Name</label>
-                  <input
-                    type="text"
-                    id="fullName"
-                    name="fullName"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none"
-                    placeholder="John Smith"
-                    required
-                  />
+                  <label htmlFor="fullName" className="block text-gray-700 font-medium mb-1 text-sm">Full Name</label>
+                  <input type="text" id="fullName" name="fullName" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900" required />
                 </div>
-                
                 <div>
-                  <label htmlFor="email" className="block text-gray-700 font-medium mb-1">Email Address</label>
-                  <input
-                    type="email"
-                    id="email"
-                    name="email"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none"
-                    placeholder="john@example.com"
-                    required
-                  />
+                  <label htmlFor="email" className="block text-gray-700 font-medium mb-1 text-sm">Email</label>
+                  <input type="email" id="email" name="email" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900" required />
                 </div>
-                
                 <div>
-                  <label htmlFor="phone" className="block text-gray-700 font-medium mb-1">Phone Number</label>
-                  <input
-                    type="tel"
-                    id="phone"
-                    name="phone"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none"
-                    placeholder="(555) 123-4567"
-                    required
-                  />
+                  <label htmlFor="phone" className="block text-gray-700 font-medium mb-1 text-sm">Phone Number</label>
+                  <input type="tel" id="phone" name="phone" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900" required />
                 </div>
-
                 <div>
-                  <label htmlFor="serviceType" className="block text-gray-700 font-medium mb-1">Service Type</label>
-                  <select
-                    id="serviceType"
-                    name="serviceType"
-                    className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none"
-                  >
+                  <label htmlFor="serviceType" className="block text-gray-700 font-medium mb-1 text-sm">Service</label>
+                  <select id="serviceType" name="serviceType" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#1a237e] focus:border-[#1a237e] outline-none text-gray-900">
                     <option value="">Select a service...</option>
                     <option value="water-damage">Water Damage</option>
+                    <option value="sewage">Sewage Cleanup</option>
+                    <option value="storm">Storm Recovery</option>
                     <option value="mold">Mold Remediation</option>
-                    <option value="storm">Storm Damage</option>
-                    <option value="flood">Flood Damage</option>
                     <option value="fire">Fire Damage</option>
                     <option value="other">Other</option>
                   </select>
                 </div>
-
                 <div>
-                  <label className="block text-gray-700 font-medium mb-2">Property Type</label>
+                  <label className="block text-gray-700 font-medium mb-2 text-sm">Property Type</label>
                   <div className="flex space-x-6">
-                    <label className="flex items-center">
-                      <input type="radio" name="propertyType" value="residential" className="w-4 h-4 text-[#1a237e]" />
-                      <span className="ml-2 text-gray-700">Residential</span>
+                    <label className="flex items-center cursor-pointer">
+                      <input type="radio" name="propertyType" value="residential" className="w-4 h-4 text-[#1a237e]" defaultChecked />
+                      <span className="ml-2 text-gray-700 text-sm">Residential</span>
                     </label>
-                    <label className="flex items-center">
+                    <label className="flex items-center cursor-pointer">
                       <input type="radio" name="propertyType" value="commercial" className="w-4 h-4 text-[#1a237e]" />
-                      <span className="ml-2 text-gray-700">Commercial</span>
+                      <span className="ml-2 text-gray-700 text-sm">Commercial</span>
                     </label>
                   </div>
                 </div>
-
-                <button
-                  type="submit"
-                  className="w-full bg-[#ff6600] hover:bg-[#e65100] text-white font-bold py-4 rounded-lg transition-colors text-lg"
-                >
+                <button type="submit" className="w-full bg-[#ff6600] hover:bg-[#e65100] text-white font-bold py-4 rounded-lg transition-colors text-lg">
                   Schedule Free Inspection
                 </button>
               </form>
@@ -164,41 +120,23 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* "THE COMPANY YOU CAN RELY ON" Section - 4 Service Cards */}
+      {/* SERVICE CARDS — Matching WP: Water, Mold, Odor Removal, Fire */}
       <section className="py-16 md:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-4">
-              THE COMPANY YOU CAN RELY ON
-            </h2>
-            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
-              Expert restoration services for all types of property damage
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-4">THE COMPANY YOU CAN RELY ON</h2>
+            <p className="text-gray-600 text-lg max-w-3xl mx-auto">
+              Trust us as the dependable choice, where reliability meets unwavering commitment – your go-to partner for all your needs.
             </p>
           </div>
-          
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {serviceCategories.map((category, index) => (
-              <Link 
-                key={index}
-                href={`/${category.slug}`}
-                className="group bg-white border border-gray-200 rounded-xl overflow-hidden hover:shadow-xl transition-all duration-300"
-              >
-                <div className="relative h-48 overflow-hidden">
-                  <Image
-                    src={category.image}
-                    alt={category.name}
-                    fill
-                    className="object-cover group-hover:scale-110 transition-transform duration-500"
-                  />
-                  <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent" />
-                  <div className="absolute bottom-4 left-4 text-white">
-                    <h3 className="text-xl font-bold">{category.name}</h3>
-                  </div>
-                </div>
-                <div className="p-4 text-center">
-                  <span className="text-[#ff6600] font-semibold group-hover:text-[#e65100] transition-colors">
-                    Learn More →
-                  </span>
+              <Link key={index} href={`/${category.slug}`} className="group relative h-64 rounded-xl overflow-hidden shadow-lg hover:shadow-2xl transition-all duration-300">
+                <Image src={category.image} alt={category.name} fill className="object-cover group-hover:scale-110 transition-transform duration-500" />
+                <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent" />
+                <div className="absolute bottom-0 left-0 right-0 p-5">
+                  <h3 className="text-xl font-bold text-white mb-1">{category.name}</h3>
+                  <span className="text-[#ff6600] font-semibold text-sm group-hover:text-orange-300 transition-colors">Learn More →</span>
                 </div>
               </Link>
             ))}
@@ -206,144 +144,107 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* "#1 Rated Damage Repair Company" Section */}
-      <section className="py-16 md:py-20 bg-gray-100">
+      {/* #1 RATED — Matching WP: Two stacked images LEFT + company copy RIGHT */}
+      <section className="py-16 md:py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="inline-block bg-[#ff6600] text-white font-bold px-4 py-2 rounded mb-6">
-                #1 RATED DAMAGE REPAIR COMPANY
+            <div className="space-y-4">
+              <div className="relative h-64 md:h-72 rounded-xl overflow-hidden shadow-lg">
+                <Image src="/images/Water-damage.jpg" alt="Water damage restoration" fill className="object-cover" />
               </div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-6">
-                Professional Water Damage Restoration You Can Trust
-              </h2>
-              <p className="text-gray-600 text-lg mb-6">
-                When water damage strikes, you need a company that responds fast and delivers results. Water Damage Champ has earned a reputation as the go-to restoration experts in California and Florida.
-              </p>
-              <ul className="space-y-3 mb-8">
-                <li className="flex items-center space-x-3">
-                  <svg className="w-5 h-5 text-[#ff6600] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
-                  <span className="text-gray-700">24/7 Emergency Response</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <svg className="w-5 h-5 text-[#ff6600] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
-                  <span className="text-gray-700">Licensed & Insured Technicians</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <svg className="w-5 h-5 text-[#ff6600] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
-                  <span className="text-gray-700">Free Inspections & Estimates</span>
-                </li>
-                <li className="flex items-center space-x-3">
-                  <svg className="w-5 h-5 text-[#ff6600] flex-shrink-0" fill="currentColor" viewBox="0 0 20 20"><path fillRule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clipRule="evenodd"/></svg>
-                  <span className="text-gray-700">Satisfaction Guaranteed</span>
-                </li>
-              </ul>
+              <div className="relative h-64 md:h-72 rounded-xl overflow-hidden shadow-lg">
+                <Image src="/images/Mold-damage.jpg" alt="Mold damage remediation" fill className="object-cover" />
+              </div>
             </div>
-            
-            <div className="bg-[#1a237e] text-white rounded-xl p-8 text-center">
-              <p className="text-2xl font-bold mb-4">24/7 Water Damage Repair</p>
-              <p className="text-3xl font-bold text-[#ff6600] mb-6">(888) 510-9436</p>
-              <button className="bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg">
-                Get Free Proposal
-              </button>
+            <div>
+              <div className="inline-block bg-[#ff6600] text-white font-bold text-sm px-4 py-2 rounded mb-6 uppercase tracking-wide">#1 Rated Damage Repair Company</div>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-6">THE COMPANY YOU CAN RELY ON</h2>
+              <p className="text-gray-600 text-lg mb-4 leading-relaxed">
+                At Water Damage Champ, we take pride in being the reliable cornerstone for all your damage repair needs. We bring unwavering commitment and trustworthiness to every service we provide.
+              </p>
+              <p className="text-gray-600 text-lg mb-8 leading-relaxed">
+                With a dedicated team and a proven track record, we prioritize your satisfaction and peace of mind. From rapid responses to quality solutions, we strive to be the steadfast partner you can count on. Our commitment goes beyond services; our promise to consistently deliver excellence, making us the reliable choice for all your requirements.
+              </p>
+              <div className="bg-[#1a237e] rounded-xl p-8 text-center">
+                <p className="text-xl font-bold text-white mb-3">24/7 Water Damage Repair</p>
+                <a href="tel:+18885109436" className="block text-3xl font-bold text-[#ff6600] hover:text-orange-300 transition-colors mb-5">(888) 510-9436</a>
+                <Link href="/contact" className="inline-block bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg">Get Free Proposal</Link>
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      {/* "WORK WITH PROFESSIONALS" Section - Blue Gradient */}
-      <section className="py-16 md:py-20 bg-gradient-to-r from-[#1a237e] to-[#111d35] text-white">
+      {/* WORK WITH PROFESSIONALS — Matching WP: Alternating image+text with large step numbers */}
+      <section className="py-16 md:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold mb-4">
-              WORK WITH PROFESSIONALS
-            </h2>
-            <p className="text-gray-300 text-lg max-w-2xl mx-auto">
-              Our proven process ensures your property gets back to normal quickly
+          <div className="text-center mb-16">
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-4">WORK WITH PROFESSIONALS</h2>
+            <p className="text-gray-600 text-lg max-w-2xl mx-auto">
+              Collaborate with professionals at Water Damage Champ and experience the difference expertise makes – where every project is handled with precision and dedication.
             </p>
           </div>
-          
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            {steps.map((step) => (
-              <div key={step.number} className="text-center">
-                <div className="w-20 h-20 bg-[#ff6600] rounded-full flex items-center justify-center mx-auto mb-6">
-                  <span className="text-3xl font-bold">{step.number}</span>
+          <div className="space-y-16">
+            {steps.map((step, index) => (
+              <div key={step.number} className={`grid lg:grid-cols-2 gap-8 items-center`}>
+                <div className={`relative ${index % 2 !== 0 ? 'lg:order-2' : ''}`}>
+                  <div className="relative h-72 md:h-80 rounded-xl overflow-hidden shadow-lg">
+                    <Image src={step.image} alt={step.title} fill className="object-cover" />
+                  </div>
+                  <div className="absolute -bottom-4 -right-4 lg:-bottom-6 lg:-right-6 w-20 h-20 lg:w-24 lg:h-24 bg-[#ff6600] rounded-full flex items-center justify-center shadow-xl">
+                    <span className="text-4xl lg:text-5xl font-bold text-white">{step.number}</span>
+                  </div>
                 </div>
-                <h3 className="text-xl font-bold mb-3">{step.title}</h3>
-                <p className="text-gray-300">{step.description}</p>
+                <div className={`${index % 2 !== 0 ? 'lg:order-1 lg:text-right' : ''}`}>
+                  <h3 className="text-2xl md:text-3xl font-bold text-[#1a237e] mb-4">{step.title}</h3>
+                  <p className="text-gray-600 text-lg leading-relaxed">{step.description}</p>
+                </div>
               </div>
             ))}
           </div>
         </div>
       </section>
 
-      {/* "Request a Service Today" Section - Dark Background */}
-      <section className="py-16 md:py-20 bg-[#0a1628] text-white">
-        <div className="max-w-7xl mx-auto px-4 text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            Request a Service Today
-          </h2>
+      {/* REQUEST A SERVICE — Matching WP: Truck image background */}
+      <section className="relative py-20">
+        <div className="absolute inset-0">
+          <Image src="/images/Water-Damage-Truck.jpeg" alt="Water Damage Champ service truck" fill className="object-cover" />
+          <div className="absolute inset-0 bg-[#0a1628]/85" />
+        </div>
+        <div className="relative z-10 max-w-7xl mx-auto px-4 text-center text-white">
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Request a Service Today</h2>
           <p className="text-gray-300 text-lg mb-8 max-w-2xl mx-auto">
-            Don't wait - the longer you wait, the worse the damage becomes. Contact us now for fast, professional restoration.
+            Don't wait – the longer water sits, the worse the damage becomes. Contact us now for fast, professional restoration.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <a
-              href="tel:+18885109436"
-              className="inline-flex items-center space-x-2 bg-[#ff6600] hover:bg-[#e65100] text-white px-8 py-4 rounded-lg font-bold transition-colors text-lg"
-            >
-              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
-              </svg>
+            <a href="tel:+18885109436" className="inline-flex items-center justify-center space-x-2 bg-[#ff6600] hover:bg-[#e65100] text-white px-8 py-4 rounded-lg font-bold transition-colors text-lg">
+              <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
               <span>Call (888) 510-9436</span>
             </a>
-            <button className="inline-flex items-center space-x-2 border-2 border-[#ff6600] text-[#ff6600] hover:bg-[#ff6600] hover:text-white px-8 py-4 rounded-lg font-bold transition-colors text-lg">
+            <Link href="/contact" className="inline-flex items-center justify-center space-x-2 border-2 border-[#ff6600] text-[#ff6600] hover:bg-[#ff6600] hover:text-white px-8 py-4 rounded-lg font-bold transition-colors text-lg">
               <span>Schedule Free Inspection</span>
-            </button>
+            </Link>
           </div>
         </div>
       </section>
 
-      {/* Reliability Section - Background Image with Overlay */}
+      {/* RELIABILITY BANNER — Happy family background w/ overlay */}
       <section className="relative py-20">
         <div className="absolute inset-0">
-          <Image
-            src="/images/happy-family.jpg"
-            alt="Happy family in home"
-            fill
-            className="object-cover"
-          />
+          <Image src="/images/happy-family.jpg" alt="Satisfied customers" fill className="object-cover" />
           <div className="absolute inset-0 bg-[#1a237e]/80" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center text-white">
-          {/* 5 Orange Stars */}
-          <div className="flex justify-center space-x-2 mb-6">
-            {[...Array(5)].map((_, i) => (
-              <svg key={i} className="w-8 h-8 text-[#ff6600]" fill="currentColor" viewBox="0 0 20 20">
-                <path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"/>
-              </svg>
-            ))}
-          </div>
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">
-            THE COMPANY YOU CAN RELY ON
-          </h2>
-          <p className="text-gray-200 text-lg mb-8 max-w-2xl mx-auto">
-            Join thousands of satisfied customers who trusted us with their property restoration needs.
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">THE COMPANY YOU CAN RELY ON</h2>
+          <p className="text-gray-200 text-lg mb-8 max-w-3xl mx-auto">
+            Reliability at its core – we're the company dedicated to earning and keeping your trust, delivering consistent excellence in every service we provide.
           </p>
-          <button className="bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg">
-            Get Started Today
-          </button>
+          <Link href="/contact" className="inline-block bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg">Contact The Experts</Link>
         </div>
       </section>
 
-      {/* Schema.org JSON-LD */}
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }}
-      />
-      <script
-        type="application/ld+json"
-        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
-      />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
     </>
   );
 }

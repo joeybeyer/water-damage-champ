@@ -763,6 +763,415 @@ Don't wait. Contact Water Damage Champ immediately when water damage strikes.
       }
     ]
   }
+,
+  // ═══════════════════════════════════════════════════════════
+  // NEW SERVICES — SOP-compliant content per page-copy-template
+  // ═══════════════════════════════════════════════════════════
+  {
+    slug: 'fire-damage-restoration',
+    name: 'Fire Damage Restoration',
+    title: 'Fire & Smoke Damage Restoration Services — 24/7 Emergency Response',
+    description: 'Dealing with fire damage? Water Damage Champ provides complete fire and smoke restoration across California & Florida. Board-up, soot removal, odor elimination, and full reconstruction. Call (888) 510-9436.',
+    fullContent: `
+## Complete Fire & Smoke Damage Restoration
+
+Fire damage doesn't end when the flames go out. Smoke, soot, and water used during firefighting create a cascade of secondary damage that worsens by the hour. Water Damage Champ provides comprehensive fire damage restoration throughout California and Florida — from emergency board-up to full structural reconstruction.
+
+Our IICRC-certified technicians respond within hours of your call, securing your property and beginning the assessment process immediately. We serve homeowners and businesses in Los Angeles, San Diego, the San Francisco Bay Area, Tampa, and St. Petersburg.
+
+### Why Immediate Response Matters
+
+Soot and smoke residue become increasingly difficult to remove over time. Within 24 hours, soot begins permanently staining surfaces. Within 48 hours, metal fixtures start corroding. Acidic smoke residue etches glass and damages electronics if not addressed quickly.
+
+### Our Fire Damage Restoration Process
+
+**1. Emergency Board-Up & Securing**
+We secure your property immediately — boarding windows, tarping the roof, and preventing unauthorized access. This protects against weather damage, theft, and further deterioration.
+
+**2. Damage Assessment & Documentation**
+Our team documents all fire, smoke, and water damage thoroughly. We photograph everything for insurance purposes and create a detailed restoration plan with your adjuster.
+
+**3. Water Extraction & Drying**
+Firefighting efforts often leave significant water damage. We extract standing water, deploy industrial dehumidifiers, and prevent mold growth in water-damaged areas.
+
+**4. Soot & Smoke Removal**
+Different fires produce different types of soot. Protein fires (kitchen), synthetic material fires, and wood fires each require specialized cleaning methods. Our technicians identify the soot type and apply the correct removal technique.
+
+**5. Odor Elimination**
+Smoke odor penetrates deep into building materials, fabrics, and HVAC systems. We use thermal fogging, ozone treatment, and hydroxyl generators to neutralize odors at the molecular level — not just mask them.
+
+**6. Structural Cleaning & Restoration**
+We clean and restore salvageable materials including drywall, framing, flooring, and cabinetry. Items that cannot be restored are carefully documented for insurance replacement.
+
+**7. Full Reconstruction**
+Our licensed contractors handle complete rebuild — from framing and drywall to paint and finish work. We restore your property to its pre-fire condition or better.
+
+### Types of Fire Damage We Handle
+
+- Kitchen fires and grease fires
+- Electrical fires
+- Appliance malfunctions
+- Wildfire damage (common in Southern California communities like Malibu, Woodland Hills, and Encino)
+- Lightning strike damage (frequent in Tampa Bay and St. Petersburg areas)
+- Arson and vandalism fire damage
+- Commercial fire damage
+
+### Insurance Coordination
+
+Fire damage claims are complex. We work directly with your insurance company from day one — handling documentation, supplemental estimates, and scope negotiations. Our team has processed thousands of fire claims and understands what adjusters need to approve restoration work promptly.
+
+### Why Choose Water Damage Champ for Fire Restoration?
+
+- 24/7 emergency response — we arrive within hours, not days
+- IICRC-certified fire and smoke restoration technicians
+- Complete service from board-up through reconstruction — one company, one point of contact
+- Direct insurance billing and claims coordination
+- Licensed general contractors for structural rebuild
+- Serving communities across California and Florida
+`,
+    faqs: [
+      {
+        question: 'How quickly can you respond to fire damage?',
+        answer: 'We provide 24/7 emergency response and typically arrive within 2-4 hours of your call. Our first priority is securing your property with board-up services and tarping to prevent further damage from weather or unauthorized access.'
+      },
+      {
+        question: 'Does insurance cover fire damage restoration?',
+        answer: 'Most homeowner and commercial property insurance policies cover fire damage restoration. We work directly with all major insurance carriers, handle the documentation and claims process, and bill your insurance company directly in most cases.'
+      },
+      {
+        question: 'How long does fire damage restoration take?',
+        answer: 'Timeline depends on severity. Minor smoke damage may take 1-2 weeks. Significant structural fire damage requiring reconstruction can take 2-6 months. We provide a detailed timeline during the initial assessment and keep you updated throughout.'
+      },
+      {
+        question: 'Can smoke odor be completely removed?',
+        answer: 'Yes. We use professional-grade thermal fogging, ozone treatment, and hydroxyl generators that neutralize smoke odor at the molecular level. Unlike air fresheners that mask the smell, these methods eliminate the odor permanently from building materials and contents.'
+      },
+      {
+        question: 'Should I try to clean soot damage myself?',
+        answer: 'We strongly advise against DIY soot cleaning. Improper wiping can spread soot deeper into surfaces and cause permanent staining. Different fire types produce different soot requiring specialized techniques. Incorrect cleaning can also void insurance coverage for those items.'
+      },
+      {
+        question: 'Do you handle the full reconstruction after a fire?',
+        answer: 'Yes. Water Damage Champ provides end-to-end service from emergency response through complete reconstruction. Our licensed general contractors handle framing, drywall, electrical, plumbing, flooring, painting, and finish work — restoring your property to pre-fire condition.'
+      },
+      {
+        question: 'What areas do you serve for fire damage restoration?',
+        answer: 'We serve communities throughout California including Los Angeles, San Diego, the Bay Area, Sacramento, and surrounding cities. In Florida, we serve Tampa, St. Petersburg, and surrounding Hillsborough and Pinellas County areas.'
+      }
+    ]
+  },
+  {
+    slug: 'odor-removal',
+    name: 'Odor Removal',
+    title: 'Professional Odor Removal Services — Eliminate Odors Permanently',
+    description: 'Stubborn odors from smoke, mold, pets, or water damage? Water Damage Champ uses thermal fogging, ozone, and hydroxyl treatment to eliminate odors permanently. Serving CA & FL. Call (888) 510-9436.',
+    fullContent: `
+## Professional Odor Removal & Deodorization Services
+
+Persistent odors from water damage, fire, mold, pets, or biohazard situations don't respond to consumer-grade air fresheners. These odors penetrate deep into building materials — drywall, subflooring, insulation, HVAC ductwork, and structural framing — where surface cleaning can't reach.
+
+Water Damage Champ provides professional-grade odor elimination across California and Florida using industrial equipment that neutralizes odor molecules at the source, not just masks them.
+
+### Common Odor Sources We Treat
+
+**Water Damage & Mold Odors**
+Musty, damp odors signal moisture trapped in building materials. These can indicate active mold growth behind walls or beneath flooring. We identify the moisture source, remediate mold if present, and eliminate the odor through structural drying and deodorization.
+
+**Smoke & Fire Odors**
+Smoke particles embed deeply in porous materials. Kitchen grease fires, structural fires, and even cigarette smoke require different treatment approaches. Our technicians assess the smoke type and deploy the appropriate combination of cleaning and deodorization methods.
+
+**Pet Odors**
+Pet urine penetrates carpet, pad, and subfloor. Surface cleaning rarely reaches the full depth of contamination. We use enzymatic treatments, subfloor sealing, and deodorization to fully eliminate pet odors — not just cover them up.
+
+**Biohazard & Sewage Odors**
+Sewage backups, decomposition, and other biohazard situations produce severe odors that require professional remediation. We handle the complete cleanup, sanitization, and odor elimination process with proper safety protocols.
+
+### Our Odor Elimination Methods
+
+**Thermal Fogging**
+Produces a deodorizing fog that penetrates the same spaces smoke and odor particles reach — cracks, crevices, fabric fibers, and porous materials. Particularly effective for smoke and fire odors.
+
+**Ozone Treatment**
+Ozone generators produce O3 molecules that oxidize and destroy odor-causing compounds at the molecular level. Highly effective for severe odors. Property must be vacated during treatment.
+
+**Hydroxyl Generators**
+Advanced photocatalytic technology that safely neutralizes odors while occupants remain in the building. Effective for moderate odors and ongoing maintenance.
+
+**Enzymatic Treatments**
+Biological enzymes break down organic odor sources — particularly effective for pet urine, sewage, and decomposition odors where the source material has penetrated porous surfaces.
+
+**HVAC & Duct Cleaning**
+Odors circulating through HVAC systems recontaminate cleaned spaces. We clean ductwork, replace filters, and treat the entire air handling system to prevent odor recirculation.
+
+### Why DIY Odor Removal Fails
+
+Consumer air fresheners, scented candles, and baking soda only mask odors temporarily. The odor-causing molecules remain embedded in building materials and return once the masking agent dissipates. Professional equipment reaches the molecular source of the odor and eliminates it permanently.
+
+### Areas We Serve
+
+We provide professional odor removal throughout California — including Los Angeles, San Diego, San Francisco, Cupertino, Torrance, Malibu, and surrounding communities. In Florida, we serve Tampa, St. Petersburg, and the greater Tampa Bay area.
+`,
+    faqs: [
+      {
+        question: 'Can you really remove odors permanently?',
+        answer: 'Yes. Unlike air fresheners that mask odors, our professional equipment — thermal foggers, ozone generators, and hydroxyl technology — neutralizes odor molecules at the source. Once the odor-causing compounds are destroyed, the smell does not return.'
+      },
+      {
+        question: 'How long does professional odor removal take?',
+        answer: 'Most residential odor removal projects take 1-3 days depending on severity and the source. Severe smoke or biohazard odors may require multiple treatment cycles over 3-5 days. We assess and provide a timeline during the initial inspection.'
+      },
+      {
+        question: 'Is ozone treatment safe?',
+        answer: 'Ozone treatment is highly effective but requires the property to be vacated during treatment — including pets and plants. After treatment, we ventilate the space thoroughly before occupants return. Hydroxyl generators are an alternative that allows occupants to remain.'
+      },
+      {
+        question: 'Do you handle the source of the odor or just the smell?',
+        answer: 'We address both. If the odor stems from water damage, mold, or contamination, we remediate the source first. Treating the odor without fixing the cause would only provide temporary results. Source removal is always step one.'
+      },
+      {
+        question: 'How much does odor removal cost?',
+        answer: 'Cost varies based on the odor source, severity, and square footage. Minor pet odor in one room may cost a few hundred dollars, while whole-house smoke odor treatment runs higher. We provide free inspections and detailed estimates before any work begins.'
+      },
+      {
+        question: 'Will my insurance cover odor removal?',
+        answer: 'If the odor results from a covered event — fire, water damage, sewage backup — insurance typically covers professional odor removal as part of the restoration. We coordinate directly with your insurance company and handle the documentation.'
+      }
+    ]
+  },
+  {
+    slug: 'sewage-cleanup',
+    name: 'Sewage Cleanup',
+    title: 'Emergency Sewage Cleanup & Sanitization — Category 3 Water Specialists',
+    description: 'Sewage backup in your home or business? Water Damage Champ provides emergency Category 3 water cleanup with full sanitization. IICRC-certified technicians, 24/7 response. Call (888) 510-9436.',
+    fullContent: `
+## Emergency Sewage Cleanup & Sanitization Services
+
+Sewage backups are classified as Category 3 — the most hazardous type of water damage. Raw sewage contains bacteria, viruses, parasites, and other pathogens that pose serious health risks. This is not a situation for DIY cleanup. Professional extraction, sanitization, and decontamination are essential.
+
+Water Damage Champ provides 24/7 emergency sewage cleanup throughout California and Florida. Our IICRC-certified technicians arrive with full PPE, specialized extraction equipment, and EPA-registered antimicrobial solutions.
+
+### Health Hazards of Sewage Exposure
+
+Sewage contains E. coli, Salmonella, Hepatitis A, Giardia, and other dangerous pathogens. Exposure through skin contact, inhalation of contaminated air, or contact with contaminated surfaces can cause severe illness. Children, elderly, and immunocompromised individuals face the highest risk.
+
+### Our Sewage Cleanup Process
+
+**1. Safety Assessment**
+We evaluate the contamination scope, shut off water supply if the backup is ongoing, and establish safety zones. All technicians wear full PPE including respirators.
+
+**2. Sewage Extraction**
+Industrial pumps and extraction equipment remove standing sewage. We extract contaminated water from carpets, subfloors, wall cavities, and any affected structural elements.
+
+**3. Contaminated Material Removal**
+Porous materials that absorbed sewage — carpet, pad, drywall below the flood line, insulation — are removed and disposed of following local health department regulations. These materials cannot be safely decontaminated.
+
+**4. Antimicrobial Treatment**
+All affected surfaces are treated with EPA-registered antimicrobial and biocide solutions. This kills remaining pathogens on structural materials, concrete, framing, and subfloor.
+
+**5. Structural Drying**
+Professional-grade dehumidifiers and air movers dry the structure completely. We monitor humidity levels with thermal imaging and moisture meters to ensure thorough drying and prevent secondary mold growth.
+
+**6. Deodorization**
+Sewage odor is eliminated using industrial deodorization methods — not masked with air fresheners. We use hydroxyl generators and thermal fogging to neutralize odor at the molecular level.
+
+**7. Restoration**
+We replace removed materials — new drywall, flooring, baseboards, and insulation — restoring your property to pre-damage condition.
+
+### Common Causes of Sewage Backups
+
+- Clogged or collapsed sewer lines
+- Tree root intrusion into sewer pipes
+- Heavy rain overwhelming municipal sewer systems (common in older California and Florida neighborhoods)
+- Septic system failure
+- Combined sewer overflows during storms
+
+### Areas We Serve
+
+Our sewage cleanup teams serve Los Angeles, San Diego, San Francisco, Sacramento, and communities throughout California. In Florida, we provide service in Tampa, St. Petersburg, and across the Tampa Bay region.
+`,
+    faqs: [
+      {
+        question: 'Is sewage cleanup covered by insurance?',
+        answer: 'Most homeowner policies cover sudden sewage backups. However, coverage varies — some require a specific sewer backup rider. We work with your insurance company to document the damage and maximize your coverage.'
+      },
+      {
+        question: 'Can I clean up sewage myself?',
+        answer: 'We strongly advise against it. Raw sewage is Category 3 water containing dangerous pathogens. Professional cleanup requires specialized PPE, extraction equipment, EPA-registered antimicrobials, and proper disposal methods. DIY cleanup risks serious illness and may void insurance coverage.'
+      },
+      {
+        question: 'How long does sewage cleanup take?',
+        answer: 'Most residential sewage cleanups take 3-5 days including extraction, sanitization, drying, and deodorization. Larger affected areas or commercial properties may take longer. Restoration and rebuild adds additional time depending on scope.'
+      },
+      {
+        question: 'Will sewage damage cause mold?',
+        answer: 'Yes, if not dried properly. Mold can begin growing within 24-48 hours in damp conditions. Our drying protocol includes daily moisture monitoring to ensure the structure dries completely and prevents secondary mold contamination.'
+      },
+      {
+        question: 'What should I do immediately after a sewage backup?',
+        answer: 'Stop using water and toilets in the affected area. Do not attempt to wade through sewage. Turn off HVAC to prevent airborne contamination. Call us immediately at (888) 510-9436 for emergency response. Keep children and pets away from the affected area.'
+      },
+      {
+        question: 'Do you dispose of contaminated materials properly?',
+        answer: 'Yes. All sewage-contaminated materials are bagged, labeled, and disposed of following local health department and EPA guidelines. We handle all disposal logistics and documentation as part of our service.'
+      }
+    ]
+  },
+  {
+    slug: 'flooded-basement',
+    name: 'Flooded Basement Restoration',
+    title: 'Flooded Basement Cleanup & Restoration — Fast Water Extraction',
+    description: 'Flooded basement? Water Damage Champ provides emergency basement water extraction, drying, and restoration 24/7. Prevent mold and structural damage. Call (888) 510-9436 now.',
+    fullContent: `
+## Flooded Basement Cleanup & Restoration
+
+A flooded basement demands immediate action. Standing water degrades foundation walls, destroys stored belongings, shorts electrical systems, and creates prime conditions for mold growth within 24-48 hours. Water Damage Champ provides emergency basement flooding response across California and Florida.
+
+Our technicians arrive equipped with submersible pumps, truck-mounted extraction units, and professional drying systems capable of handling basement floods of any size — from minor seepage to several feet of standing water.
+
+### Common Causes of Basement Flooding
+
+**Heavy Rainfall & Storm Surge**
+In California, atmospheric rivers and El Niño events overwhelm drainage systems. In Florida, hurricane season and afternoon thunderstorms regularly flood basements and lower levels — particularly in Tampa, St. Petersburg, and coastal communities.
+
+**Sump Pump Failure**
+When sump pumps fail during heavy rain, groundwater rises through the slab and drain tile system. We address both the immediate flooding and can recommend backup sump pump solutions.
+
+**Plumbing Failures**
+Burst pipes, water heater failures, and supply line breaks can dump hundreds of gallons into a basement quickly. We trace and stop the water source before beginning extraction.
+
+**Foundation Cracks & Seepage**
+Hydrostatic pressure pushes groundwater through foundation cracks. While immediate water removal is critical, we also identify the entry points and recommend long-term waterproofing solutions.
+
+### Our Basement Flood Restoration Process
+
+**1. Emergency Water Extraction**
+Submersible pumps remove bulk standing water. Truck-mounted extraction units then pull remaining water from carpet, pad, and subflooring materials.
+
+**2. Content Assessment & Removal**
+We assess basement contents for salvageability. Items that can be restored go through our content cleaning process. Unsalvageable items are documented for insurance claims.
+
+**3. Structural Drying**
+Industrial dehumidifiers and air movers dry the basement structure — concrete walls, slab floor, framing, and drywall. We monitor moisture levels daily with meters and thermal imaging.
+
+**4. Mold Prevention**
+Antimicrobial treatment on all exposed surfaces prevents mold colonization during and after the drying process. If mold is already present, we perform full remediation before restoration.
+
+**5. Restoration & Rebuild**
+We replace damaged drywall, flooring, insulation, and baseboards. Electrical and mechanical systems are inspected and repaired as needed.
+
+### Areas We Serve
+
+We respond to basement flooding emergencies throughout California and Florida — including Los Angeles, San Diego, San Francisco, Palo Alto, Cupertino, Tampa, and St. Petersburg. Our 24/7 dispatch ensures rapid response regardless of location.
+`,
+    faqs: [
+      {
+        question: 'How quickly can you pump out a flooded basement?',
+        answer: 'We arrive within 2-4 hours for emergency calls. Pump-out time depends on water volume — most residential basements can be extracted within 4-8 hours. Drying takes an additional 3-5 days with professional equipment.'
+      },
+      {
+        question: 'Will a flooded basement cause mold?',
+        answer: 'Mold can begin growing within 24-48 hours in standing water conditions. Professional extraction and drying significantly reduce mold risk. If mold has already started, we perform full remediation as part of the restoration process.'
+      },
+      {
+        question: 'Does homeowner insurance cover basement flooding?',
+        answer: 'Standard homeowner policies typically cover sudden events like burst pipes. Flood damage from external water sources usually requires separate flood insurance. Sewer backup may require an additional rider. We help navigate your specific coverage.'
+      },
+      {
+        question: 'Can basement carpet be saved after flooding?',
+        answer: 'It depends on the water category. Clean water (Category 1) from supply lines — carpet can often be professionally cleaned and dried. Grey or black water contamination requires carpet and pad removal and replacement.'
+      },
+      {
+        question: 'Should I run my sump pump before you arrive?',
+        answer: 'If your sump pump is working, let it run. However, do not enter standing water if there is any risk of electrical contact. Turn off the circuit breaker for the basement if you can do so safely from a dry area, then call us immediately.'
+      },
+      {
+        question: 'Do you handle finished basement restorations?',
+        answer: 'Yes. We restore finished basements including drywall, flooring, built-in cabinetry, home theaters, and bathroom fixtures. Our licensed contractors handle complete rebuild to return your basement to pre-flood condition.'
+      }
+    ]
+  },
+  {
+    slug: 'frozen-burst-pipes',
+    name: 'Frozen & Burst Pipe Repair',
+    title: 'Frozen & Burst Pipe Water Damage Restoration — Emergency Response',
+    description: 'Burst pipe flooding your property? Water Damage Champ provides emergency extraction, pipe damage repair coordination, and complete drying. Available 24/7. Call (888) 510-9436.',
+    fullContent: `
+## Frozen & Burst Pipe Water Damage Restoration
+
+A single burst pipe can release hundreds of gallons of water per hour into your home or business — flooding multiple floors, destroying ceilings, warping hardwood, and saturating insulation. Water Damage Champ provides rapid emergency response to burst pipe damage across California and Florida.
+
+While frozen pipes are less common in our primary service areas, supply line failures, corroded pipes, and water hammer damage are among the most frequent causes of residential water damage in Los Angeles, San Diego, the Bay Area, and Tampa.
+
+### Common Pipe Failure Causes
+
+**Supply Line Breaks**
+Aging copper, galvanized, and polybutylene supply lines develop pinhole leaks and catastrophic failures. Older homes in San Mateo, Torrance, Encino, and other established California communities are particularly susceptible.
+
+**Water Heater Failures**
+Tank-style water heaters have a 10-15 year lifespan. When they fail, 40-80 gallons of water release at once — often in garages, utility rooms, or closets adjacent to living spaces.
+
+**Washing Machine & Appliance Lines**
+Rubber supply hoses deteriorate over time. A burst washing machine hose on an upper floor can cause cascading damage through multiple rooms and levels.
+
+**Freeze Events**
+While rare in California and Florida, cold snaps do occur. Uninsulated pipes in attics, exterior walls, and crawlspaces can freeze and burst during unusual cold weather events.
+
+### Our Burst Pipe Response Process
+
+**1. Water Source Shutoff**
+First priority is stopping the water flow. We locate and shut the main water supply or isolate the failed line to prevent continued flooding.
+
+**2. Emergency Water Extraction**
+Truck-mounted extractors and portable units remove standing water from all affected areas — floors, wall cavities, ceiling voids, and between structural layers.
+
+**3. Content Protection**
+We move furniture and belongings away from affected areas. Salvageable items enter our content cleaning program. Everything is documented for insurance.
+
+**4. Structural Drying**
+Multi-point drying with commercial dehumidifiers and air movers. We use thermal imaging to detect moisture behind walls and under floors, ensuring complete drying throughout the structure.
+
+**5. Mold Prevention**
+Antimicrobial application to all exposed surfaces. Daily moisture monitoring ensures the environment stays below mold-growth thresholds throughout the drying period.
+
+**6. Restoration**
+We repair or replace damaged drywall, ceilings, flooring, paint, and trim. Our contractors restore your property to pre-damage condition.
+
+### Insurance & Documentation
+
+Burst pipe damage is typically covered under standard homeowner insurance policies. We document all damage with photos, moisture readings, and detailed scope reports. Our team works directly with your adjuster to expedite the claims process.
+
+### Areas We Serve
+
+We respond to burst pipe emergencies across California — Los Angeles, San Diego, San Francisco, Sacramento, and surrounding cities including Cupertino, Pacifica, Chula Vista, and Woodland Hills. In Florida, we serve Tampa, St. Petersburg, and the greater Tampa Bay area.
+`,
+    faqs: [
+      {
+        question: 'How fast can you respond to a burst pipe emergency?',
+        answer: 'We provide 24/7 emergency response and arrive within 2-4 hours. For active flooding situations, call us immediately at (888) 510-9436 and shut off your main water supply if you can safely access it.'
+      },
+      {
+        question: 'Is burst pipe damage covered by insurance?',
+        answer: 'Yes, in most cases. Standard homeowner policies cover sudden and accidental water damage from burst pipes. We work directly with your insurance company and handle all documentation and claims coordination.'
+      },
+      {
+        question: 'How much water can a burst pipe release?',
+        answer: 'A typical residential supply line can release 4-8 gallons per minute — that is 240-480 gallons per hour. A burst pipe running overnight can flood an entire home. Shutting off the main water supply immediately is critical.'
+      },
+      {
+        question: 'Can you detect water damage behind walls?',
+        answer: 'Yes. We use thermal imaging cameras and professional-grade moisture meters to detect hidden moisture behind walls, under floors, and above ceilings. This ensures we find and dry all affected areas, preventing hidden mold growth.'
+      },
+      {
+        question: 'Will burst pipe damage cause mold?',
+        answer: 'Without professional drying, mold can begin growing within 24-48 hours. Our drying protocol uses industrial dehumidifiers and daily moisture monitoring to dry the structure thoroughly and prevent mold colonization.'
+      },
+      {
+        question: 'Do you repair the pipe itself?',
+        answer: 'We coordinate with licensed plumbers for the actual pipe repair. Our specialty is the water damage restoration — extraction, drying, mold prevention, and structural repair. We manage the entire process so you have one point of contact.'
+      }
+    ]
+  }
+
 ];
 
 export const serviceSlugs = services.map(s => s.slug);

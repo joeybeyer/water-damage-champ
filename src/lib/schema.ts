@@ -1,77 +1,48 @@
 import { City } from '@/data/cities';
 
-export interface LocalBusinessSchema {
-  '@context': string;
-  '@type': string;
-  name: string;
-  telephone: string;
-  address?: {
-    '@type': string;
-    addressLocality: string;
-    addressRegion: string;
-    addressCountry: string;
-  };
-  areaServed?: string;
-  priceRange?: string;
-  openingHours?: string;
-  url?: string;
-  description?: string;
-}
-
-export interface ServiceSchema {
-  '@context': string;
-  '@type': string;
-  name: string;
-  description: string;
-  provider: {
-    '@type': string;
-    name: string;
-    telephone: string;
-  };
-  areaServed?: string;
-  url?: string;
-}
-
-export interface FAQPageSchema {
-  '@context': string;
-  '@type': string;
-  mainEntity: {
-    '@type': string;
-    about: string;
-  }[];
-}
-
 export interface BreadcrumbItem {
   name: string;
   url: string;
 }
 
-export interface BreadcrumbSchema {
-  '@context': string;
-  '@type': string;
-  itemListElement: {
-    '@type': string;
-    position: number;
-    name: string;
-    item: string;
-  }[];
-}
-
 export function generateLocalBusinessSchema(city?: City) {
-  const base = {
+  const base: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
+    '@id': 'https://waterdamagechamp.com/#business',
     name: 'Water Damage Champ',
-    telephone: '+1-888-510-9436',
-    priceRange: '$$',
-    openingHours: 'Mo-Su 00:00-24:00',
     url: 'https://waterdamagechamp.com',
-    description: 'Professional water damage restoration services available 24/7.',
+    telephone: '+1-888-510-9436',
+    email: 'service@waterdamagechamp.com',
+    description: 'Professional water damage restoration services available 24/7. Fast emergency response, licensed technicians, and free inspections across California and Florida.',
+    image: 'https://waterdamagechamp.com/images/Water-damage.jpg',
+    logo: 'https://waterdamagechamp.com/images/logo112-1024x301.png',
+    priceRange: '$$',
+    openingHoursSpecification: [
+      {
+        '@type': 'OpeningHoursSpecification',
+        dayOfWeek: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday'],
+        opens: '00:00',
+        closes: '23:59',
+      },
+    ],
+    sameAs: [
+      'https://www.facebook.com/waterdamagechamp',
+      'https://www.youtube.com/channel/UCPfivC7ChN1dahbi4xnwXPw',
+      'https://www.instagram.com/waterdamagechamp/',
+    ],
+    areaServed: [
+      { '@type': 'State', name: 'California' },
+      { '@type': 'State', name: 'Florida' },
+    ],
   };
 
   if (city) {
     return {
       ...base,
+      '@id': `https://waterdamagechamp.com/locations/${city.slug}/#business`,
+      name: `Water Damage Champ - ${city.name}`,
+      url: `https://waterdamagechamp.com/locations/${city.slug}`,
       address: {
         '@type': 'PostalAddress',
         addressLocality: city.name,
@@ -82,8 +53,6 @@ export function generateLocalBusinessSchema(city?: City) {
         '@type': 'City',
         name: `${city.name}, ${city.state}`,
       },
-      name: `Water Damage Champ - ${city.name}`,
-      url: `https://waterdamagechamp.com/locations/${city.slug}`,
     };
   }
 
@@ -98,10 +67,14 @@ export function generateServiceSchema(service: { name: string; description: stri
     description: service.description,
     provider: {
       '@type': 'LocalBusiness',
+      '@id': 'https://waterdamagechamp.com/#business',
       name: 'Water Damage Champ',
       telephone: '+1-888-510-9436',
     },
-    areaServed: 'CA, FL',
+    areaServed: [
+      { '@type': 'State', name: 'California' },
+      { '@type': 'State', name: 'Florida' },
+    ],
     url: `https://waterdamagechamp.com/${service.slug}`,
   };
 }
