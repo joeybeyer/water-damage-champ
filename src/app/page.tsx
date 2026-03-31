@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import ServiceCard from '@/components/ServiceCard';
 import FAQSection from '@/components/FAQSection';
 import { services } from '@/data/services';
@@ -43,29 +44,43 @@ export default function HomePage() {
   return (
     <>
       {/* Hero Section */}
-      <section className="relative bg-navy-800 py-20 md:py-32">
-        <div className="absolute inset-0 bg-gradient-to-b from-navy-900/50 to-navy-800" />
-        <div className="relative max-w-7xl mx-auto px-4 text-center">
+      <section className="relative min-h-[600px] flex items-center">
+        {/* Background Image */}
+        <div className="absolute inset-0 z-0">
+          <Image
+            src="/images/Water-damage.jpg"
+            alt="Water damage emergency"
+            fill
+            className="object-cover"
+            priority
+          />
+          {/* Dark overlay */}
+          <div className="absolute inset-0 bg-black/70" />
+          {/* Gradient overlay for readability */}
+          <div className="absolute inset-0 bg-gradient-to-t from-navy-900 via-transparent to-transparent" />
+        </div>
+        
+        <div className="relative z-10 max-w-7xl mx-auto px-4 py-20 md:py-32">
           <h1 className="text-4xl md:text-6xl font-bold mb-6">
-            24/7 Water Damage Restoration — <span className="text-blue-500">Fast Response When You Need It Most</span>
+            24/7 Emergency Water Damage Restoration — <span className="text-blue-400">Fast Response When You Need It Most</span>
           </h1>
-          <p className="text-xl text-gray-300 mb-8 max-w-3xl mx-auto">
+          <p className="text-xl text-gray-200 mb-8 max-w-3xl mx-auto">
             Professional water damage restoration services throughout California and Florida. 
             Licensed technicians, advanced equipment, and satisfaction guaranteed.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+18885109436"
-              className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(59,130,246,0.5)] animate-pulse"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <span>(888) 510-9436</span>
+              <span>Call (888) 510-9436</span>
             </a>
             <Link
               href="/contact"
-              className="flex items-center justify-center space-x-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 border-2 border-white/50 text-white hover:border-white hover:bg-white/10 px-8 py-4 rounded-lg text-lg font-semibold transition-all"
             >
               <span>Get Free Quote</span>
             </Link>
@@ -76,38 +91,55 @@ export default function HomePage() {
       {/* Trust Bar */}
       <section className="bg-navy-900 py-8 border-y border-navy-700">
         <div className="max-w-7xl mx-auto px-4">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
-                <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
-                </svg>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            {/* Trust Badge */}
+            <div className="flex items-center space-x-4">
+              <Image
+                src="/images/elite-solid-border-e1582749398141.png"
+                alt="Certified Elite Contractor"
+                width={120}
+                height={60}
+                className="h-12 w-auto"
+              />
+              <div>
+                <p className="text-white font-semibold">Certified Elite Contractor</p>
+                <p className="text-gray-400 text-sm">Industry Leading Certification</p>
               </div>
-              <span className="font-semibold">Licensed & Insured</span>
             </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
-                <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+            
+            <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
+                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+                  </svg>
+                </div>
+                <span className="font-semibold">Licensed & Insured</span>
               </div>
-              <span className="font-semibold">24/7 Emergency</span>
-            </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
-                <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
-                </svg>
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
+                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8v4l3 3m6-3a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <span className="font-semibold">24/7 Emergency</span>
               </div>
-              <span className="font-semibold">Free Inspections</span>
-            </div>
-            <div className="flex items-center space-x-3">
-              <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
-                <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
+                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2" />
+                  </svg>
+                </div>
+                <span className="font-semibold">Free Inspections</span>
               </div>
-              <span className="font-semibold">Satisfaction Guaranteed</span>
+              <div className="flex items-center space-x-3">
+                <div className="w-10 h-10 bg-blue-600/20 rounded-full flex items-center justify-center">
+                  <svg className="w-5 h-5 text-blue-500" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.828 14.828a4 4 0 01-5.656 0M9 10h.01M15 10h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+                  </svg>
+                </div>
+                <span className="font-semibold">Satisfaction Guaranteed</span>
+              </div>
             </div>
           </div>
         </div>
@@ -211,7 +243,7 @@ export default function HomePage() {
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <a
               href="tel:+18885109436"
-              className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-8 py-4 rounded-lg text-lg font-semibold transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(59,130,246,0.5)]"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -220,7 +252,7 @@ export default function HomePage() {
             </a>
             <Link
               href="/contact"
-              className="flex items-center justify-center space-x-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 border-2 border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-all"
             >
               <span>Contact Us</span>
             </Link>

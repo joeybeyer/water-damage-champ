@@ -1,0 +1,20 @@
+{
+  "/_not-found/page": "app/_not-found/page.js",
+  "/robots.txt/route": "app/robots.txt/route.js",
+  "/sitemap.xml/route": "app/sitemap.xml/route.js",
+  "/about/page": "app/about/page.js",
+  "/contact/page": "app/contact/page.js",
+  "/crawlspace-encapsulation/page": "app/crawlspace-encapsulation/page.js",
+  "/ceiling-wall-water-damage/page": "app/ceiling-wall-water-damage/page.js",
+  "/flood-damage-repair/page": "app/flood-damage-repair/page.js",
+  "/commercial-water-damage/page": "app/commercial-water-damage/page.js",
+  "/water-damage-restoration/page": "app/water-damage-restoration/page.js",
+  "/sump-pump-cleanup/page": "app/sump-pump-cleanup/page.js",
+  "/emergency-water-damage/page": "app/emergency-water-damage/page.js",
+  "/storm-damage-restoration/page": "app/storm-damage-restoration/page.js",
+  "/water-extraction/page": "app/water-extraction/page.js",
+  "/mold-remediation/page": "app/mold-remediation/page.js",
+  "/locations/[city]/page": "app/locations/[city]/page.js",
+  "/page": "app/page.js",
+  "/locations/page": "app/locations/page.js"
+}
