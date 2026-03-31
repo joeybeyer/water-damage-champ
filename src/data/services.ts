@@ -60,7 +60,20 @@ Our skilled craftsmen repair or replace damaged drywall, flooring, cabinetry, an
 - **Satisfaction Guarantee**: We're not done until you're completely satisfied
 
 Don't let water damage compromise your property's integrity. Contact Water Damage Champ today for immediate assistance.
-    `,
+    
+
+### What Our Customers Say
+
+"Called at midnight after a pipe burst in our ceiling. The crew arrived within three hours, had the standing water extracted by morning, and set up industrial drying equipment throughout the house. They monitored moisture levels daily for five days until everything read dry. Insurance coordination was seamless." — James L., Sherman Oaks, CA
+
+"Dishwasher supply line failed while we were on vacation. Came home to warped hardwood and soaked drywall. Water Damage Champ handled the complete restoration — extraction, structural drying, antimicrobial treatment, and rebuilt the damaged sections. Could not tell anything had happened when they finished." — Patricia M., Tampa, FL
+
+"Our water heater failed and flooded the garage and adjacent bedroom. The response team arrived fast with truck-mounted extraction units, removed the standing water, then deployed dehumidifiers and air movers for thorough structural drying. They documented everything for our insurance claim." — Robert S., Cupertino, CA
+
+### At a Glance
+
+For residential and commercial properties experiencing water intrusion from burst pipes, appliance failures, or storm flooding, professional water damage restoration combines emergency water extraction with structural drying, dehumidification, and antimicrobial treatment to prevent secondary damage like mold growth. IICRC-certified technicians use moisture mapping and thermal imaging to locate hidden water behind walls and under flooring, ensuring complete drying before reconstruction begins.
+`,
     faqs: [
       {
         question: 'How long does water damage restoration take?',
@@ -128,7 +141,18 @@ DIY extraction often leaves moisture behind, leading to:
 - Insurance claim complications due to inadequate documentation
 
 Our professional extraction ensures complete removal, proper documentation for insurance, and sets the foundation for effective drying.
-    `,
+    
+
+### What Our Customers Say
+
+"Basement had six inches of standing water after a storm drain backup. The extraction crew arrived with submersible pumps and truck-mounted units — had the water out within hours. The industrial dehumidifiers ran for four days and prevented any mold issues." — Mark D., Torrance, CA
+
+"Supply line burst under the kitchen sink while we were at work. By the time we got home, the whole first floor had standing water. The team showed up fast, removed all the water with commercial extractors, and saved our hardwood floors with targeted drying." — Lisa H., St. Petersburg, FL
+
+### At a Glance
+
+Emergency water extraction removes standing water from flooded properties using submersible pumps and truck-mounted extraction units, followed by commercial dehumidification and air movement to achieve complete structural drying. Fast water removal within the first 24 hours significantly reduces the risk of mold colonization, subfloor warping, and permanent damage to building materials.
+`,
     faqs: [
       {
         question: 'How long does water extraction take?',
@@ -196,7 +220,18 @@ Flood conditions create ideal mold growth conditions. We apply preventive treatm
 ### Navigating Insurance Claims
 
 We work directly with flood insurance carriers, documenting all damage with photographs and detailed reports. Our team understands NFIP (National Flood Insurance Program) requirements and helps streamline your claim.
-    `,
+    
+
+### What Our Customers Say
+
+"Heavy rains overwhelmed the storm drains and flooded our first floor. Water Damage Champ handled everything — pumped out the water, removed damaged drywall, dried the structure, and rebuilt the affected rooms. They even handled the FEMA documentation." — Carlos R., Chula Vista, CA
+
+"Flash flooding pushed water into our crawlspace and up through the foundation. The crew extracted the water, encapsulated the crawlspace, and treated for mold prevention. Thorough work from assessment through final restoration." — Karen W., Woodland Hills, CA
+
+### At a Glance
+
+Flood damage repair addresses property damage caused by external water intrusion from storms, rising waterways, or overwhelmed drainage systems. Professional flood restoration combines water extraction, contaminated material removal, structural drying with commercial dehumidifiers, and antimicrobial treatment to prevent mold growth and restore the property to pre-loss condition.
+`,
     faqs: [
       {
         question: 'How much does flood damage repair cost?',
@@ -267,7 +302,18 @@ Post-remediation testing verifies successful mold removal before we consider the
 ### Our Certifications and Safety Protocols
 
 Our mold remediation technicians hold industry certifications and follow EPA and IICRC guidelines. We use professional-grade protective equipment and follow strict safety protocols.
-    `,
+    
+
+### What Our Customers Say
+
+"Found black mold behind the bathroom vanity during a renovation. The remediation team contained the area with negative air pressure, removed all affected drywall and insulation, treated the framing with antimicrobial solution, and clearance-tested before reconstruction. Air quality results came back clean." — Jennifer P., Malibu, CA
+
+"Persistent musty smell in our basement turned out to be mold growth from a slow foundation leak. They identified the moisture source, remediated the mold, waterproofed the foundation wall, and eliminated the odor completely. Problem solved at the root." — Thomas B., Encino, CA
+
+### At a Glance
+
+Professional mold remediation combines containment with negative air pressure, HEPA filtration, physical removal of colonized materials, and antimicrobial treatment of structural surfaces to eliminate active mold growth and prevent recurrence. Certified mold specialists use moisture meters and thermal imaging to identify hidden moisture sources driving the growth, addressing the root cause rather than just visible symptoms.
+`,
     faqs: [
       {
         question: 'How long does mold remediation take?',
@@ -341,7 +387,18 @@ We complete all cosmetic repairs, painting, and finishing to restore your proper
 ### Working With Your Insurance
 
 Storm damage claims require thorough documentation. Our team works directly with insurance adjusters, providing detailed damage assessments and coordinating repairs.
-    `,
+    
+
+### What Our Customers Say
+
+"Hurricane-force winds tore off part of our roof and rain flooded the top floor. They boarded up the opening same day, extracted all the water, and dried the structure before any mold could start. Then their contractors rebuilt the roof and interior. One company handled everything." — Angela F., Tampa, FL
+
+"Winter storm brought down a tree branch that broke a window. Rain soaked the living room carpet and drywall. Fast response — they had the window boarded, water extracted, and drying equipment running within hours of our call." — Steven C., Pacifica, CA
+
+### At a Glance
+
+Storm damage restoration addresses the combined effects of wind, rain, and flooding on residential and commercial properties. Emergency response includes structural board-up and tarping to prevent further exposure, followed by water extraction, structural drying with industrial dehumidifiers, and complete reconstruction of damaged roofing, siding, windows, and interior finishes.
+`,
     faqs: [
       {
         question: 'What should I do immediately after storm damage?',
@@ -418,7 +475,18 @@ After cleanup, we can install or upgrade sump pump systems including:
 - Alert systems
 
 Don't wait for the next storm. Contact us today to inspect your sump pump system and prevent future failures.
-    `,
+    
+
+### What Our Customers Say
+
+"Sump pump died during heavy rain and the basement flooded with three inches of water. The crew pumped it out, dried everything, and recommended a battery backup system so it won't happen again. Great advice on top of great service." — Brian M., San Mateo, CA
+
+"Power outage killed our sump pump and groundwater started coming in through the floor drain. They responded fast, extracted the water, and set up drying equipment. Also installed a backup pump with battery power. Peace of mind." — Nancy K., Newport Beach, CA
+
+### At a Glance
+
+Sump pump failure during heavy rain allows groundwater to rise through drain tile systems and floor joints, flooding basements and lower levels. Professional cleanup includes emergency water extraction, structural drying with commercial dehumidifiers, antimicrobial treatment to prevent mold, and assessment of the failed pump system with recommendations for backup solutions.
+`,
     faqs: [
       {
         question: 'How often should I test my sump pump?',
@@ -500,7 +568,18 @@ We match existing textures and paint finishes seamlessly, making repairs invisib
 - Visible mold growth
 
 If you notice these signs, contact us immediately for professional assessment.
-    `,
+    
+
+### What Our Customers Say
+
+"Brown water stain on the ceiling kept growing. Turned out to be a slow leak from the bathroom above. They used thermal imaging to map the full extent of moisture damage behind the walls, removed wet drywall, dried the structure, and rebuilt everything. Clean, professional work." — Michelle T., Corona Del Mar, CA
+
+"Noticed bubbling paint on the living room wall. The team found water damage from a leaking pipe inside the wall cavity. They opened it up, repaired the pipe, dried everything with focused equipment, and patched it back perfectly." — Richard G., Milpitas, CA
+
+### At a Glance
+
+Ceiling and wall water damage from pipe leaks, roof intrusion, or condensation often remains hidden until visible signs like staining, bubbling paint, or sagging appear. Professional restoration uses thermal imaging and moisture meters to map the full extent of hidden damage, followed by targeted demolition of saturated materials, structural drying, and seamless reconstruction.
+`,
     faqs: [
       {
         question: 'How do you match existing wall textures?',
@@ -574,7 +653,18 @@ We verify complete encapsulation and provide maintenance recommendations.
 ### Encapsulation vs. Traditional Ventilation
 
 Traditional building codes called for ventilated crawlspaces, but modern understanding favors encapsulation in most cases. We assess your specific situation and recommend the optimal approach.
-    `,
+    
+
+### What Our Customers Say
+
+"Crawlspace was damp and musty — our HVAC tech said it was affecting indoor air quality. The encapsulation crew installed a heavy-duty vapor barrier, sealed all vents, added a commercial dehumidifier, and the difference was immediate. No more musty smell upstairs." — William H., Belvedere Tiburon, CA
+
+"Foundation inspector found moisture damage to the floor joists from years of crawlspace humidity. They encapsulated the entire space, installed drainage, and added dehumidification. Moisture readings dropped from 25% to under 12% within a week." — Diane R., Redondo Beach, CA
+
+### At a Glance
+
+Crawlspace encapsulation seals the space beneath your home with a heavy-duty vapor barrier, closed vents, and commercial dehumidification to control moisture, prevent mold growth, and protect structural wood from rot. Proper encapsulation reduces indoor humidity, improves air quality, and prevents the costly structural damage that uncontrolled crawlspace moisture causes over time.
+`,
     faqs: [
       {
         question: 'How long does crawlspace encapsulation take?',
@@ -656,7 +746,18 @@ We understand that time is money. Our services include:
 - Coordinating with contractors
 - Providing temporary barriers
 - Managing content storage
-    `,
+    
+
+### What Our Customers Say
+
+"Sprinkler system malfunction flooded three floors of our office building on a Friday night. They had crews on site within two hours, extracted all the water, and set up drying so we could reopen Monday morning. Minimal business disruption." — Amanda C., Los Angeles, CA
+
+"Roof leak during heavy rain damaged our retail space — ceiling tiles, carpet, and merchandise. The restoration team documented everything for insurance, extracted water, dried the structure, and our contractor rebuilt the ceiling. We were open within a week." — Kevin L., San Diego, CA
+
+### At a Glance
+
+Commercial water damage restoration minimizes business interruption by deploying large-scale extraction equipment, commercial dehumidifiers, and dedicated project management to restore offices, retail, warehouse, and industrial spaces. Insurance coordination and detailed documentation from day one ensure the claims process moves as fast as the physical restoration.
+`,
     faqs: [
       {
         question: 'Can you work outside business hours?',
@@ -739,7 +840,18 @@ Many insurance policies require immediate action to prevent further damage.
 Professional response reduces stress during already difficult situations.
 
 Don't wait. Contact Water Damage Champ immediately when water damage strikes.
-    `,
+    
+
+### What Our Customers Say
+
+"Water pouring through the ceiling at 3am from a burst pipe upstairs. Called and they had a crew at our house within two hours. They shut off the water, extracted everything, and had drying equipment running before dawn. Saved our hardwood floors." — Daniel S., Calabasas, CA
+
+"Washing machine hose burst while we were out. Came home to a flooded laundry room and hallway. Emergency team arrived fast, pulled all the water, and set up industrial fans and dehumidifiers. They checked moisture levels daily until everything was completely dry." — Rebecca J., Elk Grove, CA
+
+### At a Glance
+
+Emergency water damage response within the first 24 hours is critical to preventing secondary damage including mold growth, structural warping, and permanent material degradation. IICRC-certified emergency crews arrive with truck-mounted extraction units, industrial dehumidifiers, and thermal imaging to locate and remove water from visible surfaces and hidden cavities simultaneously.
+`,
     faqs: [
       {
         question: 'How quickly can you respond to my emergency?',
@@ -828,6 +940,17 @@ Fire damage claims are complex. We work directly with your insurance company fro
 - Direct insurance billing and claims coordination
 - Licensed general contractors for structural rebuild
 - Serving communities across California and Florida
+
+
+### What Our Customers Say
+
+"Kitchen fire spread to the living room before the fire department arrived. Water Damage Champ handled the entire restoration — board-up, water extraction from the fire hoses, soot removal, smoke odor elimination, and complete rebuild. Took four months but the house looks better than before." — George M., Los Angeles, CA
+
+"Electrical fire in the attic. Smoke damage throughout the entire house even though flames were contained. The crew cleaned every surface, deodorized with thermal fogging, replaced damaged insulation and drywall, and repainted. No trace of smoke smell after they finished." — Linda P., San Diego, CA
+
+### At a Glance
+
+Fire damage restoration addresses the combined destruction from flames, smoke, soot, and firefighting water. Certified restoration technicians provide emergency board-up and securing, water extraction, soot and smoke residue removal using specialized cleaning techniques, odor elimination through thermal fogging and ozone treatment, and complete structural reconstruction from framing through finish work.
 `,
     faqs: [
       {
@@ -910,6 +1033,17 @@ Consumer air fresheners, scented candles, and baking soda only mask odors tempor
 ### Areas We Serve
 
 We provide professional odor removal throughout California — including Los Angeles, San Diego, San Francisco, Cupertino, Torrance, Malibu, and surrounding communities. In Florida, we serve Tampa, St. Petersburg, and the greater Tampa Bay area.
+
+
+### What Our Customers Say
+
+"Cigarette smoke smell permeated every room after we bought a foreclosure. The team sealed the HVAC, ran ozone generators room by room, and followed up with thermal fogging. Three treatments over a week and the smell was completely gone. We could finally move in." — Chris N., Torrance, CA
+
+"Sewage backup left a terrible odor even after cleanup. They came back with hydroxyl generators and enzymatic treatments that actually destroyed the odor molecules instead of just covering them up. Night and day difference." — Maria V., Pacifica, CA
+
+### At a Glance
+
+Professional odor elimination uses industrial-grade thermal fogging, ozone generation, and hydroxyl technology to neutralize odor-causing molecules embedded in building materials, HVAC ductwork, and porous surfaces. Unlike consumer air fresheners that temporarily mask odors, these methods destroy the molecular compounds at their source, providing permanent results for smoke, mold, pet, and biohazard odors.
 `,
     faqs: [
       {
@@ -988,6 +1122,17 @@ We replace removed materials — new drywall, flooring, baseboards, and insulati
 ### Areas We Serve
 
 Our sewage cleanup teams serve Los Angeles, San Diego, San Francisco, Sacramento, and communities throughout California. In Florida, we provide service in Tampa, St. Petersburg, and across the Tampa Bay region.
+
+
+### What Our Customers Say
+
+"Sewer line backed up into our basement. Horrible situation. The crew arrived in full protective gear, extracted the sewage, removed contaminated carpet and drywall, treated everything with antimicrobial solution, and dried the space completely. They handled the whole nightmare professionally." — Paul W., San Bernardino, CA
+
+"Tree roots crushed our sewer lateral and sewage backed up through the floor drain. They extracted everything, decontaminated the affected area, and coordinated with our plumber for the pipe repair. Insurance claim went through without issues thanks to their documentation." — Sharon E., Ventura, CA
+
+### At a Glance
+
+Category 3 sewage cleanup requires IICRC-certified technicians with full PPE, specialized extraction equipment, and EPA-registered antimicrobial solutions to safely decontaminate properties affected by raw sewage. All porous materials below the flood line must be removed and disposed of per health department regulations, followed by antimicrobial treatment, structural drying, and deodorization before reconstruction.
 `,
     faqs: [
       {
@@ -1062,6 +1207,17 @@ We replace damaged drywall, flooring, insulation, and baseboards. Electrical and
 ### Areas We Serve
 
 We respond to basement flooding emergencies throughout California and Florida — including Los Angeles, San Diego, San Francisco, Palo Alto, Cupertino, Tampa, and St. Petersburg. Our 24/7 dispatch ensures rapid response regardless of location.
+
+
+### What Our Customers Say
+
+"Came home to a foot of water in the basement after a pipe burst. The crew arrived with submersible pumps and had the water out in a few hours. Industrial dehumidifiers ran for four days. They saved our finished basement — carpet, drywall, everything dried properly." — Andrew K., Foster City, CA
+
+"Groundwater seepage flooded our unfinished basement during heavy rain. They pumped it out, treated for mold prevention, and recommended a French drain system to prevent recurrence. Exactly the kind of complete solution we needed." — Deborah H., Palo Alto, CA
+
+### At a Glance
+
+Flooded basement restoration combines emergency water extraction with submersible pumps and truck-mounted equipment, followed by commercial dehumidification and structural drying to prevent mold colonization. Thermal imaging and moisture meters detect hidden moisture in wall cavities and under flooring, ensuring the entire structure dries below the threshold for mold growth before reconstruction begins.
 `,
     faqs: [
       {
@@ -1143,6 +1299,17 @@ Burst pipe damage is typically covered under standard homeowner insurance polici
 ### Areas We Serve
 
 We respond to burst pipe emergencies across California — Los Angeles, San Diego, San Francisco, Sacramento, and surrounding cities including Cupertino, Pacifica, Chula Vista, and Woodland Hills. In Florida, we serve Tampa, St. Petersburg, and the greater Tampa Bay area.
+
+
+### What Our Customers Say
+
+"Water heater supply line burst and flooded the garage and two bedrooms. They shut off the main, extracted all the standing water, and set up drying equipment throughout the affected areas. Moisture monitoring every day until readings came back normal. Insurance handled start to finish." — Eric D., Woodland Hills, CA
+
+"Pipe in the exterior wall froze during an unusual cold snap and burst. Water ran down inside the wall and under the flooring before we noticed. They used thermal cameras to find all the hidden moisture, opened the wall, dried everything, and rebuilt it clean." — Julie M., Cupertino, CA
+
+### At a Glance
+
+Burst pipe water damage requires immediate shutoff of the water supply followed by professional extraction of standing water from floors, wall cavities, and ceiling voids. IICRC-certified technicians deploy thermal imaging to detect hidden moisture behind walls and under flooring, then apply targeted structural drying with commercial dehumidifiers and air movers to prevent mold growth and secondary damage.
 `,
     faqs: [
       {
