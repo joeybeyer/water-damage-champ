@@ -11,9 +11,9 @@ export default function ServiceCard({ slug, name, description, icon }: ServiceCa
   return (
     <Link 
       href={`/${slug}`}
-      className="block bg-navy-800 border border-navy-700 rounded-xl p-6 hover:border-blue-500 hover:shadow-xl hover:shadow-blue-600/10 hover:scale-[1.02] transition-all duration-300 group"
+      className="block bg-[#111d35] border border-[#1a2942] rounded-xl p-6 hover:border-[#2196f3] hover:shadow-xl hover:shadow-blue-600/10 hover:scale-[1.02] transition-all duration-300 group"
     >
-      <div className="w-12 h-12 bg-blue-600/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-blue-600/30 transition-colors">
+      <div className="w-12 h-12 bg-[#2196f3]/20 rounded-lg flex items-center justify-center mb-4 group-hover:bg-[#2196f3]/30 transition-colors">
         <span className="text-2xl">{icon}</span>
       </div>
       <h3 className="text-xl font-semibold mb-2 group-hover:text-blue-400 transition-colors">{name}</h3>

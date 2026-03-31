@@ -27,10 +27,10 @@ export default function BlogPage() {
             <article key={i} className="bg-gray-50 rounded-lg overflow-hidden shadow-md hover:shadow-xl transition-shadow">
               <div className="h-48 bg-gradient-to-br from-blue-900 to-blue-700"></div>
               <div className="p-6">
-                <span className="text-sm text-orange-600 font-semibold">{post.date}</span>
+                <span className="text-sm text-[#e65100] font-semibold">{post.date}</span>
                 <h2 className="text-xl font-bold text-gray-900 mt-2 mb-3">{post.title}</h2>
                 <p className="text-gray-600 mb-4">{post.excerpt}</p>
-                <span className="text-orange-600 font-semibold">Coming Soon →</span>
+                <span className="text-[#e65100] font-semibold">Coming Soon →</span>
               </div>
             </article>
           ))}

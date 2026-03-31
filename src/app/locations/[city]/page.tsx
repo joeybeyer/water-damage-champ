@@ -62,7 +62,7 @@ export default async function CityPage({ params }: Props) {
           </nav>
 
           <h1 className="text-4xl md:text-5xl font-bold mb-4">
-            Water Damage Restoration in <span className="text-blue-500">{city.name}, {city.state}</span>
+            Water Damage Restoration in <span className="text-[#2196f3]">{city.name}, {city.state}</span>
           </h1>
           <p className="text-xl text-gray-300 mb-8 max-w-3xl">
             Professional water damage restoration services in {city.name}. Our certified technicians 
@@ -73,7 +73,7 @@ export default async function CityPage({ params }: Props) {
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <a
               href="tel:+18885109436"
-              className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 bg-[#2196f3] hover:bg-[#1976d2] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -82,14 +82,14 @@ export default async function CityPage({ params }: Props) {
             </a>
             <Link
               href="/contact"
-              className="flex items-center justify-center space-x-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 border border-[#2196f3] text-[#2196f3] hover:bg-[#2196f3] hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               <span>Get Free Quote</span>
             </Link>
           </div>
 
           {/* About This City */}
-          <div className="bg-navy-800 border border-navy-700 rounded-xl p-8 mb-12">
+          <div className="bg-[#111d35] border border-[#1a2942] rounded-xl p-8 mb-12">
             <h2 className="text-2xl font-bold mb-4">About {city.name}, {city.state}</h2>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
@@ -115,9 +115,9 @@ export default async function CityPage({ params }: Props) {
                 <Link
                   key={service.slug}
                   href={`/${service.slug}`}
-                  className="bg-navy-800 border border-navy-700 rounded-xl p-4 hover:border-blue-500 transition-colors"
+                  className="bg-[#111d35] border border-[#1a2942] rounded-xl p-4 hover:border-[#2196f3] transition-colors"
                 >
-                  <h3 className="font-semibold hover:text-blue-500">{service.name}</h3>
+                  <h3 className="font-semibold hover:text-[#2196f3]">{service.name}</h3>
                   <p className="text-gray-400 text-sm mt-1">Learn more →</p>
                 </Link>
               ))}

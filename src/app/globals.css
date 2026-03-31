@@ -35,27 +35,3 @@ body {
   background-color: var(--white);
   color: var(--gray-900);
 }
-
-@layer utilities {
-  /* Navy colors */
-  .text-navy-primary { color: var(--navy-primary); }
-  .bg-navy-primary { background-color: var(--navy-primary); }
-  .border-navy-primary { border-color: var(--navy-primary); }
-  
-  /* Orange accent colors */
-  .text-orange-accent { color: var(--orange-500); }
-  .bg-orange-accent { background-color: var(--orange-500); }
-  .from-orange-accent { --tw-gradient-from: var(--orange-500); }
-  .to-orange-accent { --tw-gradient-to: var(--orange-600); }
-  .hover\:bg-orange-accent:hover { background-color: var(--orange-500); }
-  .hover\:text-orange-accent:hover { color: var(--orange-500); }
-  
-  /* Blue gradient */
-  .bg-gradient-blue {
-    background: linear-gradient(135deg, var(--navy-primary) 0%, var(--navy-800) 100%);
-  }
-  
-  /* Text colors for white background sections */
-  .text-dark { color: var(--gray-900); }
-  .text-muted { color: var(--gray-600); }
-}

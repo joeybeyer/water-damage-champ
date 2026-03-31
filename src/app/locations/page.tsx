@@ -21,7 +21,7 @@ export default function LocationsPage() {
       <section className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl md:text-5xl font-bold mb-6">
-            Service <span className="text-blue-500">Areas</span>
+            Service <span className="text-[#2196f3]">Areas</span>
           </h1>
           <p className="text-xl text-gray-300 mb-12 max-w-3xl">
             Water Damage Champ provides professional water damage restoration services 

@@ -34,7 +34,7 @@ export default function Header() {
   return (
     <header className="bg-white border-b border-gray-200 sticky top-0 z-50">
       {/* Top Bar */}
-      <div className="bg-navy-900 text-white py-2 hidden md:block">
+      <div className="bg-[#0a1628] text-white py-2 hidden md:block">
         <div className="max-w-7xl mx-auto px-4 flex justify-between items-center">
           <div className="flex items-center space-x-4">
             <span className="flex items-center space-x-2">
@@ -80,7 +80,7 @@ export default function Header() {
           <nav className="hidden lg:flex items-center space-x-6">
             {/* Residential Services Dropdown */}
             <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-navy-primary font-medium transition-colors py-8">
+              <button className="flex items-center text-gray-700 hover:text-[#1a237e] font-medium transition-colors py-8">
                 Residential Services
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -92,7 +92,7 @@ export default function Header() {
                     <Link
                       key={service.slug}
                       href={`/${service.slug}`}
-                      className="block px-4 py-2 text-gray-700 hover:text-navy-primary hover:bg-gray-50 transition-colors"
+                      className="block px-4 py-2 text-gray-700 hover:text-[#1a237e] hover:bg-gray-50 transition-colors"
                     >
                       {service.name}
                     </Link>
@@ -103,7 +103,7 @@ export default function Header() {
 
             {/* Commercial Restoration Dropdown */}
             <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-navy-primary font-medium transition-colors py-8">
+              <button className="flex items-center text-gray-700 hover:text-[#1a237e] font-medium transition-colors py-8">
                 Commercial Restoration
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -115,7 +115,7 @@ export default function Header() {
                     <Link
                       key={service.slug}
                       href={`/${service.slug}`}
-                      className="block px-4 py-2 text-gray-700 hover:text-navy-primary hover:bg-gray-50 transition-colors"
+                      className="block px-4 py-2 text-gray-700 hover:text-[#1a237e] hover:bg-gray-50 transition-colors"
                     >
                       {service.name}
                     </Link>
@@ -126,7 +126,7 @@ export default function Header() {
 
             {/* Other Services Dropdown */}
             <div className="relative group">
-              <button className="flex items-center text-gray-700 hover:text-navy-primary font-medium transition-colors py-8">
+              <button className="flex items-center text-gray-700 hover:text-[#1a237e] font-medium transition-colors py-8">
                 Other Services
                 <svg className="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
@@ -138,7 +138,7 @@ export default function Header() {
                     <Link
                       key={service.slug}
                       href={`/${service.slug}`}
-                      className="block px-4 py-2 text-gray-700 hover:text-navy-primary hover:bg-gray-50 transition-colors"
+                      className="block px-4 py-2 text-gray-700 hover:text-[#1a237e] hover:bg-gray-50 transition-colors"
                     >
                       {service.name}
                     </Link>
@@ -148,14 +148,14 @@ export default function Header() {
             </div>
 
             {/* Blog */}
-            <Link href="/blog" className="text-gray-700 hover:text-navy-primary font-medium transition-colors py-8">
+            <Link href="/blog" className="text-gray-700 hover:text-[#1a237e] font-medium transition-colors py-8">
               Blog
             </Link>
 
             {/* 24/7 Emergency CTA Button */}
             <a
               href="tel:+18885109436"
-              className="flex items-center space-x-2 bg-navy-primary hover:bg-navy-800 text-white px-5 py-3 rounded-lg transition-colors font-semibold"
+              className="flex items-center space-x-2 bg-[#1a237e] hover:bg-[#111d35] text-white px-5 py-3 rounded-lg transition-colors font-semibold"
             >
               <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z" />
@@ -191,7 +191,7 @@ export default function Header() {
                   <Link
                     key={service.slug}
                     href={`/${service.slug}`}
-                    className="block px-4 py-2 text-gray-700 hover:text-navy-primary"
+                    className="block px-4 py-2 text-gray-700 hover:text-[#1a237e]"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {service.name}
@@ -204,7 +204,7 @@ export default function Header() {
                   <Link
                     key={service.slug}
                     href={`/${service.slug}`}
-                    className="block px-4 py-2 text-gray-700 hover:text-navy-primary"
+                    className="block px-4 py-2 text-gray-700 hover:text-[#1a237e]"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {service.name}
@@ -217,7 +217,7 @@ export default function Header() {
                   <Link
                     key={service.slug}
                     href={`/${service.slug}`}
-                    className="block px-4 py-2 text-gray-700 hover:text-navy-primary"
+                    className="block px-4 py-2 text-gray-700 hover:text-[#1a237e]"
                     onClick={() => setMobileMenuOpen(false)}
                   >
                     {service.name}
@@ -227,7 +227,7 @@ export default function Header() {
               <div className="border-t border-gray-200 pt-2 mt-2">
                 <a
                   href="tel:+18885109436"
-                  className="flex items-center justify-center space-x-2 bg-navy-primary text-white px-5 py-3 rounded-lg font-semibold"
+                  className="flex items-center justify-center space-x-2 bg-[#1a237e] text-white px-5 py-3 rounded-lg font-semibold"
                   onClick={() => setMobileMenuOpen(false)}
                 >
                   <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">

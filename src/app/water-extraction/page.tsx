@@ -34,7 +34,7 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
       <div className="py-16 md:py-24">
         <div className="max-w-7xl mx-auto px-4">
           <h1 className="text-4xl font-bold mb-4">Service Not Found</h1>
-          <Link href="/" className="text-blue-500 hover:text-blue-400">Return to Home</Link>
+          <Link href="/" className="text-[#2196f3] hover:text-[#42a5f5]">Return to Home</Link>
         </div>
       </div>
     );
@@ -72,7 +72,7 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
           <div className="flex flex-col sm:flex-row gap-4 mb-12">
             <a
               href="tel:+18885109436"
-              className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 bg-[#2196f3] hover:bg-[#1976d2] px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
@@ -81,7 +81,7 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
             </a>
             <Link
               href="/contact"
-              className="flex items-center justify-center space-x-2 border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
+              className="flex items-center justify-center space-x-2 border border-[#2196f3] text-[#2196f3] hover:bg-[#2196f3] hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               <span>Get Free Quote</span>
             </Link>
@@ -89,7 +89,7 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
 
           {/* Main Content */}
           <div className="prose prose-invert max-w-none">
-            <div className="bg-navy-800 border border-navy-700 rounded-xl p-8 mb-12">
+            <div className="bg-[#111d35] border border-[#1a2942] rounded-xl p-8 mb-12">
               {service.fullContent.split('\n').filter(Boolean).map((paragraph, idx) => {
                 if (paragraph.startsWith('## ')) {
                   return <h2 key={idx} className="text-2xl font-bold mt-8 mb-4">{paragraph.replace('## ', '')}</h2>;
@@ -113,9 +113,9 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
                 <Link
                   key={related.slug}
                   href={`/${related.slug}`}
-                  className="bg-navy-800 border border-navy-700 rounded-xl p-4 hover:border-blue-500 transition-colors"
+                  className="bg-[#111d35] border border-[#1a2942] rounded-xl p-4 hover:border-[#2196f3] transition-colors"
                 >
-                  <h3 className="font-semibold hover:text-blue-500">{related.name}</h3>
+                  <h3 className="font-semibold hover:text-[#2196f3]">{related.name}</h3>
                   <p className="text-gray-400 text-sm mt-1">Learn more →</p>
                 </Link>
               ))}
@@ -130,12 +130,12 @@ export default async function ServicePage({ params }: { params: Promise<{ servic
                 <Link
                   key={city.slug}
                   href={`/locations/${city.slug}`}
-                  className="bg-navy-800 border border-navy-700 px-4 py-2 rounded-lg hover:border-blue-500 transition-colors text-sm"
+                  className="bg-[#111d35] border border-[#1a2942] px-4 py-2 rounded-lg hover:border-[#2196f3] transition-colors text-sm"
                 >
                   {city.name}, {city.state}
                 </Link>
               ))}
-              <Link href="/locations" className="bg-navy-800 border border-navy-700 px-4 py-2 rounded-lg hover:border-blue-500 transition-colors text-sm text-blue-500">
+              <Link href="/locations" className="bg-[#111d35] border border-[#1a2942] px-4 py-2 rounded-lg hover:border-[#2196f3] transition-colors text-sm text-[#2196f3]">
                 View all locations →
               </Link>
             </div>
