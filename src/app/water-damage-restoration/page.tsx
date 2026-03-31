@@ -5,29 +5,18 @@ import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema } from '@/lib/schema';
 
-export async function generateStaticParams() {
-  return services.map((service) => ({
-    service: service.slug,
-  }));
-}
+const SERVICE_SLUG = 'water-damage-restoration';
 
-export async function generateMetadata({ params }: { params: Promise<{ service: string }> }): Promise<Metadata> {
-  const { service: serviceSlug } = await params;
-  const service = services.find((s) => s.slug === serviceSlug);
-  
-  if (!service) {
-    return { title: 'Not Found' };
-  }
-
+export const metadata: Metadata = (() => {
+  const service = services.find((s) => s.slug === SERVICE_SLUG);
   return {
-    title: service.title,
-    description: service.description,
+    title: service?.title || 'Water Damage Restoration',
+    description: service?.description || '',
   };
-}
+})();
 
-export default async function ServicePage({ params }: { params: Promise<{ service: string }> }) {
-  const { service: serviceSlug } = await params;
-  const service = services.find((s) => s.slug === serviceSlug);
+export default function ServicePage() {
+  const service = services.find((s) => s.slug === SERVICE_SLUG);
 
   if (!service) {
     return (
