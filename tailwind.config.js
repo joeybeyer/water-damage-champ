@@ -9,14 +9,23 @@ module.exports = {
     extend: {
       colors: {
         navy: {
+          primary: '#1a237e',
           900: '#0a1628',
           800: '#111d35',
           700: '#1a2942',
         },
-        blue: {
-          500: '#3b82f6',
-          600: '#2563eb',
+        orange: {
+          500: '#ff6600',
+          600: '#f57c00',
+          700: '#e65100',
         },
+        blue: {
+          500: '#2196f3',
+          600: '#1976d2',
+        },
+      },
+      fontFamily: {
+        sans: ['system-ui', 'Segoe UI', 'Roboto', 'sans-serif'],
       },
     },
   },
