@@ -909,7 +909,401 @@ Do not use a regular household vacuum to remove water — it creates electrocuti
       { question: 'How do I know if I have a slab leak?', answer: 'Signs of a slab leak include: hot spots on the floor, unexplained increases in water bills, the sound of running water when all fixtures are off, and cracks in flooring or walls. Water Damage Champ can identify and document slab leak damage — plumber referrals available for the repair itself.' },
       { question: 'What if water damage happened while I was away on vacation?', answer: 'Extended water damage (days to weeks of exposure) is among the most serious situations. The entire affected area will have mold growth. Call immediately upon discovery. Water Damage Champ handles long-duration water damage events and coordinates with insurers on these complex claims.' },
     ],
+  },,
+  {
+    slug: 'water-damage-categories-1-2-3',
+    title: 'Water Damage Categories 1, 2 & 3 Explained — California & Florida Guide',
+    metaTitle: 'Water Damage Categories 1, 2 and 3 Explained | Water Damage Champ',
+    metaDescription: 'Category 1 is clean water, Category 2 is grey water, Category 3 is black water. Learn what each means, the health risks, and what restoration costs. Call (888) 510-9436.',
+    publishDate: '2026-04-01',
+    service: 'water-damage-restoration',
+    category: 'Water Damage',
+    keyTakeaways: [
+      'Category 1 (clean water) — burst pipes, appliance overflows — lowest health risk, $1,300–$3,000 to restore',
+      'Category 2 (grey water) — washing machines, dishwashers, toilet overflow with no feces — causes illness on contact',
+      'Category 3 (black water) — sewage, flooding, storm surge — highest biohazard, $4,000–$8,000+ to restore',
+      'Category 2 escalates to Category 3 within 48–72 hours if untreated — speed is critical',
+      'Insurance covers Category 1 and 2 from sudden events; flood (Category 3 from storm surge) requires separate NFIP coverage',
+    ],
+    content: `Water damage professionals classify every loss into one of three categories based on the contamination level of the water source. These categories — established by the IICRC S500 Standard — determine safety protocols, required equipment, disposal requirements, and ultimately what the job costs. Knowing which category your damage falls into helps you understand your health risk, your timeline, and what your insurance will cover.
+
+## IICRC S500 Water Category System
+
+The Institute of Inspection Cleaning and Restoration Certification developed the three-category system specifically to standardize how restoration companies assess and respond to water damage. Every IICRC-certified technician uses the same framework, which means your documentation carries consistent credibility with insurance adjusters.
+
+<table class="w-full text-sm border-collapse my-6 bg-white rounded-lg overflow-hidden shadow"><thead><tr class="bg-[#1a237e] text-white"><th class="p-3 text-left">Category</th><th class="p-3 text-left">Common Name</th><th class="p-3 text-left">Source Examples</th><th class="p-3 text-left">Health Risk</th><th class="p-3 text-left">CA Cost Range</th></tr></thead><tbody><tr class="border-b"><td class="p-3">Category 1</td><td class="p-3">Clean water</td><td class="p-3">Burst supply pipe, appliance overflow, rain intrusion</td><td class="p-3">Minimal</td><td class="p-3">$1,300–$3,000</td></tr><tr class="border-b bg-gray-50"><td class="p-3">Category 2</td><td class="p-3">Grey water</td><td class="p-3">Washing machine, dishwasher, toilet overflow (urine only), sump pump failure</td><td class="p-3">Moderate — illness on contact or ingestion</td><td class="p-3">$2,500–$5,000</td></tr><tr class="border-b"><td class="p-3">Category 3</td><td class="p-3">Black water</td><td class="p-3">Sewage backup, flooding, storm surge, rising groundwater</td><td class="p-3">Severe — pathogens, bacteria, viruses</td><td class="p-3">$4,000–$8,000+</td></tr></tbody></table>
+
+## Category 1 — Clean Water Losses
+
+Category 1 water originates from a sanitary source and poses no immediate health risk under normal exposure. Common sources include a ruptured water supply line, an overflowing bathtub with no contaminants, a leaking water heater, rainwater entering through a damaged roof, or melting snow. The water itself is safe, but standing Category 1 water degrades rapidly — after 48–72 hours in warm conditions, microbial growth begins and the classification can escalate to Category 2.
+
+Clean water restoration focuses on extraction, structural drying, and moisture monitoring. A standard single-room loss with no structural damage takes 3–5 days to dry using industrial air movers and dehumidifiers. Because the water is uncontaminated, porous materials like carpet padding and drywall can sometimes be salvaged rather than replaced, keeping costs lower.
+
+## Category 2 — Grey Water Losses
+
+Grey water contains significant contamination from biological, chemical, or physical sources. It will cause discomfort or illness in humans who contact or ingest it. Washing machine and dishwasher overflows carry soap, food particles, and bacteria. Toilet overflows containing urine (but not feces) fall here. Aquarium leaks and sump pump failures can also be Category 2 depending on the water source.
+
+The restoration process adds an antimicrobial treatment stage beyond what Category 1 requires. Carpet padding is almost always removed and replaced — it cannot be adequately decontaminated once saturated with grey water. Drywall that has wicked moisture above the flood line is typically cut out and replaced. Technicians wear PPE including gloves and N95 respirators throughout mitigation.
+
+Untreated Category 2 water degrades to Category 3 within 48–72 hours as bacteria multiply. This is the most critical escalation risk homeowners face. Calling within the first few hours of a washing machine overflow or sump failure keeps the job in the lower cost range.
+
+## Category 3 — Black Water Losses
+
+Category 3 is the most dangerous classification. Black water contains pathogens including E. coli, Salmonella, Hepatitis A, Norovirus, and a range of toxic organic compounds. Sources include sewage backups from any point in the drain system, all forms of external flooding (storm surge, overflowing rivers, rising groundwater), and any water that has been standing long enough for biological growth to take hold.
+
+All porous materials contacted by Category 3 water — carpet, carpet pad, drywall, insulation, wood framing below the flood line — must be removed and disposed of as contaminated waste. Technicians work in full PPE: Tyvek suits, respirators, goggles, and chemical-resistant gloves. Surfaces must be HEPA-vacuumed, treated with EPA-registered antimicrobials, and dried to pre-loss moisture readings before reconstruction begins.
+
+Importantly, storm surge and external flooding classify as Category 3 even if the water appears clean. Ground-level floodwater picks up pesticides, animal waste, fuel, and industrial chemicals as it travels. This has direct insurance implications for Florida homeowners: storm surge losses require a separate flood insurance policy, not standard homeowners coverage.
+
+## How Category Affects Insurance Coverage
+
+Standard HO-3 homeowners insurance in California and Florida covers sudden and accidental Category 1 and 2 losses — burst pipes, appliance failures, and certain roof leaks that allow rain intrusion. Gradual leaks are excluded regardless of category. External flooding — the primary driver of Category 3 losses in coastal markets — requires a separate NFIP or private flood insurance policy.
+
+Category escalation matters to adjusters. If you delay calling and Category 2 becomes Category 3, the insurer may dispute coverage for the upgraded scope. Calling immediately and documenting the original source protects your claim.
+
+## Category vs. Class — The Difference
+
+Water damage categories describe contamination level. Water damage classes describe drying difficulty and are a separate classification system. A Category 1 loss from a burst pipe can be a Class 3 or 4 drying situation if the water has wicked into a large area of walls and flooring. The two systems work together — category drives safety protocols, class drives equipment selection and drying timelines. See our guide on water damage classes for the full breakdown.`,
+    faqs: [
+      {
+        question: 'What is the most common category of water damage?',
+        answer: 'Category 1 (clean water) is the most common — burst pipes, appliance overflows, and roof leaks account for the majority of residential claims. However, in coastal Florida, Category 3 storm surge losses are a significant portion of claims during hurricane season.',
+      },
+      {
+        question: 'Can Category 2 water damage become Category 3?',
+        answer: 'Yes. Category 2 grey water escalates to Category 3 within 48–72 hours as bacteria multiply in warm, wet materials. This is why immediate response is critical — delaying a Category 2 cleanup converts it into a significantly more expensive and hazardous Category 3 loss.',
+      },
+      {
+        question: 'Does insurance cover Category 3 water damage?',
+        answer: 'It depends on the source. Sewage backup from internal plumbing may be covered if you have sewer backup endorsement. External flooding that causes Category 3 losses is not covered under standard homeowners insurance — that requires a separate flood insurance policy through NFIP or a private carrier.',
+      },
+      {
+        question: 'How do technicians determine the water damage category?',
+        answer: 'IICRC-certified technicians assess the water source, visible contamination, elapsed time since the loss, and test results. They document the category assignment in their initial report, which becomes part of the insurance claim file.',
+      },
+    ],
   },
+  {
+    slug: 'water-damage-classes-explained',
+    title: 'Water Damage Classes 1, 2, 3 & 4 — What They Mean for Your Restoration',
+    metaTitle: 'Water Damage Classes 1 2 3 4 Explained | Drying Difficulty & Cost',
+    metaDescription: 'Water damage classes measure drying difficulty, not contamination. Class 1 is minimal, Class 4 is specialty drying for concrete and hardwood. Learn what your class means for cost and timeline.',
+    publishDate: '2026-04-01',
+    service: 'water-damage-restoration',
+    category: 'Water Damage',
+    keyTakeaways: [
+      'Classes 1–4 measure drying difficulty and scope — separate from the contamination category system',
+      'Class 1 — small area, low absorption materials — easiest and least expensive',
+      'Class 3 — entire room saturated including ceiling — requires maximum drying equipment',
+      'Class 4 — specialty drying for concrete, hardwood, plaster, stone — slowest and most expensive',
+      'Your class determines how many air movers and dehumidifiers are needed and how long drying takes',
+    ],
+    content: `Water damage is classified two different ways by restoration professionals. The category system (1–3) measures how contaminated the water is. The class system (1–4) measures how difficult the structural drying will be. Both classifications matter — category determines safety protocols and what materials must be discarded, while class determines the equipment load, drying timeline, and a significant portion of the final cost.
+
+## IICRC S500 Water Damage Class Definitions
+
+<table class="w-full text-sm border-collapse my-6 bg-white rounded-lg overflow-hidden shadow"><thead><tr class="bg-[#1a237e] text-white"><th class="p-3 text-left">Class</th><th class="p-3 text-left">Scope</th><th class="p-3 text-left">Materials Affected</th><th class="p-3 text-left">Drying Time</th><th class="p-3 text-left">Equipment Density</th></tr></thead><tbody><tr class="border-b"><td class="p-3">Class 1</td><td class="p-3">Part of a single room</td><td class="p-3">Low-permeance materials: concrete, plywood, tile</td><td class="p-3">2–3 days</td><td class="p-3">Low</td></tr><tr class="border-b bg-gray-50"><td class="p-3">Class 2</td><td class="p-3">Entire room up to 24 inches</td><td class="p-3">Carpet, carpet pad, wall cavities to 24 in.</td><td class="p-3">3–5 days</td><td class="p-3">Moderate</td></tr><tr class="border-b"><td class="p-3">Class 3</td><td class="p-3">Ceiling, walls, subfloor, insulation</td><td class="p-3">Overhead saturation — the entire room envelope</td><td class="p-3">5–7 days</td><td class="p-3">High</td></tr><tr class="bg-gray-50"><td class="p-3">Class 4</td><td class="p-3">Specialty drying materials</td><td class="p-3">Hardwood, plaster, brick, concrete, stone</td><td class="p-3">7–21+ days</td><td class="p-3">Maximum + specialty</td></tr></tbody></table>
+
+## Class 1 — Minimal Evaporation Rate
+
+Class 1 is the smallest, most manageable water damage scenario. Moisture affects only part of a room, and the wet materials have low permeance — concrete slab, ceramic tile, or vinyl flooring. Very little moisture has been absorbed into the structure. A single dehumidifier and a few air movers typically achieve drying in 2–3 days.
+
+Homeowners sometimes handle Class 1 losses themselves using fans and a rental dehumidifier. However, professional moisture testing with a calibrated meter is the only reliable way to confirm complete drying. Walls and subfloors that appear dry on the surface often retain moisture internally, creating conditions for mold growth 7–10 days later. Professional documentation also protects any insurance claim you might file.
+
+## Class 2 — Significant Absorption
+
+Class 2 affects at least one entire room with water absorption into walls up to 24 inches. Carpet and carpet padding are saturated. Wall cavities hold moisture behind the drywall surface. The higher volume of moisture in high-absorption materials means more equipment and longer drying times — typically 3–5 days with a full equipment set.
+
+Carpet padding almost always requires replacement in Class 2 scenarios regardless of water category. Even clean water causes padding to deteriorate under dehumidification, and it can hide retained moisture that standard meters won't detect through the carpet layer. Technicians typically remove padding, place air movers at wall-floor junctions to dry cavities, and run large commercial dehumidifiers continuously.
+
+## Class 3 — Maximum Evaporation Requirement
+
+Class 3 occurs when water comes from above — a ruptured pipe inside a ceiling, a roof leak, or overhead sprinkler failure. The entire room is saturated: ceiling, upper walls, lower walls, flooring, and often insulation in the ceiling cavity. This is the most resource-intensive class for above-slab structures.
+
+Technicians may need to remove sections of ceiling drywall to dry wet insulation and structural framing above. Air movers are placed in every corner and against every wall. Commercial desiccant or LGR dehumidifiers run 24 hours a day. Daily moisture readings determine when equipment can be removed — typically 5–7 days, longer if structural lumber is involved.
+
+## Class 4 — Specialty Drying for Bound Water
+
+Class 4 addresses materials with very low permeance that have sustained long exposure — hardwood floors, plaster walls, brick, concrete block, stone, or crawlspace soil. The moisture in these materials is bound within the cellular structure and cannot be removed with conventional air movement and dehumidification alone.
+
+Specialty drying systems for Class 4 losses include desiccant dehumidifiers, floor mat drying systems placed directly on hardwood or concrete, and in some cases injectidry systems that force dry air through wall cavities. Drying timelines extend to 7–21 days or longer. Hardwood floors often require 2–3 weeks to reach pre-loss moisture content, and even then significant cupping or buckling may require sanding or board replacement.
+
+Class 4 losses frequently occur in California homes with hardwood throughout the main floor, or in Florida slab-on-grade homes where concrete absorbs moisture from Category 3 flooding. The extended timeline and equipment costs are significant, which is why fast response to any water intrusion near hardwood floors is critical.
+
+## How Classes and Categories Combine
+
+Any category can combine with any class. A clean-water Category 1 loss in a two-story home can easily be Class 3 if the water has traveled through the ceiling and soaked the room below. A Category 3 sewage backup in a single bathroom may only be a Class 1 drying situation if the water was contained quickly. The category tells you how dangerous the cleanup is; the class tells you how long and expensive the drying will be.
+
+Your restoration technician will document both classifications in the initial moisture assessment — this becomes the foundation of your insurance claim and the basis for the equipment selection and drying plan.`,
+    faqs: [
+      {
+        question: 'What is the difference between water damage class and category?',
+        answer: 'Categories (1–3) describe how contaminated the water is — from clean to sewage-level contamination. Classes (1–4) describe how difficult the structure is to dry and how much equipment is needed. They are separate classification systems that are used together to plan every restoration job.',
+      },
+      {
+        question: 'What class of water damage is covered by insurance?',
+        answer: 'Insurance coverage is determined by the cause of loss and the water category, not the class. A Class 4 loss from a covered burst pipe is insured; a Class 1 loss from gradual leakage may not be. The class affects the cost estimate and drying scope but not the coverage determination.',
+      },
+      {
+        question: 'Can a Class 1 loss turn into a Class 3 or 4 loss?',
+        answer: 'Yes — if water is not extracted and drying begun promptly, moisture continues to migrate into walls, ceilings, and subfloors, escalating the class. What starts as a Class 1 partial room loss can become a Class 3 full-room loss within 24–48 hours.',
+      },
+      {
+        question: 'How does the technician determine the class?',
+        answer: 'Technicians use calibrated moisture meters, thermal imaging cameras, and the IICRC S500 classification criteria to measure the extent of saturation and determine the evaporation rate category. This is documented in the initial moisture map, which insurance adjusters require for claim processing.',
+      },
+    ],
+  },
+  {
+    slug: 'how-long-to-dry-out-water-damage',
+    title: 'How Long Does It Take to Dry Out Water Damage? Timeline by Room & Material',
+    metaTitle: 'How Long Does Water Damage Take to Dry? | 2026 Timeline Guide',
+    metaDescription: 'Water damage drying takes 3–5 days for standard losses, 7–21 days for hardwood or severe flooding. See the timeline by room, material, and damage class. Call (888) 510-9436.',
+    publishDate: '2026-04-01',
+    service: 'water-damage-restoration',
+    category: 'Water Damage',
+    keyTakeaways: [
+      'Standard drying time: 3–5 days for Class 1 and 2 losses with professional equipment',
+      'Severe losses with ceiling saturation or hardwood floors: 7–21 days',
+      'Mold growth begins within 24–48 hours — drying speed directly affects mold risk',
+      'Florida\'s humidity requires more aggressive dehumidification than California',
+      'Daily moisture readings confirm drying progress — equipment stays until target moisture content is reached',
+    ],
+    content: `The answer most homeowners receive is 3–5 days, and that is accurate for the majority of residential water damage losses — a standard Class 1 or 2 loss with professional extraction, air movers, and commercial dehumidifiers. But the real answer depends on how much water entered, what materials it contacted, how long it sat before cleanup began, and the ambient humidity of your region.
+
+## Drying Timelines by Damage Class
+
+<table class="w-full text-sm border-collapse my-6 bg-white rounded-lg overflow-hidden shadow"><thead><tr class="bg-[#1a237e] text-white"><th class="p-3 text-left">Damage Class</th><th class="p-3 text-left">Description</th><th class="p-3 text-left">Drying Time</th><th class="p-3 text-left">Key Factor</th></tr></thead><tbody><tr class="border-b"><td class="p-3">Class 1</td><td class="p-3">Part of one room, low-absorption materials</td><td class="p-3">2–3 days</td><td class="p-3">Concrete, tile, vinyl — minimal absorption</td></tr><tr class="border-b bg-gray-50"><td class="p-3">Class 2</td><td class="p-3">Full room, carpet, walls to 24 inches</td><td class="p-3">3–5 days</td><td class="p-3">Carpet padding removed; cavity drying required</td></tr><tr class="border-b"><td class="p-3">Class 3</td><td class="p-3">Overhead saturation — ceiling, walls, insulation</td><td class="p-3">5–7 days</td><td class="p-3">Ceiling cavity must be opened for airflow</td></tr><tr class="bg-gray-50"><td class="p-3">Class 4</td><td class="p-3">Hardwood, plaster, concrete, stone</td><td class="p-3">7–21+ days</td><td class="p-3">Bound moisture in dense materials — specialty drying systems</td></tr></tbody></table>
+
+## Drying Time by Material
+
+Different building materials absorb and release moisture at different rates. Understanding what materials are affected helps you estimate how long your specific loss will take.
+
+- Drywall — absorbs quickly, dries in 3–5 days when cavities are accessible; replacement required if Category 2 or 3
+- Carpet — padding replaced on day 1; carpet surface dries in 1–2 days with air movers if Category 1
+- Hardwood flooring — 14–21 days minimum; cupping may not resolve fully; specialty floor mats required
+- Concrete slab — 7–14 days depending on thickness and exposure duration
+- Subfloor plywood — 5–10 days depending on thickness and how long it was wet
+- Insulation — typically replaced rather than dried; batts and blown-in insulation cannot be dried to original performance
+- Structural framing — 5–10 days for standard 2×4 framing; engineered lumber may take longer
+
+## How Delay Multiplies Drying Time
+
+Every hour that water remains in building materials increases the drying time. The relationship is not linear — a 12-hour delay does not simply add 12 hours to the drying schedule. Moisture migrates deeper into wall cavities, wicks further into subfloor layers, and begins the biological processes that lead to mold growth.
+
+A burst pipe addressed within 2 hours typically produces a Class 1 or 2 loss that dries in 3–5 days. The same pipe left for 24 hours before cleanup commonly escalates to a Class 3 or 4 loss requiring 7–14 days. If mold is present — which begins within 48 hours under warm, humid conditions — the project scope expands to include remediation, which adds time and cost on top of the drying phase.
+
+## California vs. Florida Drying Conditions
+
+Regional climate significantly affects drying timelines. Southern California's low ambient humidity — 30–50% relative humidity in most inland markets — creates favorable conditions for structural drying. Equipment runs efficiently and materials dry faster than the national average.
+
+Florida is the opposite. Ambient humidity in Tampa, St. Petersburg, and coastal markets runs 70–90% relative humidity during the summer months. Dehumidifiers must work harder and run longer to maintain the dry conditions needed for structural drying. Losses in Florida that would take 3–4 days in Los Angeles commonly take 5–7 days in Tampa. This is especially important for mold prevention — Florida's warm, humid climate can produce visible mold growth in as little as 24 hours after flooding.
+
+## What Professional Drying Looks Like Day by Day
+
+Day 1 — Extraction and setup: Water is extracted using truck-mounted or portable vacuums. Wet materials are assessed and any non-salvageable materials removed. Air movers and dehumidifiers placed per IICRC S500 psychrometric calculations. Baseline moisture readings documented.
+
+Days 2–4 — Active drying: Equipment runs 24 hours. Technicians visit daily to record moisture readings, reposition equipment as needed, and verify dehumidifier performance. Readings are logged — this documentation is required for insurance claims.
+
+Day 3–5 — Verification: When moisture readings approach pre-loss reference levels in all affected materials, the technician evaluates whether drying goals have been met. Equipment is removed only when all readings confirm the structure is dry — not based on a calendar date.
+
+Days 7–21 (Class 4) — Specialty drying: Hardwood floor mats, desiccant systems, or injectidry wall systems run continuously. Progress is slower — measured in small moisture percentage drops per day rather than large swings. Patience here prevents the costly alternative of full floor replacement.`,
+    faqs: [
+      {
+        question: 'How long does it take to dry out a flooded basement?',
+        answer: 'A flooded basement typically takes 3–7 days to dry with professional equipment. Concrete floors take longer than wood structures — often 7–14 days. If the basement has hardwood, drywall, or finished walls, drying time extends to the Class 3–4 range of 7–21 days depending on materials.',
+      },
+      {
+        question: 'Can I speed up water damage drying with fans?',
+        answer: 'Consumer fans move less than 1% of the air volume of professional air movers and cannot maintain the consistent airflow patterns needed for structural drying. They can help slightly with surface drying but will not dry wall cavities, subfloors, or any concealed space. Professional equipment dries 3–5x faster.',
+      },
+      {
+        question: 'How do I know when water damage is fully dry?',
+        answer: 'The only reliable method is calibrated moisture meter readings taken at multiple depths and locations compared to reference readings from unaffected materials. Surface touch or visual inspection is not sufficient — materials can appear and feel dry while retaining damaging moisture levels internally.',
+      },
+      {
+        question: 'Does water damage dry on its own without equipment?',
+        answer: 'In very limited Class 1 scenarios with minimal affected area and low-absorption materials, natural evaporation can dry a loss over 1–3 weeks. However, this extended timeline dramatically increases mold risk. Any scenario involving drywall, carpet, or wooden structures requires professional equipment to dry within the safe 48-hour mold-prevention window.',
+      },
+    ],
+  },
+  {
+    slug: 'water-damage-vs-flood-damage-insurance',
+    title: 'Water Damage vs. Flood Damage Insurance — What Your Policy Actually Covers',
+    metaTitle: 'Water Damage vs Flood Damage Insurance | What\'s Covered in CA & FL',
+    metaDescription: 'Standard homeowners insurance covers water damage from internal sources. Flood damage from storm surge or rising water requires a separate policy. Here\'s what that means for California and Florida homeowners.',
+    publishDate: '2026-04-01',
+    service: 'flood-damage-repair',
+    category: 'Insurance',
+    keyTakeaways: [
+      'Water damage (internal source) is covered by standard homeowners insurance — burst pipes, appliance failures, roof leaks',
+      'Flood damage (external water entering from outside) requires a separate NFIP or private flood insurance policy',
+      'Storm surge in Florida is flood damage, not water damage — standard policies do not cover it',
+      'California\'s 2023 floods caught thousands of homeowners uninsured because they lacked flood coverage',
+      'The average annual NFIP flood insurance premium is $700–$900 — far less than one uncovered loss',
+    ],
+    content: `The most common and costly insurance mistake homeowners make is assuming their standard homeowners policy covers flood damage. It does not. This single misunderstanding has left thousands of California and Florida homeowners paying out of pocket for losses that can easily reach $50,000–$150,000.
+
+Understanding the distinction between water damage and flood damage — as defined by your insurer — determines whether you have coverage before disaster strikes.
+
+## How Insurance Defines Water Damage vs. Flood Damage
+
+The line between covered water damage and excluded flood damage comes down to the source of the water and how it entered your home.
+
+<table class="w-full text-sm border-collapse my-6 bg-white rounded-lg overflow-hidden shadow"><thead><tr class="bg-[#1a237e] text-white"><th class="p-3 text-left">Event</th><th class="p-3 text-left">Coverage Type</th><th class="p-3 text-left">Covered By</th><th class="p-3 text-left">CA/FL Notes</th></tr></thead><tbody><tr class="border-b"><td class="p-3">Burst supply pipe</td><td class="p-3">Water damage</td><td class="p-3">Standard homeowners (HO-3)</td><td class="p-3">Must be sudden & accidental</td></tr><tr class="border-b bg-gray-50"><td class="p-3">Washing machine overflow</td><td class="p-3">Water damage</td><td class="p-3">Standard homeowners (HO-3)</td><td class="p-3">Covered if sudden, not gradual</td></tr><tr class="border-b"><td class="p-3">Roof leak from storm</td><td class="p-3">Water damage (wind-driven)</td><td class="p-3">Standard homeowners (HO-3)</td><td class="p-3">FL: separate hurricane deductible applies</td></tr><tr class="border-b bg-gray-50"><td class="p-3">River overflow flooding</td><td class="p-3">Flood damage</td><td class="p-3">NFIP or private flood policy ONLY</td><td class="p-3">Not covered under HO-3 in any state</td></tr><tr class="border-b"><td class="p-3">Storm surge (hurricane)</td><td class="p-3">Flood damage</td><td class="p-3">NFIP or private flood policy ONLY</td><td class="p-3">Critical for FL coastal homeowners</td></tr><tr class="border-b bg-gray-50"><td class="p-3">Heavy rain pooling on ground</td><td class="p-3">Flood damage</td><td class="p-3">NFIP or private flood policy ONLY</td><td class="p-3">Not covered even if rain causes it</td></tr><tr class="border-b"><td class="p-3">Sewage backup</td><td class="p-3">Neither (excluded)</td><td class="p-3">Sewer backup endorsement ONLY</td><td class="p-3">Must be added separately; ~$50–100/yr</td></tr></tbody></table>
+
+## The Sudden and Accidental Test
+
+Standard homeowners policies cover water damage that is sudden and accidental — meaning the damage happened unexpectedly, not gradually over time. A pipe that bursts during the night is covered. A pipe fitting that dripped slowly for six months and eventually caused wall damage is typically denied as a maintenance issue the homeowner should have discovered and repaired.
+
+Adjusters investigate the timeline of the damage carefully. Signs of long-term moisture — rust stains, mold, deteriorated drywall — can support a determination that the damage was gradual. This is why documentation and prompt response matter: calling immediately after discovering any water damage establishes the timeline in your favor.
+
+## Florida-Specific Coverage Issues
+
+Florida homeowners face two complicating factors that make the water damage vs. flood damage distinction especially important.
+
+Hurricane deductibles apply separately from standard deductibles in most Florida policies. If a named hurricane causes wind damage to your roof and rain enters through the opening, the water damage is covered — but your hurricane deductible (often 2–5% of the home's insured value, not a flat dollar amount) applies rather than your standard deductible. On a $400,000 home with a 2% hurricane deductible, you pay $8,000 before insurance contributes.
+
+Storm surge is the largest driver of catastrophic losses in Florida coastal markets — Tampa, St. Petersburg, Clearwater, and the Gulf Coast communities. Storm surge is rising ocean water pushed inland by hurricane winds. It is classified as flooding and is not covered by standard homeowners insurance. The devastation caused by storm surge during major hurricanes illustrates what happens when homeowners lack flood insurance — losses in the hundreds of thousands with zero insurance recovery.
+
+## California-Specific Coverage Issues
+
+California has experienced major flooding events in the Sacramento Valley, San Joaquin Valley, and low-lying coastal areas in recent years. Most affected homeowners discovered they had no flood coverage. The standard assumption — "floods don't happen in California" — proved catastrophically wrong.
+
+California's atmospheric river storms produce rain events that overwhelm drainage systems, cause rivers to overflow, and push water into homes from outside. These are flood losses, not water damage losses, and they are not covered under any standard California homeowners policy.
+
+## NFIP Flood Insurance — What It Costs and What It Covers
+
+The National Flood Insurance Program (NFIP) provides flood coverage in most communities across the country. Average annual premiums for residential coverage run $700–$900, though coastal properties in high-risk zones can pay significantly more. Coverage is available for both the structure (up to $250,000) and contents (up to $100,000) under separate policies.
+
+NFIP has a 30-day waiting period before coverage takes effect. You cannot purchase flood insurance during a flood watch or after a storm has made landfall and then expect coverage for that event. This is the single most important reason to purchase coverage now rather than during storm season.
+
+Private flood insurance alternatives have grown significantly since 2019 and can offer higher limits, shorter waiting periods, and broader coverage terms than NFIP. A licensed insurance agent in California or Florida can compare NFIP and private options for your specific property and flood zone.
+
+## What to Do If You Have Both Policies
+
+When a major weather event causes both wind damage (covered by homeowners) and flooding (covered by flood policy), you will have two separate claims with two separate adjusters. Document everything before any cleanup begins — photos and video of every affected area. Identify which damage clearly came from wind-driven rain (roof penetration, window leaks) versus rising water (waterline on walls, exterior entry points at floor level). This documentation prevents disputes over which policy covers which damage.`,
+    faqs: [
+      {
+        question: 'Does homeowners insurance cover water damage from rain?',
+        answer: 'It depends on how the rain entered. Wind-driven rain that enters through storm damage to the roof or walls is covered under standard homeowners insurance. Rain that pools on the ground and enters through foundations, doors, or low openings is classified as flood damage and requires a separate flood insurance policy.',
+      },
+      {
+        question: 'Is storm surge covered by homeowners insurance in Florida?',
+        answer: 'No. Storm surge — ocean water pushed inland by hurricane winds — is classified as flooding and is not covered by standard homeowners insurance in Florida or any other state. Storm surge losses require a separate flood insurance policy through NFIP or a private flood carrier.',
+      },
+      {
+        question: 'How much does NFIP flood insurance cost in California?',
+        answer: 'NFIP flood insurance averages $700–$900 per year for a standard residential policy in California, though rates vary based on your property\'s flood zone designation, elevation, and structure. Properties in high-risk Special Flood Hazard Areas (Zone A or AE) typically pay more.',
+      },
+      {
+        question: 'What is the difference between sewer backup and flood damage?',
+        answer: 'Sewer backup — wastewater coming up through floor drains or toilets from the municipal system — is neither water damage nor flood damage under standard policies. It requires a specific sewer backup endorsement added to your homeowners policy, available for approximately $50–$100 per year in most markets.',
+      },
+    ],
+  },
+  {
+    slug: 'how-to-document-water-damage-insurance-claim',
+    title: 'How to Document Water Damage for an Insurance Claim — Step-by-Step',
+    metaTitle: 'How to Document Water Damage for Insurance Claim | Complete Guide',
+    metaDescription: 'Proper documentation is the difference between a paid claim and a denied one. Follow this step-by-step guide to photograph, record, and report water damage correctly in California and Florida.',
+    publishDate: '2026-04-01',
+    service: 'water-damage-restoration',
+    category: 'Insurance',
+    keyTakeaways: [
+      'Document everything before any cleanup begins — photos and video first, then call for help',
+      'Capture wide establishing shots, mid-range context shots, and close-up detail shots of every affected area',
+      'Record the water source with timestamp — this establishes the \'sudden and accidental\' basis for your claim',
+      'Save every receipt, bill, and communication from your restoration company for the claims file',
+      'In Florida, you must provide notice of loss within 1 year under state law — do not delay filing',
+    ],
+    content: `Insurance claims for water damage are won or lost on documentation. A well-documented claim submitted with professional moisture readings, timestamped photos, and a clear narrative of the loss source gets processed faster and paid more fully than a claim that arrives with a brief description and a few blurry photos. This guide covers exactly what to capture, how to organize it, and what your restoration company should be providing.
+
+## Step 1 — Document Before Any Cleanup Begins
+
+The most critical rule in water damage documentation: photograph and video everything before moving, removing, or cleaning anything. Insurance adjusters rely on original conditions to assess the scope of loss. Once carpets are pulled, drywall is cut, or personal property is removed, the pre-loss evidence is gone.
+
+- Start at the water source — photograph the broken pipe, failed appliance, roof penetration, or wherever the water originated
+- Record a timestamp — use your phone's native camera so metadata embeds automatically, or hold up a handwritten date card
+- Walk the entire affected area on video before shooting individual photos
+- Photograph from ceiling to floor in every affected room — water travels, and high moisture in a ceiling can mean damage in the room below
+
+## Step 2 — Systematic Photography Protocol
+
+Professional restoration companies use a three-distance rule that adjusters rely on. Apply this same structure yourself before the crew arrives.
+
+<table class="w-full text-sm border-collapse my-6 bg-white rounded-lg overflow-hidden shadow"><thead><tr class="bg-[#1a237e] text-white"><th class="p-3 text-left">Shot Type</th><th class="p-3 text-left">Distance</th><th class="p-3 text-left">Purpose</th><th class="p-3 text-left">Example</th></tr></thead><tbody><tr class="border-b"><td class="p-3">Establishing</td><td class="p-3">Full room</td><td class="p-3">Shows location context</td><td class="p-3">Entire kitchen from doorway</td></tr><tr class="border-b bg-gray-50"><td class="p-3">Mid-range</td><td class="p-3">6–10 feet</td><td class="p-3">Shows affected area</td><td class="p-3">Wet wall section with water marks</td></tr><tr class="border-b"><td class="p-3">Close-up</td><td class="p-3">12–24 inches</td><td class="p-3">Documents specific damage</td><td class="p-3">Water stain, buckled flooring, mold</td></tr></tbody></table>
+
+Photograph every damaged item individually. Furniture, electronics, clothing, artwork — each item is a separate line on the contents claim. Photograph serial numbers on appliances and electronics. Document any pre-existing conditions separately to avoid disputes later.
+
+## Step 3 — Record Personal Property Losses
+
+Contents claims are where homeowners consistently leave money on the table. Create an inventory list as you photograph:
+
+- Description of the item, manufacturer, model if known
+- Approximate purchase date and original cost
+- Current replacement cost (a quick Amazon or retailer search is sufficient)
+- Photo of the item showing damage
+
+High-value items — electronics, jewelry, instruments, art — may require separate scheduling on your policy. Check your policy declarations page before your adjuster visit to know if you have special coverage for these items.
+
+## Step 4 — Capture Structural Damage Comprehensively
+
+Structural documentation is what determines the scope and cost of the restoration job in the adjuster's estimate. Be thorough:
+
+- Water staining on walls and ceilings — photograph the entire stain, not just the center
+- Buckling, warping, or lifting of flooring materials
+- Visible mold growth — document extent and location but do not disturb it
+- Damaged drywall, insulation exposure, or structural components
+- Any waterline marks on walls that indicate maximum water height
+- Exterior entry points — damaged roofing, broken windows, foundation cracks
+
+## Step 5 — What Your Restoration Company Documents
+
+A professional IICRC-certified restoration company produces documentation the adjuster requires. Verify your company provides all of the following before work begins:
+
+- Moisture mapping — a floor plan with moisture meter readings at multiple points, including reference readings in unaffected areas for comparison
+- Equipment logs — daily records of dehumidifier readings and air mover placement
+- Photo documentation of all affected materials before demolition
+- Scope of work — itemized list of every task to be performed with unit costs
+- Daily moisture readings throughout the drying period
+
+This documentation package is what separates a paid claim from a dispute. If a restoration company cannot provide moisture logs and daily readings, find one that can.
+
+## Step 6 — Notify Your Insurer Immediately
+
+Contact your insurance company the same day you discover the damage. Most policies require prompt notice of loss — delay can give the insurer grounds to reduce or deny coverage based on failure to mitigate.
+
+In Florida, state law (Fla. Stat. § 627.70131) requires insurers to acknowledge your claim within 14 days and pay, deny, or request more information within 90 days of receiving proof of loss. Your insurer must respond on this timeline — document every communication with dates, times, and the name of the representative you spoke with.
+
+In California, the standard HO-3 policy requires you to report losses promptly. No fixed state statute sets an exact deadline for homeowners (unlike Florida), but policies typically have language requiring notice "as soon as possible." Same-day or next-business-day reporting is the safe standard.
+
+## Common Documentation Mistakes That Delay or Reduce Claims
+
+- Beginning cleanup before documenting — adjusters will question scope if original conditions are not captured
+- Photographing only the obvious damage — water travels through walls, floors, and ceilings; document every room that may have been affected
+- Failing to document personal property — contents claims are often the highest value portion of a residential loss
+- Not retaining contractor invoices — every cost associated with the loss is potentially recoverable
+- Accepting a verbal estimate without written documentation — all scopes of work should be in writing before any work begins`,
+    faqs: [
+      {
+        question: 'What photos do I need for a water damage insurance claim?',
+        answer: 'Photograph the water source first (the burst pipe, failed appliance, or roof damage), then document every affected room with wide establishing shots, mid-range shots showing affected surfaces, and close-up shots of specific damage. Include photos of damaged personal property individually. Timestamped photos taken before any cleanup begins are the most valuable.',
+      },
+      {
+        question: 'How long do I have to file a water damage insurance claim in Florida?',
+        answer: 'Florida law (Fla. Stat. § 627.70131) requires homeowners to provide notice of loss within 1 year of the date of loss for new claims. Supplemental claims must be submitted within 18 months. Do not delay — filing promptly also starts the clock on the insurer\'s required 90-day response timeline.',
+      },
+      {
+        question: 'Should I start cleanup before the insurance adjuster arrives?',
+        answer: 'Yes — you are required by your policy to mitigate further damage, which means you should stop the water source, protect property from additional damage, and begin extraction. However, document everything thoroughly before and during cleanup. Adjusters understand that mitigation must start immediately; they need photo documentation of original conditions, not untouched damage.',
+      },
+      {
+        question: 'Can a water damage restoration company help with my insurance claim?',
+        answer: 'Yes. Water Damage Champ provides moisture mapping, daily drying logs, itemized scopes of work, and photo documentation that meet insurance adjuster standards. We communicate directly with your carrier to ensure the full scope of the loss is captured in the claim. Call (888) 510-9436 and we will coordinate with your insurer from day one.',
+      },
+    ],
+  }
 ];
 
 export function getBlogPostBySlug(slug: string): BlogPost | undefined {
