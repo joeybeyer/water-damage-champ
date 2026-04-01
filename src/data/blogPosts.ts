@@ -909,7 +909,7 @@ Do not use a regular household vacuum to remove water — it creates electrocuti
       { question: 'How do I know if I have a slab leak?', answer: 'Signs of a slab leak include: hot spots on the floor, unexplained increases in water bills, the sound of running water when all fixtures are off, and cracks in flooring or walls. Water Damage Champ can identify and document slab leak damage — plumber referrals available for the repair itself.' },
       { question: 'What if water damage happened while I was away on vacation?', answer: 'Extended water damage (days to weeks of exposure) is among the most serious situations. The entire affected area will have mold growth. Call immediately upon discovery. Water Damage Champ handles long-duration water damage events and coordinates with insurers on these complex claims.' },
     ],
-  },,
+  },
   {
     slug: 'water-damage-categories-1-2-3',
     title: 'Water Damage Categories 1, 2 & 3 Explained — California & Florida Guide',
