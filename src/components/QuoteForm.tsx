@@ -101,22 +101,39 @@ export default function QuoteForm() {
     return name.trim() !== '' && email.includes('@') && phone.replace(/\D/g, '').length >= 10;
   }
 
-  function handleSubmit(e: React.FormEvent) {
+  async function handleSubmit(e: React.FormEvent) {
     e.preventDefault();
     if (!step3Valid()) return;
-    // Bot checks
+    // Bot checks (client-side, also checked server-side)
     if (honeypot !== '') return;
     if (Date.now() - startTime.current < 3000) return;
     setLoading(true);
-    console.log('Quote form submission:', {
-      zip, city: zipData?.city, state: zipData?.state,
-      serviceType, propertyType, name, email, phone,
-      submittedAt: new Date().toISOString(),
-    });
-    setTimeout(() => {
-      setLoading(false);
-      setSubmitted(true);
-    }, 800);
+    try {
+      const res = await fetch('/api/leads', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          name,
+          email,
+          phone,
+          zipCode: zip,
+          city: zipData?.city || '',
+          state: zipData?.state || '',
+          serviceType,
+          propertyType,
+          honeypot,
+          formTimestamp: startTime.current,
+          source: typeof window !== 'undefined' ? window.location.href : '',
+          referrer: typeof document !== 'undefined' ? document.referrer : '',
+        }),
+      });
+      if (!res.ok) throw new Error('Submission failed');
+    } catch (err) {
+      console.error('Lead submission error:', err);
+      // Still show success (don't reveal issues to user)
+    }
+    setLoading(false);
+    setSubmitted(true);
   }
 
   const stepDots = [1, 2, 3];
