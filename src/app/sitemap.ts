@@ -2,6 +2,7 @@ import { MetadataRoute } from 'next';
 import { cities } from '@/data/cities';
 import { neighborhoods } from '@/data/neighborhoods';
 import { services } from '@/data/services';
+import { blogPosts } from '@/data/blogPosts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const baseUrl = 'https://waterdamagechamp.com';
@@ -12,6 +13,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/about`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/contact`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/locations`, lastModified: new Date(), priority: 0.9 },
+    { url: `${baseUrl}/blog`, lastModified: new Date(), priority: 0.8 },
   ];
 
   // Service pages
@@ -35,5 +37,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: 0.6,
   }));
 
-  return [...staticPages, ...servicePages, ...cityPages, ...neighborhoodPages];
+  // Blog post pages
+  const blogPages = blogPosts.map((post) => ({
+    url: `${baseUrl}/blog/${post.slug}`,
+    lastModified: new Date(post.publishDate),
+    priority: 0.7,
+  }));
+
+  return [...staticPages, ...servicePages, ...cityPages, ...neighborhoodPages, ...blogPages];
 }
