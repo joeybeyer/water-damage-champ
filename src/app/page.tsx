@@ -196,9 +196,9 @@ export default function HomePage() {
       </section>
 
       {/* RELIABILITY BANNER — Happy family background w/ overlay */}
-      <section className="relative py-20">
-        <div className="absolute inset-0">
-          <Image src="/images/happy-family.jpg" alt="Satisfied customers" fill className="object-cover" />
+      <section className="relative py-20 min-h-[320px]">
+        <div className="absolute inset-0 overflow-hidden">
+          <Image src="/images/happy-family.jpg" alt="Satisfied customers" fill className="object-cover object-center" sizes="100vw" />
           <div className="absolute inset-0 bg-black/75" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center text-white">
