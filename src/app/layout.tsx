@@ -5,6 +5,10 @@ import Footer from '@/components/Footer';
 import MobileCTA from '@/components/MobileCTA';
 
 export const metadata: Metadata = {
+  metadataBase: new URL('https://waterdamagechamp.com'),
+  alternates: {
+    canonical: './',
+  },
   title: 'Water Damage Champ | 24/7 Emergency Water Damage Restoration',
   description: 'Professional water damage restoration services. Fast response, licensed technicians, free inspections. Call (888) 510-9436 for emergency service.',
   keywords: 'water damage restoration, water extraction, flood damage repair, mold remediation, emergency water damage',
