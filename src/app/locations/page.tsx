@@ -18,9 +18,9 @@ export default function LocationsPage() {
 
   return (
     <>
-      <section className="py-16 md:py-24">
+      <section className="py-16 md:py-24 bg-[#0a1628]">
         <div className="max-w-7xl mx-auto px-4">
-          <h1 className="text-4xl md:text-5xl font-bold mb-6">
+          <h1 className="text-4xl md:text-5xl font-bold mb-6 text-white">
             Service <span className="text-[#2196f3]">Areas</span>
           </h1>
           <p className="text-xl text-gray-300 mb-12 max-w-3xl">
@@ -30,7 +30,7 @@ export default function LocationsPage() {
 
           {/* Popular Cities */}
           <div className="mb-12">
-            <h2 className="text-2xl font-bold mb-6">Popular Locations</h2>
+            <h2 className="text-2xl font-bold mb-6 text-white">Popular Locations</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {popularCities.map((city) => (
                 <CityCard key={city.slug} slug={city.slug} name={city.name} state={city.state} />
@@ -40,7 +40,7 @@ export default function LocationsPage() {
 
           {/* All Cities */}
           <div>
-            <h2 className="text-2xl font-bold mb-6">All Service Areas</h2>
+            <h2 className="text-2xl font-bold mb-6 text-white">All Service Areas</h2>
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
               {cities.map((city) => (
                 <CityCard key={city.slug} slug={city.slug} name={city.name} state={city.state} />
