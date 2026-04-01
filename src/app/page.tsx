@@ -12,10 +12,10 @@ export const metadata: Metadata = {
 };
 
 const serviceCategories = [
-  { name: 'Water Damage', image: '/images/Water-damage.jpg', slug: 'water-damage-restoration' },
-  { name: 'Mold Remediation', image: '/images/Mold-damage.jpg', slug: 'mold-remediation' },
-  { name: 'Odor Removal', image: '/images/Water-Damage-Truck.jpeg', slug: 'odor-removal' },
-  { name: 'Fire Damage', image: '/images/contract.jpg', slug: 'fire-damage-restoration' },
+  { name: 'Water Damage', image: '/images/services/hero-water-damage-restoration.jpg', slug: 'water-damage-restoration' },
+  { name: 'Mold Remediation', image: '/images/services/hero-mold-remediation.jpg', slug: 'mold-remediation' },
+  { name: 'Odor Removal', image: '/images/services/service-odor-removal.jpg', slug: 'odor-removal' },
+  { name: 'Fire Damage', image: '/images/services/service-fire-damage.jpg', slug: 'fire-damage-restoration' },
 ];
 
 const steps = [
@@ -23,19 +23,19 @@ const steps = [
     number: 1,
     title: 'Help Is One Call Away',
     description: "Call us right now, and we'll spring into action, getting you the help you need.",
-    image: '/images/contract.jpg',
+    image: '/images/services/step-call-emergency.jpg',
   },
   {
     number: 2,
     title: "We'll Assess and Advise",
     description: "We've created a clear process to guide our customers through their property restoration.",
-    image: '/images/inspection-damage.jpg',
+    image: '/images/services/hero-water-damage-restoration.jpg',
   },
   {
     number: 3,
     title: 'Get Back To Normal',
     description: 'We get to work handling all the details, resolving all issues until everything is back the way it was before.',
-    image: '/images/happy-family.jpg',
+    image: '/images/services/hero-flooded-basement.jpg',
   },
 ];
 

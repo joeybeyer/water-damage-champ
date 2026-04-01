@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
+import Image from 'next/image';
 import FAQSection from '@/components/FAQSection';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
