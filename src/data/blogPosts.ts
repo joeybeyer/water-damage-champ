@@ -1134,7 +1134,7 @@ Days 7–21 (Class 4) — Specialty drying: Hardwood floor mats, desiccant syste
     metaDescription: 'Standard homeowners insurance covers water damage from internal sources. Flood damage from storm surge or rising water requires a separate policy. Here\'s what that means for California and Florida homeowners.',
     publishDate: '2026-04-01',
     service: 'flood-damage-repair',
-    category: 'Insurance',
+    category: 'Water Damage',
     keyTakeaways: [
       'Water damage (internal source) is covered by standard homeowners insurance — burst pipes, appliance failures, roof leaks',
       'Flood damage (external water entering from outside) requires a separate NFIP or private flood insurance policy',
@@ -1209,7 +1209,7 @@ When a major weather event causes both wind damage (covered by homeowners) and f
     metaDescription: 'Proper documentation is the difference between a paid claim and a denied one. Follow this step-by-step guide to photograph, record, and report water damage correctly in California and Florida.',
     publishDate: '2026-04-01',
     service: 'water-damage-restoration',
-    category: 'Insurance',
+    category: 'Water Damage',
     keyTakeaways: [
       'Document everything before any cleanup begins — photos and video first, then call for help',
       'Capture wide establishing shots, mid-range context shots, and close-up detail shots of every affected area',
