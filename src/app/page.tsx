@@ -195,15 +195,11 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* RELIABILITY BANNER — Happy family background w/ overlay */}
-      <section className="relative py-20 min-h-[320px]">
-        <div className="absolute inset-0 overflow-hidden">
-          <Image src="/images/happy-family.jpg" alt="Satisfied customers" fill className="object-cover object-center" sizes="100vw" />
-          <div className="absolute inset-0 bg-black/75" />
-        </div>
-        <div className="relative z-10 max-w-7xl mx-auto px-4 text-center text-white">
+      {/* RELIABILITY BANNER */}
+      <section className="py-20 bg-[#1c1c1c]">
+        <div className="max-w-7xl mx-auto px-4 text-center text-white">
           <h2 className="text-3xl md:text-4xl font-bold mb-6">Trusted Water Damage Restoration Since 2018</h2>
-          <p className="text-gray-300 text-lg mb-8 max-w-3xl mx-auto">
+          <p className="text-gray-400 text-lg mb-8 max-w-3xl mx-auto">
             Reliability at its core – we're the company dedicated to earning and keeping your trust, delivering consistent excellence in every service we provide.
           </p>
           <Link href="/contact" className="inline-block bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg transition-colors text-lg">Contact The Experts</Link>
