@@ -4,6 +4,8 @@ import FAQSection from '@/components/FAQSection';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema } from '@/lib/schema';
+import GroundingBox from '@/components/GroundingBox';
+import { groundingBoxes } from '@/data/groundingBoxes';
 
 const SERVICE_SLUG = 'ceiling-wall-water-damage';
 
@@ -61,6 +63,15 @@ export default function ServicePage() {
           </div>
         </div>
       </section>
+
+      {/* Grounding Box */}
+      {groundingBoxes[SERVICE_SLUG] && (
+        <div className="py-6 bg-white border-b border-gray-100">
+          <div className="max-w-4xl mx-auto px-4">
+            <GroundingBox {...groundingBoxes[SERVICE_SLUG]!} />
+          </div>
+        </div>
+      )}
 
       {/* Key Takeaways */}
       {service.keyTakeaways && service.keyTakeaways.length > 0 && (
