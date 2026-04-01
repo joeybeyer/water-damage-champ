@@ -3,6 +3,8 @@ import Link from 'next/link';
 import Image from 'next/image';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
 import QuoteForm from '@/components/QuoteForm';
+import GroundingBox from '@/components/GroundingBox';
+import { groundingBoxes } from '@/data/groundingBoxes';
 
 export const metadata: Metadata = {
   title: 'Water Damage Champ | 24/7 Emergency Water Damage Restoration',
@@ -56,7 +58,7 @@ export default function HomePage() {
             <div className="text-white">
               <p className="text-[#ff6600] font-semibold text-lg mb-2">Your Property, Our Priority</p>
               <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold italic mb-6 leading-tight">
-                Trust Us for Swift and Effective Water Damage Solutions
+                24/7 Water Damage Restoration in California &amp; Florida
               </h1>
               <p className="text-gray-200 text-lg mb-8 max-w-xl">
                 We specialize in rapid water damage restoration, offering prompt and reliable solutions to bring your property back to its pre-damage condition.
@@ -78,11 +80,18 @@ export default function HomePage() {
         </div>
       </section>
 
+      {/* GROUNDING BOX — AI Overview targeting for "water damage restoration cost" */}
+      <section className="py-10 bg-gray-50">
+        <div className="max-w-4xl mx-auto px-4">
+          <GroundingBox {...groundingBoxes['water-damage-restoration']!} />
+        </div>
+      </section>
+
       {/* SERVICE CARDS — Matching WP: Water, Mold, Odor Removal, Fire */}
       <section className="py-16 md:py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-4">THE COMPANY YOU CAN RELY ON</h2>
+            <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-4">Water Damage Restoration Services</h2>
             <p className="text-gray-600 text-lg max-w-3xl mx-auto">
               Trust us as the dependable choice, where reliability meets unwavering commitment – your go-to partner for all your needs.
             </p>
@@ -116,7 +125,7 @@ export default function HomePage() {
             </div>
             <div>
               <div className="inline-block bg-[#ff6600] text-white font-bold text-sm px-4 py-2 rounded mb-6 uppercase tracking-wide">#1 Rated Damage Repair Company</div>
-              <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-6">THE COMPANY YOU CAN RELY ON</h2>
+              <h2 className="text-3xl md:text-4xl font-bold text-[#1a237e] mb-6">IICRC-Certified Water Damage Technicians</h2>
               <p className="text-gray-600 text-lg mb-4 leading-relaxed">
                 At Water Damage Champ, we take pride in being the reliable cornerstone for all your damage repair needs. We bring unwavering commitment and trustworthiness to every service we provide.
               </p>
@@ -193,7 +202,7 @@ export default function HomePage() {
           <div className="absolute inset-0 bg-[#1a237e]/80" />
         </div>
         <div className="relative z-10 max-w-7xl mx-auto px-4 text-center text-white">
-          <h2 className="text-3xl md:text-4xl font-bold mb-6">THE COMPANY YOU CAN RELY ON</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-6">Trusted Water Damage Restoration Since 2018</h2>
           <p className="text-gray-200 text-lg mb-8 max-w-3xl mx-auto">
             Reliability at its core – we're the company dedicated to earning and keeping your trust, delivering consistent excellence in every service we provide.
           </p>

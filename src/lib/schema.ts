@@ -18,6 +18,19 @@ export function generateLocalBusinessSchema(city?: City) {
     image: 'https://waterdamagechamp.com/images/Water-damage.jpg',
     logo: 'https://waterdamagechamp.com/images/logo112-1024x301.png',
     priceRange: '$$',
+    address: {
+      '@type': 'PostalAddress',
+      streetAddress: '5042 Wilshire Blvd #600',
+      addressLocality: 'Los Angeles',
+      addressRegion: 'CA',
+      postalCode: '90036',
+      addressCountry: 'US',
+    },
+    geo: {
+      '@type': 'GeoCoordinates',
+      latitude: 34.0622,
+      longitude: -118.3502,
+    },
     openingHoursSpecification: [
       {
         '@type': 'OpeningHoursSpecification',
