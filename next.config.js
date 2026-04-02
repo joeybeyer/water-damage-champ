@@ -47,7 +47,6 @@ const nextConfig = {
       { source: '/disaster-response', destination: '/emergency-water-damage', permanent: true },
       { source: '/pack-out-storage', destination: '/water-damage-restoration', permanent: true },
       { source: '/board-up-trap-service', destination: '/emergency-water-damage', permanent: true },
-      { source: '/odor-removal', destination: '/odor-removal', permanent: false },
       { source: '/carpet-cleaning', destination: '/water-damage-restoration', permanent: true },
       { source: '/virus-disinfection-sanitation', destination: '/water-damage-restoration', permanent: true },
       { source: '/air-duct-service', destination: '/water-damage-restoration', permanent: true },
@@ -56,8 +55,6 @@ const nextConfig = {
       { source: '/vandalism-graffit', destination: '/water-damage-restoration', permanent: true },
       // Old WP city page URLs → new structure
       { source: '/in/:slug*', destination: '/locations', permanent: true },
-      // Contact
-      { source: '/contact', destination: '/contact', permanent: false },
     ];
   },
 };
