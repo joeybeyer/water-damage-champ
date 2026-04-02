@@ -4,7 +4,7 @@ import Image from 'next/image';
 import FAQSection from '@/components/FAQSection';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
-import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema } from '@/lib/schema';
+import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema, generateHowToSchema, generateAggregateRatingSchema } from '@/lib/schema';
 import GroundingBox from '@/components/GroundingBox';
 import { groundingBoxes } from '@/data/groundingBoxes';
 
@@ -40,6 +40,18 @@ export default function ServicePage() {
   ]);
   const faqSchema = generateFAQPageSchema(service.name, service.faqs);
   const relatedServices = services.filter(s => s.slug !== service.slug).slice(0, 4);
+  const howToSchema = generateHowToSchema(
+    'How to Handle Water Damage Restoration',
+    'Step-by-step process for professional water damage restoration from emergency response to full restoration.',
+    [
+      { name: 'Call for Emergency Dispatch', text: 'Call (888) 510-9436 immediately. Our 24/7 dispatch center sends IICRC-certified technicians to your property within 2–4 hours.' },
+      { name: 'Damage Inspection & Documentation', text: 'Technicians perform moisture mapping and thermal imaging to locate all affected areas, then document everything for your insurance claim.' },
+      { name: 'Water Extraction', text: 'Industrial truck-mounted extractors remove standing water and pull moisture from carpets, hardwood, subfloors, and structural cavities.' },
+      { name: 'Structural Drying & Dehumidification', text: 'Commercial air movers and dehumidifiers run continuously. Daily moisture readings verify progress until all readings reach target levels.' },
+      { name: 'Antimicrobial Treatment & Restoration', text: 'All affected surfaces are treated with EPA-registered antimicrobials to prevent mold. Structural repairs restore the property to pre-damage condition.' },
+    ]
+  );
+  const aggregateRatingSchema = generateAggregateRatingSchema('Water Damage Champ', 'https://waterdamagechamp.com/water-damage-restoration');
 
   return (
     <>
@@ -166,6 +178,8 @@ export default function ServicePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }} />
     </>
   );
 }

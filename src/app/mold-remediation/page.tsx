@@ -4,7 +4,7 @@ import Image from 'next/image';
 import FAQSection from '@/components/FAQSection';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
-import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema } from '@/lib/schema';
+import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema, generateHowToSchema, generateAggregateRatingSchema } from '@/lib/schema';
 import GroundingBox from '@/components/GroundingBox';
 import { groundingBoxes } from '@/data/groundingBoxes';
 
@@ -40,6 +40,18 @@ export default function ServicePage() {
   ]);
   const faqSchema = generateFAQPageSchema(service.name, service.faqs);
   const relatedServices = services.filter(s => s.slug !== service.slug).slice(0, 4);
+  const howToSchema = generateHowToSchema(
+    'How Mold Remediation Works',
+    'IICRC S520-compliant mold remediation process from containment through clearance testing.',
+    [
+      { name: 'Mold Inspection & Testing', text: 'Certified technicians perform visual inspection and air sampling to identify mold species, affected areas, and moisture sources.' },
+      { name: 'Containment Setup', text: 'Negative air pressure containment barriers isolate the mold area to prevent cross-contamination to unaffected spaces.' },
+      { name: 'HEPA Air Filtration', text: 'Commercial HEPA air scrubbers run continuously throughout remediation, capturing airborne mold spores.' },
+      { name: 'Mold Removal', text: 'Affected porous materials are bagged and removed. Non-porous surfaces are HEPA-vacuumed and treated with EPA-registered antimicrobials.' },
+      { name: 'Clearance Testing', text: 'Independent post-remediation verification (PRV) testing confirms airborne spore counts meet or exceed pre-remediation baseline levels.' },
+    ]
+  );
+  const aggregateRatingSchema = generateAggregateRatingSchema('Water Damage Champ', 'https://waterdamagechamp.com/mold-remediation');
 
   return (
     <>
@@ -166,6 +178,8 @@ export default function ServicePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(howToSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }} />
     </>
   );
 }

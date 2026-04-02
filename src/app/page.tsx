@@ -1,7 +1,7 @@
 import { Metadata } from 'next';
 import Link from 'next/link';
 import Image from 'next/image';
-import { generateLocalBusinessSchema, generateBreadcrumbSchema } from '@/lib/schema';
+import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateAggregateRatingSchema } from '@/lib/schema';
 import QuoteForm from '@/components/QuoteForm';
 import GroundingBox from '@/components/GroundingBox';
 import { groundingBoxes } from '@/data/groundingBoxes';
@@ -44,6 +44,7 @@ export default function HomePage() {
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', url: 'https://waterdamagechamp.com' },
   ]);
+  const aggregateRatingSchema = generateAggregateRatingSchema('Water Damage Champ', 'https://waterdamagechamp.com');
 
   return (
     <>
@@ -208,6 +209,7 @@ export default function HomePage() {
 
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }} />
     </>
   );
 }

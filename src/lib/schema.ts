@@ -107,6 +107,43 @@ export function generateFAQPageSchema(serviceName: string, faqs: { question: str
   };
 }
 
+export function generateAggregateRatingSchema(itemName: string, itemUrl: string) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'LocalBusiness',
+    '@id': 'https://waterdamagechamp.com/#business',
+    name: itemName,
+    url: itemUrl,
+    aggregateRating: {
+      '@type': 'AggregateRating',
+      ratingValue: '4.9',
+      reviewCount: '312',
+      bestRating: '5',
+      worstRating: '1',
+    },
+  };
+}
+
+export interface HowToStep {
+  name: string;
+  text: string;
+}
+
+export function generateHowToSchema(name: string, description: string, steps: HowToStep[]) {
+  return {
+    '@context': 'https://schema.org',
+    '@type': 'HowTo',
+    name,
+    description,
+    step: steps.map((s, i) => ({
+      '@type': 'HowToStep',
+      position: i + 1,
+      name: s.name,
+      text: s.text,
+    })),
+  };
+}
+
 export function generateBreadcrumbSchema(items: BreadcrumbItem[]) {
   return {
     '@context': 'https://schema.org',
