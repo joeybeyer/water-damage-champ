@@ -7,6 +7,7 @@ import { getCityContent } from '@/data/cityContent';
 import { getNeighborhoodsByCity } from '@/data/neighborhoods';
 import FAQSection from '@/components/FAQSection';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateFAQPageSchema } from '@/lib/schema';
+import { gmbEmbeds } from '@/data/gmb';
 
 interface Props {
   params: Promise<{ city: string }>;
@@ -174,6 +175,27 @@ export default async function CityPage({ params }: Props) {
               <Link href="/locations" className="bg-gray-100 border border-gray-200 px-4 py-2 rounded-lg hover:border-[#1a237e] transition-colors text-sm text-[#ff6600] font-medium">
                 All locations &rarr;
               </Link>
+            </div>
+          </div>
+        </section>
+      )}
+
+      {/* GMB Map Embed */}
+      {gmbEmbeds[citySlug] && (
+        <section className="py-12 bg-white border-t border-gray-100">
+          <div className="max-w-4xl mx-auto px-4">
+            <h2 className="text-2xl font-bold text-[#1a237e] mb-6">Find Us in {city.name}</h2>
+            <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
+              <iframe
+                src={gmbEmbeds[citySlug]}
+                width="100%"
+                height="400"
+                style={{ border: 0 }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title={`Water Damage Champ — ${city.name}, ${city.state}`}
+              />
             </div>
           </div>
         </section>
