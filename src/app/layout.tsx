@@ -8,7 +8,7 @@ import MobileCTA from '@/components/MobileCTA';
 const GTM_ID = 'GTM-NKNCMHRL';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://waterdamagechamp.com'),
+  metadataBase: new URL('https://www.waterdamagechamp.com'),
   alternates: {
     canonical: './',
   },
@@ -19,7 +19,6 @@ export const metadata: Metadata = {
     title: 'Water Damage Champ | 24/7 Emergency Water Damage Restoration',
     description: 'Professional water damage restoration services. Fast response, licensed technicians, free inspections.',
     type: 'website',
-    url: 'https://waterdamagechamp.com',
     siteName: 'Water Damage Champ',
     images: [{ url: '/og-image.png', width: 1200, height: 630, alt: 'Water Damage Champ - 24/7 Emergency Restoration' }],
   },

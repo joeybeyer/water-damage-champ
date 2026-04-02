@@ -5,7 +5,7 @@ import { services } from '@/data/services';
 import { blogPosts } from '@/data/blogPosts';
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://waterdamagechamp.com';
+  const baseUrl = 'https://www.waterdamagechamp.com';
 
   // Static pages
   const staticPages = [
