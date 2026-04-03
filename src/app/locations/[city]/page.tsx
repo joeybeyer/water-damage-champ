@@ -7,7 +7,7 @@ import { getCityContent } from '@/data/cityContent';
 import { getNeighborhoodsByCity } from '@/data/neighborhoods';
 import FAQSection from '@/components/FAQSection';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateFAQPageSchema } from '@/lib/schema';
-import { gmbEmbeds } from '@/data/gmb';
+import { gmbListings } from '@/data/gmb';
 
 interface Props {
   params: Promise<{ city: string }>;
@@ -43,7 +43,13 @@ export default async function CityPage({ params }: Props) {
 
   const cityContent = getCityContent(citySlug);
   const cityNeighborhoods = getNeighborhoodsByCity(citySlug);
-  const localBusinessSchema = generateLocalBusinessSchema(city);
+  const gmb = gmbListings[citySlug];
+  const localPhone = gmb?.phone ?? '+18885109436';
+  const localPhoneDisplay = gmb?.phoneDisplay ?? '(888) 510-9436';
+  const localBusinessSchema = {
+    ...generateLocalBusinessSchema(city),
+    telephone: localPhone,
+  };
   const breadcrumbSchema = generateBreadcrumbSchema([
     { name: 'Home', url: 'https://waterdamagechamp.com' },
     { name: 'Locations', url: 'https://waterdamagechamp.com/locations' },
@@ -72,9 +78,9 @@ export default async function CityPage({ params }: Props) {
             IICRC-certified technicians serving {city.name} with 24/7 emergency water damage response. Fast extraction, structural drying, and complete property restoration.
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
-            <a href="tel:+18885109436" className="flex items-center justify-center space-x-2 bg-[#ff6600] hover:bg-[#e65100] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
+            <a href={`tel:${localPhone}`} className="flex items-center justify-center space-x-2 bg-[#ff6600] hover:bg-[#e65100] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" /></svg>
-              <span>Call (888) 510-9436</span>
+              <span>Call {localPhoneDisplay}</span>
             </a>
             <Link href="/contact" className="flex items-center justify-center space-x-2 border-2 border-[#ff6600] text-[#ff6600] hover:bg-[#ff6600] hover:text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors">
               <span>Get Free Quote</span>
@@ -126,7 +132,7 @@ export default async function CityPage({ params }: Props) {
         <div className="max-w-4xl mx-auto px-4 text-center text-white">
           <h2 className="text-2xl md:text-3xl font-bold mb-4">Water Damage in {city.name}?</h2>
           <p className="text-gray-300 mb-6">Every hour increases damage and restoration costs. Call now for immediate response.</p>
-          <a href="tel:+18885109436" className="inline-block bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">(888) 510-9436</a>
+          <a href={`tel:${localPhone}`} className="inline-block bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors">{localPhoneDisplay}</a>
         </div>
       </section>
 
@@ -181,13 +187,20 @@ export default async function CityPage({ params }: Props) {
       )}
 
       {/* GMB Map Embed */}
-      {gmbEmbeds[citySlug] && (
+      {gmb && (
         <section className="py-12 bg-white border-t border-gray-100">
           <div className="max-w-4xl mx-auto px-4">
-            <h2 className="text-2xl font-bold text-[#1a237e] mb-6">Find Us in {city.name}</h2>
+            <h2 className="text-2xl font-bold text-[#1a237e] mb-2">Find Us in {city.name}</h2>
+            <p className="text-gray-600 mb-5">
+              Local line:{' '}
+              <a href={`tel:${localPhone}`} className="text-[#ff6600] font-semibold hover:underline">
+                {localPhoneDisplay}
+              </a>
+              {' '}— available 24/7 for emergency response in {city.name}, {city.state}.
+            </p>
             <div className="rounded-xl overflow-hidden border border-gray-200 shadow-sm">
               <iframe
-                src={gmbEmbeds[citySlug]}
+                src={gmb.embedSrc}
                 width="100%"
                 height="400"
                 style={{ border: 0 }}

@@ -4,7 +4,7 @@ import Image from 'next/image';
 import FAQSection from '@/components/FAQSection';
 import { services } from '@/data/services';
 import { cities } from '@/data/cities';
-import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema } from '@/lib/schema';
+import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema, generateAggregateRatingSchema } from '@/lib/schema';
 import GroundingBox from '@/components/GroundingBox';
 import { groundingBoxes } from '@/data/groundingBoxes';
 
@@ -40,6 +40,7 @@ export default function ServicePage() {
   ]);
   const faqSchema = generateFAQPageSchema(service.name, service.faqs);
   const relatedServices = services.filter(s => s.slug !== service.slug).slice(0, 4);
+  const aggregateRatingSchema = generateAggregateRatingSchema('Water Damage Champ', `https://www.waterdamagechamp.com/${SERVICE_SLUG}`);
 
   return (
     <>
@@ -166,6 +167,7 @@ export default function ServicePage() {
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }} />
       <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(faqSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(aggregateRatingSchema) }} />
     </>
   );
 }
