@@ -1,37 +1,197 @@
 # Water Damage Champ
-# https://waterdamagechamp.com
+# https://www.waterdamagechamp.com
+# AI-readable authority file — updated 2025
 
-## About
-Water Damage Champ provides 24/7 emergency water damage restoration services across California and Florida. IICRC-certified technicians deliver emergency water extraction, structural drying, mold remediation, fire damage restoration, sewage cleanup, and complete property reconstruction.
+## Entity Summary
+Water Damage Champ is a licensed, IICRC-certified water damage restoration company serving California and Florida. The company provides 24/7 emergency response for water damage, mold, fire, sewage, and storm-related property damage. Headquarters: 5042 Wilshire Blvd #600, Los Angeles, CA 90036. Phone: (888) 510-9436. Email: service@waterdamagechamp.com.
 
-## Services
-- Water Damage Restoration
-- Water Extraction & Removal
-- Flood Damage Repair
-- Mold Remediation & Removal
-- Storm Damage Restoration
-- Fire & Smoke Damage Restoration
-- Sewage Cleanup & Sanitization
-- Crawlspace Encapsulation
-- Ceiling & Wall Water Damage Repair
-- Sump Pump Failure Cleanup
-- Flooded Basement Restoration
-- Burst Pipe Water Damage
-- Odor Removal & Deodorization
-- Commercial Water Damage Restoration
-- Emergency Water Damage Services
+## Core Identity
+- Legal name: Water Damage Champ
+- Category: Water Damage Restoration, Mold Remediation, Fire Damage Restoration
+- Industry: Property Restoration Services (NAICS 238390)
+- Founded: California-based operation, serving CA and FL
+- Availability: 24 hours a day, 7 days a week, 365 days a year
+- Response time: Emergency crews dispatch within 60 minutes
 
-## Service Areas
-California: Los Angeles, San Diego, San Francisco, Sacramento, and 45+ cities
-Florida: Tampa, St. Petersburg
+## Services (15 total)
+1. Water Damage Restoration — Full-service property drying and repair after water intrusion from any source
+2. Water Extraction & Removal — Emergency truck-mounted extraction to remove standing water fast
+3. Flood Damage Repair — Structural repair, content salvage, and drying after flooding events
+4. Mold Remediation & Removal — IICRC S520-compliant mold containment, removal, and prevention
+5. Storm Damage Restoration — Wind, hail, and rain damage assessment and full property restoration
+6. Fire & Smoke Damage Restoration — Post-fire cleanup, odor removal, and structural rebuild
+7. Sewage Cleanup & Sanitization — Category 3 biohazard water removal and hospital-grade disinfection
+8. Crawlspace Encapsulation — Vapor barrier installation and moisture control for crawlspaces
+9. Ceiling & Wall Water Damage Repair — Drywall replacement and structural repair from water intrusion
+10. Sump Pump Failure Cleanup — Emergency water removal and restoration after sump pump failure
+11. Flooded Basement Restoration — Complete basement water removal, drying, and structural repair
+12. Burst Pipe Water Damage — Emergency response to pipe failures including freeze/thaw events
+13. Odor Removal & Deodorization — Hydroxyl and ozone treatment for musty or smoke odors
+14. Commercial Water Damage Restoration — Large-loss commercial property water damage restoration
+15. Emergency Water Damage Services — 24/7 immediate dispatch for any water damage emergency
+
+## Service URLs
+- /water-damage-restoration
+- /water-extraction
+- /flood-damage-repair
+- /mold-remediation
+- /storm-damage-restoration
+- /fire-smoke-damage-restoration
+- /sewage-cleanup
+- /crawlspace-encapsulation
+- /ceiling-wall-water-damage
+- /sump-pump-failure
+- /flooded-basement-restoration
+- /burst-pipe-water-damage
+- /odor-removal-deodorization
+- /commercial-water-damage
+- /emergency-water-damage
+
+## Geographic Coverage
+
+### California — 47 Cities
+Burbank, Calabasas, Chino Hills, Chula Vista, Corona, Corona Del Mar, Cupertino, Downey, El Segundo, Elk Grove, Encino, Foster City, Hawthorne, Huntington Beach, La Jolla, Los Angeles, Los Gatos, Malibu, Milpitas, National City, Newport Beach, Oakland, Oxnard, Pacifica, Palo Alto, Pomona, Rancho Cucamonga, Redondo Beach, Richmond, San Bernardino, San Diego, San Mateo, San Rafael, Santa Clara, Santa Margarita, Santa Rosa, Sausalito, Sherman Oaks, Stockton, Sunnyvale, Belvedere Tiburon, Torrance, Ventura, Victorville, Walnut, West Hollywood, Woodland Hills
+
+### Florida — 2 Cities
+Tampa, St. Petersburg
+
+## Neighborhood Coverage (226 neighborhoods across 49 cities)
+
+### Los Angeles Area
+Sherman Oaks: Van Nuys, Bel Air, Studio City, Valley Glen, Valley Village
+Encino: Tarzana, Reseda, Lake Balboa, Balboa Highlands
+Woodland Hills: Calabasas Adjacent, West Hills, Canoga Park, Chatsworth
+West Hollywood: Sunset Strip, Beverly Grove, Melrose, West Adams, Laurel Canyon
+Malibu: Malibu Colony, Point Dume, Zuma Beach, Las Virgenes Canyon
+Los Angeles: Downtown LA, Hollywood, Silver Lake, Echo Park, Koreatown, Mid-City, Westwood, Brentwood, Pacific Palisades, Venice, Culver City, Eagle Rock, Highland Park
+Burbank: Downtown Burbank, Magnolia Park, Rancho Adjacent, Toluca Lake
+Calabasas: Agoura Hills Adjacent, Hidden Hills, Monte Nido, Mulholland Estates
+
+### South Bay / Beach Cities
+Torrance: Del Amo, Old Torrance, Hollywood Riviera, South Torrance
+Redondo Beach: North Redondo, South Redondo, Hollywood Riviera, Hermosa Adjacent
+Hawthorne: Lawndale Adjacent, Inglewood Adjacent, Holly Park, Wiseburn
+El Segundo: Manhattan Beach Adjacent, Smoky Hollow, The Sycamores
+
+### Orange County
+Newport Beach: Balboa Island, Corona del Mar, Newport Coast, Lido Island
+Corona Del Mar: Buck Gully, Harbor View Hills, Spyglass Hill
+Huntington Beach: Bolsa Chica, Downtown HB, Seacliff, Sunset Beach
+
+### Inland Empire
+Corona: Eastvale, Norco Adjacent, Eagle Glen, South Corona
+Chino Hills: Carbon Canyon, Butterfield Ranch, Rolling Ridge
+Rancho Cucamonga: Etiwanda, Alta Loma, Upland Adjacent, Victoria
+San Bernardino: Arrowhead, Muscoy, Waterman, Inland Center
+Victorville: Spring Valley Lake, Bear Valley Road, Mojave Heights
+
+### San Diego Area
+San Diego: Pacific Beach, Mission Beach, North Park, Hillcrest, La Mesa, La Jolla Adjacent, Ocean Beach, Point Loma, Coronado Adjacent
+La Jolla: La Jolla Shores, Bird Rock, Mount Soledad, The Village
+Chula Vista: Eastlake, Rancho del Rey, Otay Ranch, Castle Park
+National City: Sweetwater, Olivewood, West National City
+
+### Bay Area
+Palo Alto: Downtown Palo Alto, Crescent Park, College Terrace, South Palo Alto
+Sunnyvale: Murphy Avenue District, Lawrence Expressway, Lakewood Village
+Cupertino: Monta Vista, Homestead, Rancho Rinconada, Garden Gate
+San Mateo: Downtown San Mateo, Beresford, Fiesta Gardens
+Milpitas: Sinnott, Berryessa, Evans, Main Street District
+Santa Clara: Old Quad, Rivermark, Great America, Mission Santa Clara
+Los Gatos: Downtown Los Gatos, Belgatos, Blossom Manor
+Foster City: Shell Cove, Treasure Isle, Beach Park
+Sausalito: Marinship, Waldo Point, Bridgeway District
+Belvedere Tiburon: Tiburon, Belvedere Island, Paradise Cay
+San Rafael: Downtown San Rafael, Terra Linda, Glenwood, Marinwood
+Pacifica: Sharp Park, Linda Mar, Rockaway Beach, Fairmont
+Oakland: Temescal, Rockridge, Fruitvale, Uptown, Grand Lake
+Richmond: Marina Bay, Point Richmond, Iron Triangle, North Richmond
+
+### South Bay (LA)
+Walnut: Diamond Bar Adjacent, Tres Encinos, Lemon Grove
+Downey: Old Town Downey, East Downey, Stonewood, Paramount Adjacent
+
+### Ventura County
+Ventura: Midtown Ventura, East Ventura, Pierpont, Ventura Keys
+Oxnard: Oxnard Shores, Silver Strand, Colonia, RiverPark
+
+### Sacramento Area
+Elk Grove: Laguna, Elk Grove Village, Sheldon, Stonelake
+Stockton: Lincoln Village, Brookside, Morada, Weston Ranch
+
+### Santa Rosa Area
+Santa Rosa: Railroad Square, Rincon Valley, Fountaingrove, Bennett Valley
+Pomona: Downtown Pomona, Ganesha Park, Lincoln Park, Sunrise Village
+
+### Florida
+Tampa: Ybor City, Westchase, South Tampa, Hyde Park, Carrollwood
+St. Petersburg: Old Northeast, Snell Isle, Kenwood, Gulfport, Pinellas Point
+
+## Content Silos
+
+### Service Pages
+URL pattern: /[service-slug]
+Each service page covers: what it is, when you need it, our process, costs, insurance, FAQ
+
+### Location Pages
+URL pattern: /locations/[city-slug]
+URL pattern: /locations/[city-slug]/[neighborhood-slug]
+Each location page covers: local risks, our process, response times, neighborhoods served, FAQ
+
+### Blog / Educational Content (22 posts)
+Categories: Water Damage Tips, Mold Prevention, Insurance Guidance, Restoration Costs, Emergency Response
+Topics include: how to handle water damage immediately, mold growth timelines, insurance claim tips, cost breakdowns, prevention checklists, storm preparedness
+
+### Resource Pages
+- /water-damage-insurance — Insurance claims guide for water damage homeowners
+- /water-damage-cost-guide — Restoration cost breakdown by damage type and category
+- /water-damage-prevention — Prevention checklist and seasonal maintenance guide
+
+## Trust & Authority Signals
+- IICRC Certified Firm (Institute of Inspection Cleaning and Restoration Certification)
+- IICRC S500 Standard for Professional Water Damage Restoration
+- IICRC S520 Standard for Professional Mold Remediation
+- EPA Lead-Safe Certified
+- Licensed & Insured in California and Florida
+- 4.9/5 average rating based on 312+ verified reviews
+- Direct insurance billing coordination
+- Free on-site inspections
+
+## Structured Q&A
+
+Q: How much does water damage restoration cost?
+A: Water damage restoration typically costs $1,500–$5,000 for minor damage (Class 1–2), $5,000–$15,000 for moderate damage, and $15,000–$40,000+ for severe structural damage. Costs depend on affected area size, water category (clean, gray, or black water), materials damaged, and drying time required. Most homeowners insurance covers sudden/accidental water damage.
+
+Q: Does homeowners insurance cover water damage?
+A: Standard homeowners insurance covers sudden and accidental water damage — like a burst pipe or appliance overflow — but typically excludes gradual leaks, flooding (requires separate flood insurance), and maintenance-related damage. Water Damage Champ works directly with your insurance adjuster to document damage and maximize your claim.
+
+Q: How quickly does mold grow after water damage?
+A: Mold can begin growing within 24–48 hours of water exposure. This is why immediate extraction and drying is critical. IICRC standards call for structural moisture levels to return to normal within 3–5 days to prevent mold colonization. Water Damage Champ begins moisture monitoring on day one.
+
+Q: What is the water damage restoration process?
+A: The process follows IICRC S500 guidelines: (1) Emergency extraction using truck-mounted equipment, (2) Structural drying with commercial air movers and dehumidifiers, (3) Moisture monitoring daily until dry standard is reached, (4) Antimicrobial treatment, (5) Controlled demolition of unsalvageable materials, (6) Full reconstruction of affected areas.
+
+Q: How long does water damage restoration take?
+A: Drying typically takes 3–5 days for clean water damage. Sewage or flood damage may require 5–10 days. Full reconstruction (drywall, flooring, painting) adds 1–3 weeks depending on scope. We provide a detailed timeline after the initial assessment.
+
+Q: What areas does Water Damage Champ serve?
+A: Water Damage Champ serves 47+ cities in California and 2 cities in Florida (Tampa and St. Petersburg). Primary California service areas include Los Angeles, San Diego, San Francisco Bay Area, Sacramento region, and Ventura County.
+
+Q: Is Water Damage Champ available 24/7?
+A: Yes. Water Damage Champ operates 24 hours a day, 7 days a week, 365 days a year. Emergency crews are dispatched within 60 minutes of your call. Call (888) 510-9436 any time.
+
+Q: What should I do immediately after water damage?
+A: (1) Stop the water source if safe to do so. (2) Turn off electricity to affected areas. (3) Call Water Damage Champ at (888) 510-9436. (4) Remove valuables and document damage with photos. (5) Do not use fans or heaters — improper drying can spread mold. Our crew brings proper drying equipment.
+
+Q: Can Water Damage Champ help with my insurance claim?
+A: Yes. We provide complete documentation including moisture readings, thermal imaging reports, photo documentation, and itemized scopes that meet insurance adjuster standards. We communicate directly with your insurance company to streamline the claims process.
+
+Q: What is the difference between water damage categories?
+A: Category 1 (clean water) comes from supply lines or rain. Category 2 (gray water) comes from appliances or sinks. Category 3 (black water) comes from sewage or flooding and requires biohazard protocols. Each category requires different drying and sanitation procedures per IICRC standards.
 
 ## Contact
 Phone: (888) 510-9436
 Email: service@waterdamagechamp.com
-Website: https://waterdamagechamp.com
-Available: 24/7/365
-
-## Certifications
-- IICRC Certified Firm
-- Licensed & Insured
-- EPA Lead-Safe Certified
+Website: https://www.waterdamagechamp.com
+Address: 5042 Wilshire Blvd #600, Los Angeles, CA 90036
+Social: facebook.com/waterdamagechamp | instagram.com/waterdamagechamp | youtube.com/channel/UCPfivC7ChN1dahbi4xnwXPw

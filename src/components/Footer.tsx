@@ -14,6 +14,13 @@ const company = [
   { slug: '', name: 'Home' },
   { slug: 'contact', name: 'Contact' },
   { slug: 'locations', name: 'Service Areas' },
+  { slug: 'sitemap-html', name: 'Site Map' },
+];
+
+const resources = [
+  { slug: 'water-damage-insurance', name: 'Insurance Claims Guide' },
+  { slug: 'water-damage-cost-guide', name: 'Cost Guide' },
+  { slug: 'water-damage-prevention', name: 'Prevention Guide' },
 ];
 
 export default function Footer() {
@@ -90,6 +97,14 @@ export default function Footer() {
               {services.map((service) => (
                 <li key={service.slug}>
                   <Link href={`/${service.slug}`} className="text-gray-400 hover:text-[#ff6600] transition-colors text-sm">{service.name}</Link>
+                </li>
+              ))}
+              <li className="pt-2 border-t border-gray-700 mt-2">
+                <span className="text-gray-500 text-xs uppercase tracking-wide">Resources</span>
+              </li>
+              {resources.map((item) => (
+                <li key={item.slug}>
+                  <Link href={`/${item.slug}`} className="text-gray-400 hover:text-[#ff6600] transition-colors text-sm">{item.name}</Link>
                 </li>
               ))}
             </ul>

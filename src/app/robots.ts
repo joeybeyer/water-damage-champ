@@ -6,6 +6,6 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: '*',
       allow: '/',
     },
-    sitemap: 'https://waterdamagechamp.com/sitemap.xml',
+    sitemap: 'https://www.waterdamagechamp.com/sitemap.xml',
   };
 }

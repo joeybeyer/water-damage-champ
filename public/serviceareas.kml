@@ -1,0 +1,371 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Water Damage Champ Service Areas</name>
+    <description>Service areas for Water Damage Champ — California and Florida</description>
+
+    <Style id="serviceArea">
+      <IconStyle>
+        <color>ff0066ff</color>
+        <scale>1.2</scale>
+      </IconStyle>
+      <LabelStyle>
+        <scale>0.9</scale>
+      </LabelStyle>
+    </Style>
+
+    <!-- California Service Areas -->
+    <Folder>
+      <name>California</name>
+
+      <Placemark>
+        <name>Los Angeles, CA</name>
+        <description>Water damage restoration in Los Angeles — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.2437,34.0522,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>San Diego, CA</name>
+        <description>Water damage restoration in San Diego — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.1611,32.7157,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Sherman Oaks, CA</name>
+        <description>Water damage restoration in Sherman Oaks — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.4487,34.1502,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Corona Del Mar, CA</name>
+        <description>Water damage restoration in Corona Del Mar — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.8726,33.6014,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Newport Beach, CA</name>
+        <description>Water damage restoration in Newport Beach — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.9289,33.6189,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Malibu, CA</name>
+        <description>Water damage restoration in Malibu — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.7798,34.0259,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Encino, CA</name>
+        <description>Water damage restoration in Encino — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.5012,34.1582,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Woodland Hills, CA</name>
+        <description>Water damage restoration in Woodland Hills — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.6059,34.1683,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Pacifica, CA</name>
+        <description>Water damage restoration in Pacifica — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.4869,37.6138,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Torrance, CA</name>
+        <description>Water damage restoration in Torrance — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.3406,33.8358,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Chula Vista, CA</name>
+        <description>Water damage restoration in Chula Vista — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.0842,32.6401,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Milpitas, CA</name>
+        <description>Water damage restoration in Milpitas — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-121.8996,37.4323,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>San Mateo, CA</name>
+        <description>Water damage restoration in San Mateo — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.3255,37.5630,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Chino Hills, CA</name>
+        <description>Water damage restoration in Chino Hills — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.7228,33.9939,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Los Gatos, CA</name>
+        <description>Water damage restoration in Los Gatos — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-121.9624,37.2358,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Foster City, CA</name>
+        <description>Water damage restoration in Foster City — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.2711,37.5585,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Belvedere Tiburon, CA</name>
+        <description>Water damage restoration in Belvedere Tiburon — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.4582,37.8771,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>San Rafael, CA</name>
+        <description>Water damage restoration in San Rafael — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.5311,37.9735,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Redondo Beach, CA</name>
+        <description>Water damage restoration in Redondo Beach — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.3884,33.8492,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Walnut, CA</name>
+        <description>Water damage restoration in Walnut — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.8651,34.0214,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Hawthorne, CA</name>
+        <description>Water damage restoration in Hawthorne — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.3526,33.9164,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>El Segundo, CA</name>
+        <description>Water damage restoration in El Segundo — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.4165,33.9192,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Corona, CA</name>
+        <description>Water damage restoration in Corona — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.5664,33.8753,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Elk Grove, CA</name>
+        <description>Water damage restoration in Elk Grove — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-121.3716,38.4088,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Sausalito, CA</name>
+        <description>Water damage restoration in Sausalito — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.4852,37.8590,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>San Bernardino, CA</name>
+        <description>Water damage restoration in San Bernardino — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.2898,34.1083,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Ventura, CA</name>
+        <description>Water damage restoration in Ventura — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-119.2945,34.2805,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Stockton, CA</name>
+        <description>Water damage restoration in Stockton — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-121.2908,37.9577,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Palo Alto, CA</name>
+        <description>Water damage restoration in Palo Alto — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.1430,37.4419,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>National City, CA</name>
+        <description>Water damage restoration in National City — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.0992,32.6781,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>West Hollywood, CA</name>
+        <description>Water damage restoration in West Hollywood — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.3617,34.0900,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Downey, CA</name>
+        <description>Water damage restoration in Downey — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.1332,33.9401,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Rancho Cucamonga, CA</name>
+        <description>Water damage restoration in Rancho Cucamonga — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.5931,34.1064,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Oxnard, CA</name>
+        <description>Water damage restoration in Oxnard — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-119.1771,34.1975,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Sunnyvale, CA</name>
+        <description>Water damage restoration in Sunnyvale — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.0363,37.3688,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Santa Rosa, CA</name>
+        <description>Water damage restoration in Santa Rosa — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.7141,38.4404,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Pomona, CA</name>
+        <description>Water damage restoration in Pomona — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.7521,34.0553,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Huntington Beach, CA</name>
+        <description>Water damage restoration in Huntington Beach — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.9988,33.6595,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Santa Margarita, CA</name>
+        <description>Water damage restoration in Santa Margarita — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-120.6040,35.3894,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Oakland, CA</name>
+        <description>Water damage restoration in Oakland — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.2712,37.8044,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Santa Clara, CA</name>
+        <description>Water damage restoration in Santa Clara — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-121.9552,37.3541,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Victorville, CA</name>
+        <description>Water damage restoration in Victorville — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.2928,34.5362,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Burbank, CA</name>
+        <description>Water damage restoration in Burbank — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.3090,34.1808,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Richmond, CA</name>
+        <description>Water damage restoration in Richmond — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.3477,37.9358,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Calabasas, CA</name>
+        <description>Water damage restoration in Calabasas — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-118.6381,34.1578,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>La Jolla, CA</name>
+        <description>Water damage restoration in La Jolla — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-117.2713,32.8328,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>Cupertino, CA</name>
+        <description>Water damage restoration in Cupertino — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-122.0322,37.3230,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+    <!-- Florida Service Areas -->
+    <Folder>
+      <name>Florida</name>
+
+      <Placemark>
+        <name>Tampa, FL</name>
+        <description>Water damage restoration in Tampa — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-82.4572,27.9506,0</coordinates></Point>
+      </Placemark>
+
+      <Placemark>
+        <name>St. Petersburg, FL</name>
+        <description>Water damage restoration in St. Petersburg — 24/7 emergency response. Call (888) 510-9436.</description>
+        <styleUrl>#serviceArea</styleUrl>
+        <Point><coordinates>-82.6403,27.7676,0</coordinates></Point>
+      </Placemark>
+    </Folder>
+
+  </Document>
+</kml>

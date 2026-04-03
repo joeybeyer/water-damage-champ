@@ -8,6 +8,7 @@ import { getNeighborhoodsByCity } from '@/data/neighborhoods';
 import FAQSection from '@/components/FAQSection';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateFAQPageSchema } from '@/lib/schema';
 import { gmbListings } from '@/data/gmb';
+import { cityCoords } from '@/data/cityCoords';
 
 interface Props {
   params: Promise<{ city: string }>;
@@ -27,9 +28,20 @@ export async function generateMetadata({ params }: Props): Promise<Metadata> {
     return { title: 'Not Found' };
   }
 
+  const coords = cityCoords[citySlug];
+  const geoMeta = coords
+    ? {
+        'geo.region': `US-${city.state}`,
+        'geo.placename': city.name,
+        'geo.position': `${coords.lat};${coords.lon}`,
+        'ICBM': `${coords.lat}, ${coords.lon}`,
+      }
+    : undefined;
+
   return {
     title: `Water Damage Restoration ${city.name}, ${city.state} | 24/7 Emergency Response`,
     description: `${city.name} water damage? Our IICRC-certified crews respond within hours — extraction, drying, mold prevention, and full restoration. Serving ${city.name} and ${city.state}. Call (888) 510-9436.`,
+    ...(geoMeta ? { other: geoMeta } : {}),
   };
 }
 
@@ -46,8 +58,9 @@ export default async function CityPage({ params }: Props) {
   const gmb = gmbListings[citySlug];
   const localPhone = gmb?.phone ?? '+18885109436';
   const localPhoneDisplay = gmb?.phoneDisplay ?? '(888) 510-9436';
+  const coords = cityCoords[citySlug];
   const localBusinessSchema = {
-    ...generateLocalBusinessSchema(city),
+    ...generateLocalBusinessSchema(city, coords),
     telephone: localPhone,
   };
   const breadcrumbSchema = generateBreadcrumbSchema([

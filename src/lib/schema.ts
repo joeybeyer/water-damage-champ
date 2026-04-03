@@ -1,11 +1,12 @@
 import { City } from '@/data/cities';
+import { CityCoords } from '@/data/cityCoords';
 
 export interface BreadcrumbItem {
   name: string;
   url: string;
 }
 
-export function generateLocalBusinessSchema(city?: City) {
+export function generateLocalBusinessSchema(city?: City, coords?: CityCoords) {
   const base: Record<string, unknown> = {
     '@context': 'https://schema.org',
     '@type': 'LocalBusiness',
@@ -51,7 +52,7 @@ export function generateLocalBusinessSchema(city?: City) {
   };
 
   if (city) {
-    return {
+    const citySchema: Record<string, unknown> = {
       ...base,
       '@id': `https://waterdamagechamp.com/locations/${city.slug}/#business`,
       name: `Water Damage Champ - ${city.name}`,
@@ -67,6 +68,14 @@ export function generateLocalBusinessSchema(city?: City) {
         name: `${city.name}, ${city.state}`,
       },
     };
+    if (coords) {
+      citySchema.geo = {
+        '@type': 'GeoCoordinates',
+        latitude: coords.lat,
+        longitude: coords.lon,
+      };
+    }
+    return citySchema;
   }
 
   return base;

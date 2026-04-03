@@ -14,6 +14,10 @@ export default function sitemap(): MetadataRoute.Sitemap {
     { url: `${baseUrl}/contact`, lastModified: new Date(), priority: 0.8 },
     { url: `${baseUrl}/locations`, lastModified: new Date(), priority: 0.9 },
     { url: `${baseUrl}/blog`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/water-damage-insurance`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/water-damage-cost-guide`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/water-damage-prevention`, lastModified: new Date(), priority: 0.8 },
+    { url: `${baseUrl}/sitemap-html`, lastModified: new Date(), priority: 0.5 },
   ];
 
   // Service pages
