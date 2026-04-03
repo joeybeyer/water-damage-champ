@@ -4,6 +4,7 @@ import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { getNeighborhoodsByCity } from '@/data/neighborhoods';
 import { groundingBoxes } from '@/data/groundingBoxes';
+import { gmbListings } from '@/data/gmb';
 import GroundingBox from '@/components/GroundingBox';
 import FAQSection from '@/components/FAQSection';
 import {
@@ -52,12 +53,15 @@ export default function ServiceCityPage({ serviceSlug, citySlug }: Props) {
 
   const neighborhoods = getNeighborhoodsByCity(citySlug);
   const groundingBox = groundingBoxes[serviceSlug];
+  const gmb = gmbListings[citySlug];
+  const localPhone = gmb?.phone ?? '+18885109436';
+  const localPhoneDisplay = gmb?.phoneDisplay ?? '(888) 510-9436';
   const relatedServices = services.filter((s) => s.slug !== serviceSlug).slice(0, 4);
 
   const faqs = [
     {
       question: `How quickly can you respond to ${service.name.toLowerCase()} emergencies in ${city.name}?`,
-      answer: `Water Damage Champ dispatches ${service.name.toLowerCase()} crews throughout ${city.name}, ${city.state} within 2–4 hours of your call, 24 hours a day, 7 days a week. Call (888) 510-9436 for immediate dispatch.`,
+      answer: `Water Damage Champ dispatches ${service.name.toLowerCase()} crews throughout ${city.name}, ${city.state} within 2–4 hours of your call, 24 hours a day, 7 days a week. Call ${localPhoneDisplay} for immediate dispatch.`,
     },
     ...service.faqs.slice(0, 4),
   ];
@@ -72,7 +76,7 @@ export default function ServiceCityPage({ serviceSlug, citySlug }: Props) {
       '@type': 'LocalBusiness',
       '@id': 'https://waterdamagechamp.com/#business',
       name: 'Water Damage Champ',
-      telephone: '+1-888-510-9436',
+      telephone: localPhone,
     },
     areaServed: { '@type': 'City', name: `${city.name}, ${city.state}` },
     url: `https://waterdamagechamp.com/${serviceSlug}/${citySlug}`,
@@ -104,13 +108,13 @@ export default function ServiceCityPage({ serviceSlug, citySlug }: Props) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4">
             <a
-              href="tel:+18885109436"
+              href={`tel:${localPhone}`}
               className="flex items-center justify-center space-x-2 bg-[#ff6600] hover:bg-[#e65100] text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
             >
               <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
               </svg>
-              <span>Call (888) 510-9436</span>
+              <span>Call {localPhoneDisplay}</span>
             </a>
             <Link
               href="/contact"
@@ -233,8 +237,8 @@ export default function ServiceCityPage({ serviceSlug, citySlug }: Props) {
               </div>
               <p className="text-sm text-gray-500 mb-10">
                 Don&apos;t see your neighborhood?{' '}
-                <a href="tel:+18885109436" className="text-[#ff6600] hover:underline">
-                  Call (888) 510-9436
+                <a href={`tel:${localPhone}`} className="text-[#ff6600] hover:underline">
+                  Call {localPhoneDisplay}
                 </a>{' '}
                 — we serve all of {city.name} and surrounding areas.
               </p>
@@ -253,10 +257,10 @@ export default function ServiceCityPage({ serviceSlug, citySlug }: Props) {
             24/7 emergency response across {city.name}, {city.state}. Call now for immediate dispatch.
           </p>
           <a
-            href="tel:+18885109436"
+            href={`tel:${localPhone}`}
             className="inline-block bg-[#ff6600] hover:bg-[#e65100] text-white font-bold px-8 py-4 rounded-lg text-lg transition-colors"
           >
-            (888) 510-9436
+            {localPhoneDisplay}
           </a>
         </div>
       </section>
