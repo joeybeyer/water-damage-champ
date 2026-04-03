@@ -6,6 +6,7 @@ import { services } from '@/data/services';
 import { cities } from '@/data/cities';
 import { generateLocalBusinessSchema, generateBreadcrumbSchema, generateServiceSchema, generateFAQPageSchema, generateAggregateRatingSchema } from '@/lib/schema';
 import GroundingBox from '@/components/GroundingBox';
+import ContentRenderer from '@/components/ContentRenderer';
 import { groundingBoxes } from '@/data/groundingBoxes';
 
 const SERVICE_SLUG = 'sump-pump-cleanup';
@@ -95,23 +96,7 @@ export default function ServicePage() {
       {/* Content */}
       <section className="py-16 md:py-20 bg-white">
         <div className="max-w-4xl mx-auto px-4">
-          <div className="prose prose-lg max-w-none">
-            {service.fullContent.split('\n').filter(Boolean).map((paragraph, idx) => {
-              if (paragraph.startsWith('## ')) {
-                return <h2 key={idx} className="text-2xl md:text-3xl font-bold text-[#1a237e] mt-10 mb-4">{paragraph.replace('## ', '')}</h2>;
-              }
-              if (paragraph.startsWith('### ')) {
-                return <h3 key={idx} className="text-xl font-semibold text-[#1a237e] mt-8 mb-3">{paragraph.replace('### ', '')}</h3>;
-              }
-              if (paragraph.startsWith('**') && paragraph.endsWith('**')) {
-                return <h4 key={idx} className="text-lg font-semibold text-gray-800 mt-6 mb-2">{paragraph.replace(/\*\*/g, '')}</h4>;
-              }
-              if (paragraph.startsWith('- ')) {
-                return <li key={idx} className="text-gray-700 ml-4 mb-1">{paragraph.replace('- ', '')}</li>;
-              }
-              return paragraph.trim() ? <p key={idx} className="text-gray-700 mb-4 leading-relaxed">{paragraph}</p> : null;
-            })}
-          </div>
+          <ContentRenderer content={service.fullContent} />
         </div>
       </section>
 
